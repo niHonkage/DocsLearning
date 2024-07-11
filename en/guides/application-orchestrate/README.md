@@ -1,6 +1,6 @@
 # Application Orchestration
 
-In Dify, an "application" refers to a practical scenario application built on large language models like GPT. By creating an application, you can apply intelligent AI technology to specific needs. It encompasses both the engineering paradigm for developing AI applications and the specific deliverables.
+In Fusionworks, an "application" refers to a practical scenario application built on large language models like GPT. By creating an application, you can apply intelligent AI technology to specific needs. It encompasses both the engineering paradigm for developing AI applications and the specific deliverables.
 
 In short, an application provides developers with:
 
@@ -12,7 +12,7 @@ You can choose **any one** or **all** of these to support your AI application de
 
 ### Application Types <a href="#application_type" id="application_type"></a>
 
-Dify offers four types of applications:
+Fusionworks offers four types of applications:
 
 * **Chat Assistant**: A conversational assistant built on LLM
 * **Text Generation**: An assistant for text generation tasks such as writing stories, text classification, translation, etc.

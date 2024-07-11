@@ -51,4 +51,4 @@ _请注意确保你使用的设备环境已经授权使用麦克风。_
 
 ### 引用与归属
 
-在应用内测试知识库效果时，你可以进入 **工作室 -- 添加功能 -- 引用归属**，打开引用归属功能。详细说明请参考[《引用与归属》](https://docs.dify.ai/v/zh-hans/guides/knowledge-base/retrieval_test_and_citation#id-2-yin-yong-yu-gui-shu)。
+在应用内测试知识库效果时，你可以进入 **工作室 -- 添加功能 -- 引用归属**，打开引用归属功能。详细说明请参考[《引用与归属》](https://docs.fusionworks.ai/v/zh-hans/guides/knowledge-base/retrieval_test_and_citation#id-2-yin-yong-yu-gui-shu)。

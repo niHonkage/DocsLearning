@@ -1,6 +1,6 @@
 # ようこそ、Difyへ
 
-**Dify**はオープンソースの大規模言語モデル（LLM）開発プラットフォームです。Backend as Serviceと[LLMOps](learn-more/extended-reading/what-is-llmops.md)の理念を融合し、開発者が迅速に生成AIアプリケーションを構築できるようにします。技術者でなくても、AIアプリケーションの定義やデータ運用に参加することができます。
+**Fusionworks**はオープンソースの大規模言語モデル（LLM）開発プラットフォームです。Backend as Serviceと[LLMOps](learn-more/extended-reading/what-is-llmops.md)の理念を融合し、開発者が迅速に生成AIアプリケーションを構築できるようにします。技術者でなくても、AIアプリケーションの定義やデータ運用に参加することができます。
 
 Difyには、LLMアプリケーションの構築に必要な主要なテクノロジースタックが組み込まれており、数百のモデルのサポート、直感的なプロンプトの編成インターフェース、高品質のRAGエンジン、堅牢なエージェントフレームワーク、柔軟なフロー編成が含まれています。また、使いやすいインターフェースとAPIも提供されています。これにより、開発者は重複する作業を省き、イノベーションやビジネスニーズに集中することができます。
 
@@ -11,7 +11,7 @@ Difyは生産に近い完全なソリューションを提供する。もし、L
 重要なのは、Difyは専門のフルタイムチームとコミュニティによって構築されていだ**オープンソース**です。どのモデルでも、Assistants APIやGPTsの能力を自分でデプロイすることができ、柔軟性と安全性を保ちながらデータの完全なコントロールを維持できます。
 
 > 私たちのコミュニティユーザーは、Difyの製品を「シンプルで控えめ、迅速に進化する」と評価しています。\
-> ——路宇、Dify.AI CEO
+> ——路宇、Fusionworks.AI CEO
 
 以上の情報とこのガイドが、あなたがこの製品を理解する助けになることを願っています。私たちは、Difyがあなたのために作られたものと信じています（<mark style="color:blue;">Do It For You</mark>）。
 
@@ -31,4 +31,4 @@ Difyという言葉は、Define + Modifyから来ており、あなたのAIア�
 * [**クイックスタート**](guides/application\_orchestrate/creating-an-application.md)を読んで、Difyのアプリケーション構築プロセスを速覧
 * [**Difyをサーバーに自分でデプロイ**](getting-started/install-self-hosted/)する方法と[**オープンソースモデルを接続**](guides/model-configuration/)する方法を学ぶ
 * Difyの[**特性仕様**](getting-started/readme/features-and-specifications.md)と**ロードマップ**を理解
-* [**GitHub**](https://github.com/langgenius/dify)で私たちにスターを付け、**コントリビューションガイド**を読む
+* [**GitHub**](https://github.com/langgenius/fusionworks)で私たちにスターを付け、**コントリビューションガイド**を読む

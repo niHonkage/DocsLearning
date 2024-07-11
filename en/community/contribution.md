@@ -1,16 +1,16 @@
 # Contributing
 
-So you're looking to contribute to Dify - that's awesome, we can't wait to see what you do. As a startup with limited headcount and funding, we have grand ambitions to design the most intuitive workflow for building and managing LLM applications. Any help from the community counts, truly.
+So you're looking to contribute to Fusionworks - that's awesome, we can't wait to see what you do. As a startup with limited headcount and funding, we have grand ambitions to design the most intuitive workflow for building and managing LLM applications. Any help from the community counts, truly.
 
 We need to be nimble and ship fast given where we are, but we also want to make sure that contributors like you get as smooth an experience at contributing as possible. We've assembled this contribution guide for that purpose, aiming at getting you familiarized with the codebase & how we work with contributors, so you could quickly jump to the fun part.
 
-This guide, like Dify itself, is a constant work in progress. We highly appreciate your understanding if at times it lags behind the actual project, and welcome any feedback for us to improve.
+This guide, like Fusionworks itself, is a constant work in progress. We highly appreciate your understanding if at times it lags behind the actual project, and welcome any feedback for us to improve.
 
 In terms of licensing, please take a minute to read our short License and Contributor Agreement. The community also adheres to the [code of conduct](https://github.com/langgenius/.github/blob/main/CODE\_OF\_CONDUCT.md).
 
 ### Before you jump in
 
-[Find](https://github.com/langgenius/dify/issues?q=is:issue+is:closed) an existing issue, or [open](https://github.com/langgenius/dify/issues/new/choose) a new one. We categorize issues into 2 types:
+[Find](https://github.com/langgenius/fusionworks/issues?q=is:issue+is:closed) an existing issue, or [open](https://github.com/langgenius/fusionworks/issues/new/choose) a new one. We categorize issues into 2 types:
 
 #### Feature requests:
 
@@ -35,7 +35,7 @@ In terms of licensing, please take a minute to read our short License and Contri
     | Feature Type                                                 | Priority        |
     | ------------------------------------------------------------ | --------------- |
     | High-Priority Features as being labeled by a team member     | High Priority   |
-    | Popular feature requests from our [community feedback board](https://github.com/langgenius/dify/discussions/categories/ideas) | Medium Priority |
+    | Popular feature requests from our [community feedback board](https://github.com/langgenius/fusionworks/discussions/categories/ideas) | Medium Priority |
     | Non-core features and minor enhancements                     | Low Priority    |
     | Valuable but not immediate                                   | Future-Feature  |
 
@@ -53,7 +53,7 @@ In terms of licensing, please take a minute to read our short License and Contri
 
 ### Installing
 
-Here are the steps to set up Dify for development:
+Here are the steps to set up Fusionworks for development:
 
 #### 1. Fork this repository
 
@@ -62,12 +62,12 @@ Here are the steps to set up Dify for development:
 Clone the forked repository from your terminal:
 
 ```
-git clone git@github.com:<github_username>/dify.git
+git clone git@github.com:<github_username>/fusionworks.git
 ```
 
 #### 3. Verify dependencies
 
-Dify requires the following dependencies to build, make sure they're installed on your system:
+Fusionworks requires the following dependencies to build, make sure they're installed on your system:
 
 * [Docker](https://www.docker.com/)
 * [Docker Compose](https://docs.docker.com/compose/install/)
@@ -77,23 +77,23 @@ Dify requires the following dependencies to build, make sure they're installed o
 
 #### 4. Installations
 
-Dify is composed of a backend and a frontend. Navigate to the backend directory by `cd api/`, then follow the  [Backend README](https://github.com/langgenius/dify/blob/main/api/README.md) to install it. In a separate terminal, navigate to the frontend directory by `cd web/`, then follow the [Frontend README](https://github.com/langgenius/dify/blob/main/web/README.md) to install.
+Fusionworks is composed of a backend and a frontend. Navigate to the backend directory by `cd api/`, then follow the  [Backend README](https://github.com/langgenius/fusionworks/blob/main/api/README.md) to install it. In a separate terminal, navigate to the frontend directory by `cd web/`, then follow the [Frontend README](https://github.com/langgenius/fusionworks/blob/main/web/README.md) to install.
 
-Check the [installation FAQ](https://docs.dify.ai/getting-started/faq/install-faq) for a list of common issues and steps to troubleshoot.
+Check the [installation FAQ](https://docs.fusionworks.ai/getting-started/faq/install-faq) for a list of common issues and steps to troubleshoot.
 
-#### 5. Visit dify in your browser
+#### 5. Visit fusionworks in your browser
 
-To validate your set up, head over to [http://localhost:3000](http://localhost:3000) (the default, or your self-configured URL and port) in your browser. You should now see Dify up and running.
+To validate your set up, head over to [http://localhost:3000](http://localhost:3000) (the default, or your self-configured URL and port) in your browser. You should now see Fusionworks up and running.
 
 ### Developing
 
-If you are adding a model provider, [this guide](https://github.com/langgenius/dify/blob/main/api/core/model\_runtime/README.md) is for you.
+If you are adding a model provider, [this guide](https://github.com/langgenius/fusionworks/blob/main/api/core/model\_runtime/README.md) is for you.
 
-To help you quickly navigate where your contribution fits, a brief, annotated outline of Dify's backend & frontend is as follows:
+To help you quickly navigate where your contribution fits, a brief, annotated outline of Fusionworks's backend & frontend is as follows:
 
 #### Backend
 
-Dify’s backend is written in Python using [Flask](https://flask.palletsprojects.com/en/3.0.x/). It uses [SQLAlchemy](https://www.sqlalchemy.org/) for ORM and [Celery](https://docs.celeryq.dev/en/stable/getting-started/introduction.html) for task queueing. Authorization logic goes via Flask-login.
+Fusionworks’s backend is written in Python using [Flask](https://flask.palletsprojects.com/en/3.0.x/). It uses [SQLAlchemy](https://www.sqlalchemy.org/) for ORM and [Celery](https://docs.celeryq.dev/en/stable/getting-started/introduction.html) for task queueing. Authorization logic goes via Flask-login.
 
 ```
 [api/]
@@ -147,7 +147,7 @@ The website is bootstrapped on [Next.js](https://nextjs.org/) boilerplate in Typ
 
 At last, time to open a pull request (PR) to our repo. For major features, we first merge them into the `deploy/dev` branch for testing, before they go into the `main` branch. If you run into issues like merge conflicts or don't know how to open a pull request, check out [GitHub's pull request tutorial](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
 
-And that's it! Once your PR is merged, you will be featured as a contributor in our [README](https://github.com/langgenius/dify/blob/main/README.md).
+And that's it! Once your PR is merged, you will be featured as a contributor in our [README](https://github.com/langgenius/fusionworks/blob/main/README.md).
 
 ### Getting Help
 

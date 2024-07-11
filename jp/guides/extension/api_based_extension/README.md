@@ -81,7 +81,7 @@ APIエンドポイントが`point=ping`を受信した場合、インターフ�
 #### API例 <a href="#usercontentapi-fan-li" id="usercontentapi-fan-li"></a>
 
 ```
-POST https://fake-domain.com/api/dify/receive
+POST https://fake-domain.com/api/fusionworks/receive
 ```
 
 **ヘッダー**
@@ -138,7 +138,7 @@ POST https://fake-domain.com/api/dify/receive
         params: dict = {}
 
 
-    @app.post("/api/dify/receive")
+    @app.post("/api/fusionworks/receive")
     async def dify_receive(data: InputData = Body(...), authorization: str = Header(None)):
         """
         DifyからのAPIクエリデータを受信します。
@@ -188,17 +188,17 @@ POST https://fake-domain.com/api/dify/receive
         else:
             return {"result": "Unknown city"}
     ```
-3.  APIサービスを起動する。デフォルトポートは8000で、APIの完全なアドレスは：`http://127.0.0.1:8000/api/dify/receive`、設定されたAPIキーは`123456`です。
+3.  APIサービスを起動する。デフォルトポートは8000で、APIの完全なアドレスは：`http://127.0.0.1:8000/api/fusionworks/receive`、設定されたAPIキーは`123456`です。
 
     <pre><code><strong>uvicorn main:app --reload --host 0.0.0.0
     </strong></code></pre>
 4. DifyにこのAPIを設定します。
 
-<figure><img src="https://github.com/langgenius/dify-docs/raw/main/zh_CN/.gitbook/assets/api_based_01.png" alt=""><figcaption><p>APIの設定</p></figcaption></figure>
+<figure><img src="https://github.com/langgenius/fusionworks-docs/raw/main/zh_CN/.gitbook/assets/api_based_01.png" alt=""><figcaption><p>APIの設定</p></figcaption></figure>
 
 5. アプリでこのAPIエクステンションを選択します。
 
-<figure><img src="https://github.com/langgenius/dify-docs/raw/main/zh_CN/.gitbook/assets/api_based_02.png" alt=""><figcaption><p>エクステンションの選択</p></figcaption></figure>
+<figure><img src="https://github.com/langgenius/fusionworks-docs/raw/main/zh_CN/.gitbook/assets/api_based_02.png" alt=""><figcaption><p>エクステンションの選択</p></figcaption></figure>
 
 アプリのデバッグ時、Difyは設定されたAPIにリクエストを送り、以下の内容（例）を送信します：
 
@@ -252,7 +252,7 @@ Difyクラウド版は内網APIサービスにアクセスできないため、�
 
 4. Forwardingで示されるように、上の図では`https://177e-159-223-41-52.ngrok-free.app`（これは例のドメインです。自分のドメインに置き換えてください）がパブリックドメインとなります。
 
-* 上記の例に従って、ローカルで既に起動しているサービスエンドポイントを公開し、コード例のインターフェース：`http://127.0.0.1:8000/api/dify/receive`を`https://177e-159-223-41-52.ngrok-free.app/api/dify/receive`に置き換えます。
+* 上記の例に従って、ローカルで既に起動しているサービスエンドポイントを公開し、コード例のインターフェース：`http://127.0.0.1:8000/api/fusionworks/receive`を`https://177e-159-223-41-52.ngrok-free.app/api/fusionworks/receive`に置き換えます。
 
 これで、このAPIエンドポイントはパブリックアクセス可能となります。これで、DifyでこのAPIエンドポイントを設定してローカルデバッグコードを実行できます。設定手順については、[external\_data\_tool.md](../../knowledge-base/external\_data\_tool.md "mention")を参照してください。
 

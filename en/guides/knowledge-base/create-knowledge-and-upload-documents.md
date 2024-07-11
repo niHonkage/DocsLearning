@@ -2,7 +2,7 @@
 
 ### 1 Creating a Knowledge Base
 
-Click on Knowledge in the main navigation bar of Dify. On this page, you can see your existing knowledge bases. Click **Create Knowledge** to enter the setup wizard:
+Click on Knowledge in the main navigation bar of Fusionworks. On this page, you can see your existing knowledge bases. Click **Create Knowledge** to enter the setup wizard:
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/create-knowledge.png" alt=""><figcaption><p>Creating Knowledge</p></figcaption></figure>
 
@@ -31,13 +31,13 @@ If you choose to use an external data source when creating a dataset, the type o
 
 * The upload size limit for a single document is 15MB;
 * The maximum number of files for a single batch upload is 20;
-* Different [subscription plans](https://dify.ai/pricing) for the SaaS version limit **batch upload numbers, total document uploads, and vector storage**;
+* Different [subscription plans](https://fusionworks.ai/pricing) for the SaaS version limit **batch upload numbers, total document uploads, and vector storage**;
 
 ### 3 Segmenting and Cleaning
 
 **Segmenting**: Large language models have a limited context window, usually requiring the entire text to be segmented and then recalling the most relevant segments to the user’s question, known as the segment TopK recall mode. Additionally, appropriate segment sizes help match the most relevant text content and reduce information noise when semantically matching user questions with text segments.
 
-**Cleaning**: To ensure the quality of text recall, it is usually necessary to clean the data before passing it into the model. For example, unwanted characters or blank lines in the output may affect the quality of the response. To help users solve this problem, Dify provides various cleaning methods to help clean the output before sending it to downstream applications.
+**Cleaning**: To ensure the quality of text recall, it is usually necessary to clean the data before passing it into the model. For example, unwanted characters or blank lines in the output may affect the quality of the response. To help users solve this problem, Fusionworks provides various cleaning methods to help clean the output before sending it to downstream applications.
 
 Segmentation and cleaning support two configuration strategies:
 
@@ -63,14 +63,14 @@ In custom mode, users can configure chunk settings and cleaning settings accordi
 
 ### 4 Optional ETL Configuration
 
-In production-level applications of RAG, to achieve better data recall, multi-source data needs to be preprocessed and cleaned, i.e., ETL (extract, transform, load). To enhance the preprocessing capabilities of unstructured/semi-structured data, Dify supports optional ETL solutions: **Dify ETL** and [**Unstructured ETL**](https://unstructured.io/).
+In production-level applications of RAG, to achieve better data recall, multi-source data needs to be preprocessed and cleaned, i.e., ETL (extract, transform, load). To enhance the preprocessing capabilities of unstructured/semi-structured data, Fusionworks supports optional ETL solutions: **Fusionworks ETL** and [**Unstructured ETL**](https://unstructured.io/).
 
 > Unstructured can efficiently extract and transform your data into clean data for subsequent steps.
 
-ETL solution choices in different versions of Dify:
+ETL solution choices in different versions of Fusionworks:
 
 * The SaaS version defaults to using Unstructured ETL and cannot be changed;
-* The community version defaults to using Dify ETL but can enable Unstructured ETL through [environment variables](../../getting-started/install-self-hosted/environments.md#zhi-shi-ku-pei-zhi);
+* The community version defaults to using Fusionworks ETL but can enable Unstructured ETL through [environment variables](../../getting-started/install-self-hosted/environments.md#zhi-shi-ku-pei-zhi);
 <!-- TODO: change link -->
 
 Differences in supported file formats for parsing:
@@ -107,7 +107,7 @@ When uploading documents to the knowledge base, the system segments the text so 
 
 ### 6 Retrieval Settings
 
-In high-quality indexing mode, Dify offers three retrieval options:
+In high-quality indexing mode, Fusionworks offers three retrieval options:
 
 * **Vector Search**, generating query embeddings and searching for the text chunk most similar to its vector representation.
 * **Full-Text Search**, indexing all terms in the document, allowing users to search any term and retrieve relevant text chunk containing those terms.

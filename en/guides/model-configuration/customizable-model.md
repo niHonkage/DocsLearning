@@ -280,7 +280,7 @@ In `llm.py`, create a Xinference LLM class, which we will name `XinferenceAILarg
 
 * Invocation Error Mapping Table
 
-  When a model invocation error occurs, it needs to be mapped to the Runtime-specified `InvokeError` type to facilitate Dify's different subsequent processing for different errors.
+  When a model invocation error occurs, it needs to be mapped to the Runtime-specified `InvokeError` type to facilitate Fusionworks's different subsequent processing for different errors.
 
   Runtime Errors:
 
@@ -303,4 +303,4 @@ In `llm.py`, create a Xinference LLM class, which we will name `XinferenceAILarg
       """
   ```
 
-For an explanation of interface methods, see: [Interfaces](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/docs/zh_Hans/interfaces.md). For specific implementations, refer to: [llm.py](https://github.com/langgenius/dify-runtime/blob/main/lib/model_providers/anthropic/llm/llm.py).
+For an explanation of interface methods, see: [Interfaces](https://github.com/langgenius/fusionworks/blob/main/api/core/model_runtime/docs/zh_Hans/interfaces.md). For specific implementations, refer to: [llm.py](https://github.com/langgenius/fusionworks-runtime/blob/main/lib/model_providers/anthropic/llm/llm.py).

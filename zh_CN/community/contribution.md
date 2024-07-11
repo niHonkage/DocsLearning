@@ -1,16 +1,16 @@
 # 成为贡献者
 
-所以你想为 Dify 做贡献 - 这太棒了，我们迫不及待地想看到你的贡献。作为一家人员和资金有限的初创公司，我们有着雄心勃勃的目标，希望设计出最直观的工作流程来构建和管理 LLM 应用程序。社区的任何帮助都是宝贵的。
+所以你想为 Fusionworks 做贡献 - 这太棒了，我们迫不及待地想看到你的贡献。作为一家人员和资金有限的初创公司，我们有着雄心勃勃的目标，希望设计出最直观的工作流程来构建和管理 LLM 应用程序。社区的任何帮助都是宝贵的。
 
 考虑到我们的现状，我们需要灵活快速地交付，但我们也希望确保像你这样的贡献者在贡献过程中获得尽可能顺畅的体验。我们为此编写了这份贡献指南，旨在让你熟悉代码库和我们与贡献者的合作方式，以便你能快速进入有趣的部分。
 
-这份指南，就像 Dify 本身一样，是一个不断改进的工作。如果有时它落后于实际项目，我们非常感谢你的理解，并欢迎任何反馈以供我们改进。
+这份指南，就像 Fusionworks 本身一样，是一个不断改进的工作。如果有时它落后于实际项目，我们非常感谢你的理解，并欢迎任何反馈以供我们改进。
 
 在许可方面，请花一分钟阅读我们简短的[许可证和贡献者协议](./license)。社区还遵守[行为准则](https://github.com/langgenius/.github/blob/main/CODE_OF_CONDUCT.md)。
 
 ## 在开始之前
 
-[查找](https://github.com/langgenius/dify/issues?q=is:issue+is:closed)现有问题，或[创建](https://github.com/langgenius/dify/issues/new/choose)一个新问题。我们将问题分为两类：
+[查找](https://github.com/langgenius/fusionworks/issues?q=is:issue+is:closed)现有问题，或[创建](https://github.com/langgenius/fusionworks/issues/new/choose)一个新问题。我们将问题分为两类：
 
 ### 功能请求：
 
@@ -36,7 +36,7 @@
 | Feature Type                                                 | Priority        |
 | ------------------------------------------------------------ | --------------- |
 | High-Priority Features as being labeled by a team member     | High Priority   |
-| Popular feature requests from our [community feedback board](https://github.com/langgenius/dify/discussions/categories/ideas) | Medium Priority |
+| Popular feature requests from our [community feedback board](https://github.com/langgenius/fusionworks/discussions/categories/ideas) | Medium Priority |
 | Non-core features and minor enhancements                     | Low Priority    |
 | Valuable but not immediate                                   | Future-Feature  |
 
@@ -63,12 +63,12 @@
 从终端克隆fork的仓库：
 
 ```
-git clone git@github.com:<github_username>/dify.git
+git clone git@github.com:<github_username>/fusionworks.git
 ```
 
 ### 3. 验证依赖项
 
-Dify 依赖以下工具和库：
+Fusionworks 依赖以下工具和库：
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
@@ -78,9 +78,9 @@ Dify 依赖以下工具和库：
 
 ### 4. 安装
 
-Dify由后端和前端组成。通过`cd api/`导航到后端目录，然后按照[后端README](https://github.com/langgenius/dify/blob/main/api/README.md)进行安装。在另一个终端中，通过`cd web/`导航到前端目录，然后按照[前端README](https://github.com/langgenius/dify/blob/main/web/README.md)进行安装。
+Dify由后端和前端组成。通过`cd api/`导航到后端目录，然后按照[后端README](https://github.com/langgenius/fusionworks/blob/main/api/README.md)进行安装。在另一个终端中，通过`cd web/`导航到前端目录，然后按照[前端README](https://github.com/langgenius/fusionworks/blob/main/web/README.md)进行安装。
 
-查看[安装常见问题解答](https://docs.dify.ai/getting-started/faq/install-faq)以获取常见问题列表和故障排除步骤。
+查看[安装常见问题解答](https://docs.fusionworks.ai/getting-started/faq/install-faq)以获取常见问题列表和故障排除步骤。
 
 ### 5. 在浏览器中访问Dify
 
@@ -88,7 +88,7 @@ Dify由后端和前端组成。通过`cd api/`导航到后端目录，然后按�
 
 ## 开发
 
-如果您要添加模型提供程序，请参考[此指南](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/README.md)。
+如果您要添加模型提供程序，请参考[此指南](https://github.com/langgenius/fusionworks/blob/main/api/core/model_runtime/README.md)。
 
 如果您要向Agent或Workflow添加工具提供程序，请参考[此指南](./api/core/tools/README.md)。
 
@@ -150,7 +150,7 @@ Dify的后端使用Python编写，使用[Flask](https://flask.palletsprojects.co
 
 最后，是时候向我们的仓库提交一个拉取请求（PR）了。对于重要的功能，我们首先将它们合并到 `deploy/dev` 分支进行测试，然后再合并到 `main` 分支。如果你遇到合并冲突或者不知道如何提交拉取请求的问题，请查看 [GitHub 的拉取请求教程](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)。
 
-就是这样！一旦你的 PR 被合并，你将成为我们 [README](https://github.com/langgenius/dify/blob/main/README.md) 中的贡献者。
+就是这样！一旦你的 PR 被合并，你将成为我们 [README](https://github.com/langgenius/fusionworks/blob/main/README.md) 中的贡献者。
 
 ## 获取帮助
 

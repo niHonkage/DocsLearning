@@ -56,7 +56,7 @@ def main(knowledge1: list, knowledge2: list) -> list:
 ```
 
 ## 本地部署
-如果您是本地部署的用户，您需要启动一个沙盒服务，它会确保恶意代码不会被执行，同时，启动该服务需要使用Docker服务，您可以在[这里](https://github.com/langgenius/dify/tree/main/docker/docker-compose.middleware.yaml)找到Sandbox服务的具体信息，您也可以直接通过`docker-compose`启动服务：
+如果您是本地部署的用户，您需要启动一个沙盒服务，它会确保恶意代码不会被执行，同时，启动该服务需要使用Docker服务，您可以在[这里](https://github.com/langgenius/fusionworks/tree/main/docker/docker-compose.middleware.yaml)找到Sandbox服务的具体信息，您也可以直接通过`docker-compose`启动服务：
 
 ```bash
 docker-compose -f docker-compose.middleware.yaml up -d

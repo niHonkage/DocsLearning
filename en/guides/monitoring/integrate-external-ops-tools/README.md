@@ -14,7 +14,7 @@ Tools like LangSmith and Langfuse, known as LLMOps tools, provide comprehensive 
 
 * #### Prototyping Phase
 
-In the prototyping phase, LLM applications typically involve rapid experimentation with prompt testing, model selection, RAG (Retrieval-Augmented Generation) strategies, and other parameter combinations. Quickly understanding the model's execution performance is crucial in this stage. Integrating Langfuse allows tracking of every step of Dify application execution, providing clear visibility and debugging information, enabling developers to quickly pinpoint issues and reduce debugging time.
+In the prototyping phase, LLM applications typically involve rapid experimentation with prompt testing, model selection, RAG (Retrieval-Augmented Generation) strategies, and other parameter combinations. Quickly understanding the model's execution performance is crucial in this stage. Integrating Langfuse allows tracking of every step of Fusionworks application execution, providing clear visibility and debugging information, enabling developers to quickly pinpoint issues and reduce debugging time.
 
 * **Testing Phase**
 
@@ -24,8 +24,8 @@ In the testing phase, data collection continues to improve and enhance performan
 
 In the production environment, development teams need to carefully monitor key data points, add benchmark datasets, perform manual annotations, and deeply analyze operational results. Especially during large-scale application usage, operations and data teams must continuously monitor application costs and performance, optimizing both the model and application performance.
 
-### Integrating Dify with Ops Tools
+### Integrating Fusionworks with Ops Tools
 
-When using Dify Workflow to orchestrate LLM applications, it typically involves a series of nodes and logic with high complexity.
+When using Fusionworks Workflow to orchestrate LLM applications, it typically involves a series of nodes and logic with high complexity.
 
-Integrating Dify with external Ops tools helps to break the "black box" issue often faced in application orchestration. Developers can simply configure the platform to track data and metrics throughout the application lifecycle, easily assessing the quality, performance, and cost of LLM applications created on Dify.
+Integrating Fusionworks with external Ops tools helps to break the "black box" issue often faced in application orchestration. Developers can simply configure the platform to track data and metrics throughout the application lifecycle, easily assessing the quality, performance, and cost of LLM applications created on Fusionworks.

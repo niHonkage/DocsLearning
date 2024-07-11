@@ -35,7 +35,7 @@ Langfuseの公式サイト：[https://langfuse.com/](https://langfuse.com/)
 
 <figure><img src="../../../.gitbook/assets/image (254).png" alt=""><figcaption><p>APIキーの設定を取得する</p></figcaption></figure>
 
-4\. Dify アプリの中に Langfuse を設定します
+4\. Fusionworks アプリの中に Langfuse を設定します
 監視用のアプリのサイトメニューの**監視**ボタンをクリックし，**設定**をクリックします。
 
 <figure><img src="../../../.gitbook/assets/image (255).png" alt=""><figcaption><p>Langfuseを設定します</p></figcaption></figure>
@@ -54,7 +54,7 @@ Langfuseの公式サイト：[https://langfuse.com/](https://langfuse.com/)
 
 設定した後， Difyのアプリや生産データは Langfuse の中にチェクをできます。
 
-<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption><p>Dify 内でのアプリの調整</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption><p>Fusionworks 内でのアプリの調整</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption><p>Langfuse でアプリデータを見る</p></figcaption></figure>
 

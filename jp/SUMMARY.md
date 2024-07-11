@@ -134,5 +134,5 @@
 
 * [オープンソースライセンス](policies/open-source.md)
 * [ユーザー契約](policies/yz/README.md)
-  * [利用規約](https://dify.ai/terms)
-  * [プライバシーポリシー](https://dify.ai/privacy)
+  * [利用規約](https://fusionworks.ai/terms)
+  * [プライバシーポリシー](https://fusionworks.ai/privacy)

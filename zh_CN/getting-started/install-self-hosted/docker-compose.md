@@ -8,20 +8,20 @@
 | Linux platforms            | <p>Docker 19.03 or later<br>Docker Compose 1.25.1 or later</p> | 请参阅[安装 Docker](https://docs.docker.com/engine/install/) 和[安装 Docker Compose](https://docs.docker.com/compose/install/) 以获取更多信息。                                                      |
 | Windows with WSL 2 enabled | <p>Docker Desktop<br></p>                                      | 我们建议将源代码和其他数据绑定到 Linux 容器中时，将其存储在 Linux 文件系统中，而不是 Windows 文件系统中。有关更多信息，请参阅[使用 WSL 2 后端在 Windows 上安装 Docker Desktop](https://docs.docker.com/desktop/windows/install/#wsl-2-backend)。 |
 
-### 克隆 Dify 代码仓库
+### 克隆 Fusionworks 代码仓库
 
-克隆 Dify 源代码至本地。
+克隆 Fusionworks 源代码至本地。
 
 ```bash
-git clone https://github.com/langgenius/dify.git
+git clone https://github.com/langgenius/fusionworks.git
 ```
 
-### 启动 Dify
+### 启动 Fusionworks
 
-进入 Dify 源代码的 docker 目录，执行一键启动命令：
+进入 Fusionworks 源代码的 docker 目录，执行一键启动命令：
 
 ```Shell
-cd dify/docker
+cd fusionworks/docker
 cp .env.example .env
 docker compose up -d
 ```
@@ -55,23 +55,23 @@ docker compose ps
 
 ```bash
 NAME                  IMAGE                              COMMAND                   SERVICE      CREATED              STATUS                        PORTS
-docker-api-1          langgenius/dify-api:0.6.13         "/bin/bash /entrypoi…"   api          About a minute ago   Up About a minute             5001/tcp
+docker-api-1          langgenius/fusionworks-api:0.6.13         "/bin/bash /entrypoi…"   api          About a minute ago   Up About a minute             5001/tcp
 docker-db-1           postgres:15-alpine                 "docker-entrypoint.s…"   db           About a minute ago   Up About a minute (healthy)   5432/tcp
 docker-nginx-1        nginx:latest                       "sh -c 'cp /docker-e…"   nginx        About a minute ago   Up About a minute             0.0.0.0:80->80/tcp, :::80->80/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp
 docker-redis-1        redis:6-alpine                     "docker-entrypoint.s…"   redis        About a minute ago   Up About a minute (healthy)   6379/tcp
-docker-sandbox-1      langgenius/dify-sandbox:0.2.1      "/main"                   sandbox      About a minute ago   Up About a minute             
+docker-sandbox-1      langgenius/fusionworks-sandbox:0.2.1      "/main"                   sandbox      About a minute ago   Up About a minute             
 docker-ssrf_proxy-1   ubuntu/squid:latest                "sh -c 'cp /docker-e…"   ssrf_proxy   About a minute ago   Up About a minute             3128/tcp
 docker-weaviate-1     semitechnologies/weaviate:1.19.0   "/bin/weaviate --hos…"   weaviate     About a minute ago   Up About a minute             
-docker-web-1          langgenius/dify-web:0.6.13         "/bin/sh ./entrypoin…"   web          About a minute ago   Up About a minute             3000/tcp
-docker-worker-1       langgenius/dify-api:0.6.13         "/bin/bash /entrypoi…"   worker       About a minute ago   Up About a minute             5001/tcp
+docker-web-1          langgenius/fusionworks-web:0.6.13         "/bin/sh ./entrypoin…"   web          About a minute ago   Up About a minute             3000/tcp
+docker-worker-1       langgenius/fusionworks-api:0.6.13         "/bin/bash /entrypoi…"   worker       About a minute ago   Up About a minute             5001/tcp
 ```
 
-### 更新 Dify
+### 更新 Fusionworks
 
-进入 dify 源代码的 docker 目录，按顺序执行以下命令：
+进入 fusionworks 源代码的 docker 目录，按顺序执行以下命令：
 
 ```bash
-cd dify/docker
+cd fusionworks/docker
 git pull origin main
 docker compose down
 docker compose pull
@@ -83,13 +83,13 @@ docker compose up -d
 * 如果 `.env.example` 文件有更新，请务必同步修改您本地的 `.env` 文件。
 * 检查 `.env` 文件中的所有配置项，确保它们与您的实际运行环境相匹配。您可能需要将 `.env.example` 中的新变量添加到 `.env` 文件中，并更新已更改的任何值。
 
-### 访问 Dify
+### 访问 Fusionworks
 
-在浏览器中输入 `http://localhost` 访问 Dify。
+在浏览器中输入 `http://localhost` 访问 Fusionworks。
 
 ### 自定义配置
 
-编辑 `.env` 文件中的环境变量值。然后，重新启动 Dify：
+编辑 `.env` 文件中的环境变量值。然后，重新启动 Fusionworks：
 
 ```bash
 docker compose down

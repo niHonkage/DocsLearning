@@ -1,6 +1,6 @@
 # Retrieval Modes
 
-When users build AI applications for knowledge base Q&A, Dify supports two retrieval modes during retrieval if multiple datasets are associated within the application: N-of-1 retrieval Mode and Multi-Path retrieval Mode.
+When users build AI applications for knowledge base Q&A, Fusionworks supports two retrieval modes during retrieval if multiple datasets are associated within the application: N-of-1 retrieval Mode and Multi-Path retrieval Mode.
 
 <figure><img src="../../../.gitbook/assets/image (125).png" alt=""><figcaption><p>retrieval Mode Settings</p></figcaption></figure>
 
@@ -16,7 +16,7 @@ Below is the technical flowchart for the N-of-1 retrieval mode:
 
 Hence, if there are too many datasets or if the dataset descriptions are not sufficiently distinct, the retrieval effectiveness of this mode may be affected. This mode is more suitable for applications with fewer datasets.
 
-Tip: OpenAI Function Call now supports multiple tool calls. Dify will upgrade this mode to "N-of-M retrieval" in future versions.
+Tip: OpenAI Function Call now supports multiple tool calls. Fusionworks will upgrade this mode to "N-of-M retrieval" in future versions.
 
 ### Multi-Path retrieval Mode
 

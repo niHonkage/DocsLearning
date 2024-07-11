@@ -1,6 +1,6 @@
 # Overview
 
-Web applications are designed for application users. When an application developer creates an application on Dify, a corresponding web application is generated. Users of the web application can use it without logging in. The web application is adapted for various device sizes: PC, tablet, and mobile.
+Web applications are designed for application users. When an application developer creates an application on Fusionworks, a corresponding web application is generated. Users of the web application can use it without logging in. The web application is adapted for various device sizes: PC, tablet, and mobile.
 
 The content of the web application aligns with the configuration of the published application. When the application's configuration is modified and the "Publish" button is clicked on the prompt orchestration page, the web application's content will be updated according to the current configuration of the application.
 

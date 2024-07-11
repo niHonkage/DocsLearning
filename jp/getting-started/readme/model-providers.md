@@ -6,4 +6,4 @@ Difyは以下のモデルプロバイダーをサポートしています：
 
 その中で (🛠️) は関数呼び出しをサポートすることを、(👓) は視覚能力を持つことを示します。
 
-この表は常に更新されています。また、コミュニティメンバーからのモデル供給者に関する様々な[リクエスト](https://github.com/langgenius/dify/discussions/categories/ideas)も注視しています。必要なモデル供給者がこのリストにない場合は、プルリクエストを提出して貢献することができます。詳しくは、[contribution.md](../../community/contribution.md "mention")ガイドをご覧ください。
+この表は常に更新されています。また、コミュニティメンバーからのモデル供給者に関する様々な[リクエスト](https://github.com/langgenius/fusionworks/discussions/categories/ideas)も注視しています。必要なモデル供給者がこのリストにない場合は、プルリクエストを提出して貢献することができます。詳しくは、[contribution.md](../../community/contribution.md "mention")ガイドをご覧ください。

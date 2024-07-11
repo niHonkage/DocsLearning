@@ -2,7 +2,7 @@
 
 ### 1. 如何在国内环境中使用 OpenAI 代理服务器进行访问？
 
-Dify 支持 OpenAI 的自定义 API 域名能力，支持任何兼容 OpenAI 的大模型 API 服务器。社区版中，通过 **设置 --> 模型供应商 --> OpenAI --> 编辑 API** 入口处填写目标服务器地址即可。
+Fusionworks 支持 OpenAI 的自定义 API 域名能力，支持任何兼容 OpenAI 的大模型 API 服务器。社区版中，通过 **设置 --> 模型供应商 --> OpenAI --> 编辑 API** 入口处填写目标服务器地址即可。
 
 ### **2. 如何选择基础模型？**
 
@@ -36,10 +36,10 @@ Dify 支持 OpenAI 的自定义 API 域名能力，支持任何兼容 OpenAI 的
 
 ### 6. 如何免费申领智谱·AI、讯飞星火、MiniMax 模型的体验额度？
 
-我们联合大模型厂商向中国用户提供一定的 token 体验额度。通过 Dify \*\*设置 --> 模型供应商 --> 显示更多模型供应商。\*\*在智谱·AI、讯飞星火或 MiniMax 图标处点击【免费获取】，如果你在英文界面看不到领取入口，请将产品语言切换成为中文：
+我们联合大模型厂商向中国用户提供一定的 token 体验额度。通过 Fusionworks \*\*设置 --> 模型供应商 --> 显示更多模型供应商。\*\*在智谱·AI、讯飞星火或 MiniMax 图标处点击【免费获取】，如果你在英文界面看不到领取入口，请将产品语言切换成为中文：
 
 * \*\*智谱·AI： 免费领取 1000 万 token，\*\*点击【免费领取】，只需输入手机号及验证码，即可到账额度，不限制是否注册过智谱·AI。
-* **讯飞星火 （V1.5 模型、V2.0 模型）：免费领取 600 万token，V1.5 模型、V2.0 模型各 300 万 token，额度不互通**，需要从 Dify 的入口进入，完成讯飞星火开放平台的注册（仅限未注册过讯飞星火的手机号），返回 Dify 静候 5 分钟，刷新页面即可在 Dify 页面体现可用额度。
+* **讯飞星火 （V1.5 模型、V2.0 模型）：免费领取 600 万token，V1.5 模型、V2.0 模型各 300 万 token，额度不互通**，需要从 Fusionworks 的入口进入，完成讯飞星火开放平台的注册（仅限未注册过讯飞星火的手机号），返回 Fusionworks 静候 5 分钟，刷新页面即可在 Fusionworks 页面体现可用额度。
 * **MiniMax：免费领取 100 万 token**，只需点击【免费领取】即可到账额度，无需手动注册流程，不限制是否注册过 MiniMax 账号。
 
 体验额度到账后，在应用内 **提示词编排 --> 模型及参数 --> 语言模型** 处选择需使用的模型即可。
@@ -92,7 +92,7 @@ Query or prefix prompt is too long, you can reduce the preix prompt, or shrink t
 
 在编排页参数设置里，调小“最大 token”的值即可。
 
-### 13. Dify 里面默认的模型是什么，可否使用开源的模型？
+### 13. Fusionworks 里面默认的模型是什么，可否使用开源的模型？
 
 默认的模型可以在 **设置 - 模型供应商** 处配置，目前支持 OpenAI / Azure OpenAl / Anthropic 等模型厂商的文本生成型模型，同时支持 Hugging Face/ Replicate / xinference 上托管的开源模型的接入。
 
@@ -109,7 +109,7 @@ Query or prefix prompt is too long, you can reduce the preix prompt, or shrink t
 
 ### 16. 数据集文档上传的大小限制有哪些？
 
-目前数据集文档上传单个文档最大是 15MB，总文档数量限制 100 个。如您本地部署版本需要调整修改该限制，请参考[文档](https://docs.dify.ai/v/zh-hans/getting-started/faq/install-faq#11.-ben-di-bu-shu-ban-ru-he-jie-jue-shu-ju-ji-wen-dang-shang-chuan-de-da-xiao-xian-zhi-he-shu-liang)。
+目前数据集文档上传单个文档最大是 15MB，总文档数量限制 100 个。如您本地部署版本需要调整修改该限制，请参考[文档](https://docs.fusionworks.ai/v/zh-hans/getting-started/faq/install-faq#11.-ben-di-bu-shu-ban-ru-he-jie-jue-shu-ju-ji-wen-dang-shang-chuan-de-da-xiao-xian-zhi-he-shu-liang)。
 
 ### 17. 为什么选择了 Claude 模型，还是会消耗 OpenAI 的费用？
 
@@ -117,7 +117,7 @@ Query or prefix prompt is too long, you can reduce the preix prompt, or shrink t
 
 ### 18. 有什么方式能控制更多地使用上下文数据而不是模型自身生成能力吗？
 
-是否使用数据集，会和数据集的描述有关系，尽可能把数据集描述写清楚，具体可参考[此文档编写技巧](https://docs.dify.ai/v/zh-hans/advanced/datasets)。
+是否使用数据集，会和数据集的描述有关系，尽可能把数据集描述写清楚，具体可参考[此文档编写技巧](https://docs.fusionworks.ai/v/zh-hans/advanced/datasets)。
 
 ### 19. 上传数据集文档是 Excel，该如何更好地分段？
 
@@ -127,13 +127,13 @@ Query or prefix prompt is too long, you can reduce the preix prompt, or shrink t
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-### 20 买了 ChatGPT plus，为什么在 dify 里还不能使用 GPT4？
+### 20 买了 ChatGPT plus，为什么在 fusionworks 里还不能使用 GPT4？
 
 OpenAI 的 GPT4 模型 API 和 ChatGPT Plus 是两个产品，分开收费的，模型的 API 有自己的定价，具体参考 [OpenAI 定价文档](https://openai.com/pricing) 。付费申请要先绑卡，绑了卡会有 GPT3.5 的权限，但没有 GPT4 的权限，GPT4 的权限得有一次支付的账单，具体参考 [OpenAI 官方文档](https://platform.openai.com/account/billing/overview)。
 
 ### 21. 如何增加其他的 Embedding Model？
 
-Dify 支持以下作为 Embedding 模型使用，只需在配置框中选择 `Embeddings` 类型即可。
+Fusionworks 支持以下作为 Embedding 模型使用，只需在配置框中选择 `Embeddings` 类型即可。
 
 * Azure
 * LocalAI
@@ -144,7 +144,7 @@ Dify 支持以下作为 Embedding 模型使用，只需在配置框中选择 `Em
 
 ### 22. 如何把自己创建的应用设置成应用模板？
 
-该功能为 Dify 官方提供的应用模板供云端版用户参考使用，暂未支持将自己创建的应用设置成应用模板。如您使用云端版，可 **添加到工作区** 或 **自定义** 修改后成为你自己的应用。如您使用社区版，需要为团队内创建更多的应用模板，您可咨询我们商业化团队获得付费的技术支持：`business@dify.ai`
+该功能为 Fusionworks 官方提供的应用模板供云端版用户参考使用，暂未支持将自己创建的应用设置成应用模板。如您使用云端版，可 **添加到工作区** 或 **自定义** 修改后成为你自己的应用。如您使用社区版，需要为团队内创建更多的应用模板，您可咨询我们商业化团队获得付费的技术支持：`business@fusionworks.ai`
 
 ###
 

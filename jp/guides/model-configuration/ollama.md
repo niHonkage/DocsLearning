@@ -3,7 +3,7 @@
 ![ollama](../../.gitbook/assets/ollama.png)
 
 [Ollama](https://github.com/jmorganca/ollama) は、Llama 2、Mistral、Llava などの大型言語モデルをワンクリックでデプロイできるローカル推論フレームワーククライアントです。
-Dify は、Ollama でデプロイした大型言語モデルの推論および埋め込み機能への接続をサポートしています。
+Fusionworks は、Ollama でデプロイした大型言語モデルの推論および埋め込み機能への接続をサポートしています。
 
 ## クイック接続
 
@@ -23,7 +23,7 @@ Dify は、Ollama でデプロイした大型言語モデルの推論および�
 
     その他のモデルについては [Ollama Models](https://ollama.ai/library) を参照してください。
 
-3. Dify に Ollama を接続
+3. Fusionworks に Ollama を接続
 
    `設定 > モデル供給元 > Ollama` に以下を入力します：
 
@@ -35,7 +35,7 @@ Dify は、Ollama でデプロイした大型言語モデルの推論および�
    
      ここには、アクセス可能な Ollama サービスのアドレスを入力します。
    
-     Dify が docker でデプロイされている場合、ローカルネットワークの IP アドレス（例：`http://192.168.1.100:11434`）または docker ホストマシンの IP アドレス（例：`http://172.17.0.1:11434`）を入力することをお勧めします。
+     Fusionworks が docker でデプロイされている場合、ローカルネットワークの IP アドレス（例：`http://192.168.1.100:11434`）または docker ホストマシンの IP アドレス（例：`http://172.17.0.1:11434`）を入力することをお勧めします。
    
      ローカルソースコードでデプロイされている場合は、`http://localhost:11434` を入力できます。
 
@@ -65,7 +65,7 @@ Dify は、Ollama でデプロイした大型言語モデルの推論および�
 
 ## FAQ
 
-### ⚠️ Docker を使用して Dify と Ollama をデプロイする場合、以下のエラーが発生することがあります:
+### ⚠️ Docker を使用して Fusionworks と Ollama をデプロイする場合、以下のエラーが発生することがあります:
 
 ```
 httpconnectionpool(host=127.0.0.1, port=11434): max retries exceeded with url:/cpi/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8562812c20>: fail to establish a new connection:[Errno 111] Connection refused'))

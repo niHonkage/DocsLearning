@@ -23,7 +23,7 @@
 {% endhint %}
 
 ```
-curl --location --request POST 'https://api.dify.ai/v1/datasets' \
+curl --location --request POST 'https://api.fusionworks.ai/v1/datasets' \
 --header '認証: Bearer {api_key}' \
 --header 'コンテンツタイプ: application/json' \
 --data-raw '{"name": "name"}'
@@ -32,19 +32,19 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets' \
 #### **ナレッジリスト**
 
 ```
-curl --location --request GET 'https://api.dify.ai/v1/datasets?page=1&limit=20' \
+curl --location --request GET 'https://api.fusionworks.ai/v1/datasets?page=1&limit=20' \
 --header '認証: Bearer {api_key}'
 ```
 
 #### **テキストでドキュメントを作成**
 
 ```
-curl --location --request POST '<https://api.dify.ai/v1/datasets/<uuid:データセットID>/document/create_by_text>' \\
+curl --location --request POST '<https://api.fusionworks.ai/v1/datasets/<uuid:データセットID>/document/create_by_text>' \\
 --header '認証: Bearer {api_key}' \\
 --header 'コンテンツタイプ: application/json' \\
 --data-raw '{
-    "name": "Dify",
-    "text": "Dify means Do it for you...",
+    "name": "Fusionworks",
+    "text": "Fusionworks means Do it for you...",
     "indexing_technique": "高品質",
     "process_rule": {
         "rules": {
@@ -68,10 +68,10 @@ curl --location --request POST '<https://api.dify.ai/v1/datasets/<uuid:データ
 #### **ファイルでドキュメントを作成**
 
 ```
-curl --location POST 'https://api.dify.ai/v1/datasets/{データセットID}/document/create_by_file' \
+curl --location POST 'https://api.fusionworks.ai/v1/datasets/{データセットID}/document/create_by_file' \
 --header '認証: Bearer {api_key}' \
 --form 'data="{
-	"name": "Dify",
+	"name": "Fusionworks",
 	"indexing_technique": "高品質",
 	"process_rule": {
 		"rules": {
@@ -97,26 +97,26 @@ curl --location POST 'https://api.dify.ai/v1/datasets/{データセットID}/doc
 #### **ドキュメントのインデックスステータスを取得**
 
 ```
-curl --location --request GET 'https://api.dify.ai/v1/datasets/{データセットID}/documents/{batch}/indexing-status' \
+curl --location --request GET 'https://api.fusionworks.ai/v1/datasets/{データセットID}/documents/{batch}/indexing-status' \
 --header '認証: Bearer {api_key}'
 ```
 
 #### **ドキュメントを削除**
 
 ```
-curl --location --request GET 'https://api.dify.ai/v1/datasets/{データセットID}/documents' \
+curl --location --request GET 'https://api.fusionworks.ai/v1/datasets/{データセットID}/documents' \
 --header '認証: Bearer {api_key}'
 ```
 
 #### **新しいセグメントを追加**
 
 ```
-curl 'https://api.dify.ai/v1/datasets/aac47674-31a8-4f12-aab2-9603964c4789/documents/2034e0c1-1b75-4532-849e-24e72666595b/segment' \
+curl 'https://api.fusionworks.ai/v1/datasets/aac47674-31a8-4f12-aab2-9603964c4789/documents/2034e0c1-1b75-4532-849e-24e72666595b/segment' \
   --header '認証: Bearer {api_key}' \
   --header 'コンテンツタイプ: application/json' \
   --data-raw $'"segments":[
-  {"コンテンツ":"Dify means Do it for you",
-  "キーワード":["Dify","Do"]
+  {"コンテンツ":"Fusionworks means Do it for you",
+  "キーワード":["Fusionworks","Do"]
   }
   ]'
   --compressed

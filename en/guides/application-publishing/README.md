@@ -1,4 +1,4 @@
-# Launching Dify Apps
+# Launching Fusionworks Apps
 
 For more detailed information, please refer to the following sections:
 

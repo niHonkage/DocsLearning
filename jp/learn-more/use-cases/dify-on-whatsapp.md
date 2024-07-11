@@ -19,11 +19,11 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 - AIチャットボットのテスト用にWhatsAppをインストールしたスマートフォン
 - Python 3.6+を使用してAPIを構築するためのフレームワークであるFastAPIの基本的な理解
 
-## 3. Difyの基本的なチャットアシスタントアプリケーションの作成（[DifyをWeChatエコシステムに接続する方法](./dify-on-wechat.md)からの抜粋）
+## 3. Difyの基本的なチャットアシスタントアプリケーションの作成（[DifyをWeChatエコシステムに接続する方法](./fusionworks-on-wechat.md)からの抜粋）
 
-まず、[Dify公式アプリケーションプラットフォーム](https://cloud.dify.ai/signin)にログインします。GithubまたはGoogleのアカウントでログインすることができます。また、Dify公式チュートリアル[Docker Composeによるデプロイ | 日本語 | Dify](https://docs.dify.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose)を参照して、プライベートデプロイを行うことも可能です。Difyはオープンソースプロジェクトであり、プライベートデプロイをサポートしています。
+まず、[Dify公式アプリケーションプラットフォーム](https://cloud.fusionworks.ai/signin)にログインします。GithubまたはGoogleのアカウントでログインすることができます。また、Dify公式チュートリアル[Docker Composeによるデプロイ | 日本語 | Fusionworks](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose)を参照して、プライベートデプロイを行うことも可能です。Difyはオープンソースプロジェクトであり、プライベートデプロイをサポートしています。
 
-<figure><img src="../../.gitbook/assets/dify-on-wechat/create-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fusionworks-on-wechat/create-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
 
 ログイン後、Difyのページに移動し、以下のステップに従って基本的なチャットアシスタントアプリケーションを作成します。
 
@@ -34,14 +34,14 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 5. アプリケーションのアイコンを選択し、アプリケーションに「基本編成チャットアシスタント」などの名前を付ける
 6. 作成をクリック
 
-<figure><img src="../../.gitbook/assets/dify-on-wechat/config-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fusionworks-on-wechat/config-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
 作成が成功すると、上記のページに移動します。続いてアプリケーションを設定します。
 
 1. モデルの選択（例：gpt-3.5-turbo-0125）
 2. モデルパラメータの設定
 3. アプリケーションのプロンプトを入力
 
-<figure><img src="../../.gitbook/assets/dify-on-wechat/publish-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fusionworks-on-wechat/publish-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
 
 設定が完了したら、右側の対話ボックスでテストを行い、テストが完了したら以下の操作を行います。
 
@@ -50,7 +50,7 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 3. APIのアクセス
 
 ##### （4）基本編成チャットアシスタントのAPIキーの生成
-<figure><img src="../../.gitbook/assets/dify-on-wechat/create-basic-chatbot-apikey.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fusionworks-on-wechat/create-basic-chatbot-apikey.jpg" alt=""><figcaption></figcaption></figure>
 
 「APIのアクセス」をクリックすると、上記のAPI管理ページに移動します。このページで以下の手順に従ってAPIキーを取得します。
 
@@ -58,7 +58,7 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 2. 「キーを作成」をクリック
 3. キーをコピーして保存
 
-キーを保存した後、右上のAPIサーバーも確認してください。Dify公式のアプリケーションの場合、APIサーバーのアドレスは「https://api.dify.ai/v1」です。プライベートデプロイの場合は、自分のAPIサーバーアドレスを確認してください。
+キーを保存した後、右上のAPIサーバーも確認してください。Dify公式のアプリケーションの場合、APIサーバーのアドレスは「https://api.fusionworks.ai/v1」です。プライベートデプロイの場合は、自分のAPIサーバーアドレスを確認してください。
 
 以上でチャットアシスタントの準備作業が終了です。このセクションでは、**APIキー**と**APIサーバーアドレス**の2つを保存する必要があります。
 
@@ -66,7 +66,7 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 
 [Twilioコンソール]に移動し、Account SIDとAuth Tokenを取得して保存します。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/twilio1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/twilio1.png" alt=""><figcaption></figcaption></figure>
 
 ## 5. チャットボットの作成
 
@@ -75,7 +75,7 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 #### 5.1 コードのダウンロード
 
 ```
-git clone https://github.com/somethingwentwell/dify-twilio-whatsapp
+git clone https://github.com/somethingwentwell/fusionworks-twilio-whatsapp
 ```
 
 #### 5.2 .envの設定
@@ -99,9 +99,9 @@ docker compose up
 
 成功すると、以下のメッセージが表示されるはずです。
 ```
-dify-whatsapp-1  | INFO:     Started server process [68]
-dify-whatsapp-1  | INFO:     Waiting for application startup.
-dify-whatsapp-1  | INFO:     Application startup complete.
+fusionworks-whatsapp-1  | INFO:     Started server process [68]
+fusionworks-whatsapp-1  | INFO:     Waiting for application startup.
+fusionworks-whatsapp-1  | INFO:     Application startup complete.
 ```
 
 ブラウザーでhttp://localhost:9000を開きます。JSONレスポンス{"msg": "working"}が表示されるはずです。
@@ -118,7 +118,7 @@ npx localtunnel --port 9000
 
 このコマンドは、ローカルサーバー（9000ポートで実行中）とlocaltunnelが作成するパブリックドメイン間に接続を確立します。localtunnel転送URLを取得すると、クライアントからそのURLへのリクエストはすべて自動的にFastAPIのバックエンドに転送されます。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/lt1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/lt1.png" alt=""><figcaption></figcaption></figure>
 
 #### 5.5 コードの説明
 
@@ -192,7 +192,7 @@ TwilioのメッセージAPIを使用して、チャットボットがWhatsAppユ
 
 「試してみる」セクションで「WhatsAppメッセージを送信」をクリックします。デフォルトでサンドボックスタブに移動し、「+14155238886」という電話番号と、隣に参加コード、右側にQRコードが表示されます。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/twilio2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/twilio2.png" alt=""><figcaption></figcaption></figure>
 
 Twilioのテスト環境を有効にするには、このコードのテキストをWhatsAppメッセージとして表示された電話番号に送信します。Webバージョンを使用している場合、ハイパーリンクをクリックしてWhatsAppチャットに誘導されることができます。
 
@@ -209,13 +209,13 @@ FastAPIアプリケーションで設定したエンドポイントは/message�
 
 設定が完了したら、「保存」ボタンを押します。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/twilio3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/twilio3.png" alt=""><figcaption></figcaption></figure>
 
 ## 7. WhatsAppのテスト
 
 6.1のページでQRコードをスキャンしてWhatsAppサンドボックス環境に入り、WhatsAppメッセージを送信してAIチャットボットの応答を待ちます。Difyチャットアシスタントに質問できることをAIチャットボットに試してみてください。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/whatsapp1.jpg" style="width:300px;" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/whatsapp1.jpg" style="width:300px;" alt=""><figcaption></figcaption></figure>
 
 ## 8. 後記
 

@@ -42,7 +42,7 @@ Here are some items we're currently considering. If you're interested, you can c
     - We've implemented support for `Python` dependencies, which can be automatically installed during Sandbox initialization. However, due to the complexity of `node_modules`, we haven't yet found a good solution for `Node.js`. This is an area open for improvement.
 - [ ] Image processing capabilities:
     - As multimodality becomes increasingly important, supporting image processing in the `Sandbox` would be valuable.
-    - Consider adding support for image processing libraries like `Pillow`, and enable passing images into the `Sandbox` for processing in `Dify`.
+    - Consider adding support for image processing libraries like `Pillow`, and enable passing images into the `Sandbox` for processing in `Fusionworks`.
 - [ ] Enhanced `CI` testing:
     - Our current `CI` testing is limited and includes only basic test cases. More comprehensive testing would be beneficial.
 - [ ] Multimodal data generation:

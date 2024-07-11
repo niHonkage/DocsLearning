@@ -5,15 +5,15 @@
 ### 社区支持
 
 {% hint style="info" %}
-请不要将涉及你的 Dify 账户信息与其它密钥信息发至社区，我们的支持人员也不会索要您的账户信息。
+请不要将涉及你的 Fusionworks 账户信息与其它密钥信息发至社区，我们的支持人员也不会索要您的账户信息。
 {% endhint %}
 
-* 在 [Github](https://github.com/langgenius/dify) 上提交 Issue
+* 在 [Github](https://github.com/langgenius/fusionworks) 上提交 Issue
 * 加入 [Discord ](https://discord.gg/8Tpq4AcN9c)社群
-* 发邮件至 [support@dify.ai](mailto:support@dify.ai)
+* 发邮件至 [support@fusionworks.ai](mailto:support@fusionworks.ai)
 
 ### 联系我们
 
 适用于除了寻求产品支持以外的其他事宜。
 
-* 发邮件至 [hello@dify.ai](mailto:hello@dify.ai)
+* 发邮件至 [hello@fusionworks.ai](mailto:hello@fusionworks.ai)

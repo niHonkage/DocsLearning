@@ -5,7 +5,7 @@
 #### 直接使用 DockerHub 镜像
 
 ```Bash
-docker run -it -p 3000:3000 -e CONSOLE_API_URL=http://127.0.0.1:5001 -e APP_API_URL=http://127.0.0.1:5001 langgenius/dify-web:latest
+docker run -it -p 3000:3000 -e CONSOLE_API_URL=http://127.0.0.1:5001 -e APP_API_URL=http://127.0.0.1:5001 langgenius/fusionworks-web:latest
 ```
 
 #### 源码构建 Docker 镜像
@@ -13,12 +13,12 @@ docker run -it -p 3000:3000 -e CONSOLE_API_URL=http://127.0.0.1:5001 -e APP_API_
 1.  构建前端镜像
 
     ```
-    cd web && docker build . -t dify-web
+    cd web && docker build . -t fusionworks-web
     ```
 2.  启动前端镜像
 
     ```
-    docker run -it -p 3000:3000 -e CONSOLE_API_URL=http://127.0.0.1:5001 -e APP_API_URL=http://127.0.0.1:5001 dify-web
+    docker run -it -p 3000:3000 -e CONSOLE_API_URL=http://127.0.0.1:5001 -e APP_API_URL=http://127.0.0.1:5001 fusionworks-web
     ```
 3. 当控制台域名和 Web APP 域名不一致时，可单独设置 `CONSOLE_URL` 和 `APP_URL`
 4. 本地访问 [http://127.0.0.1:3000](http://127.0.0.1:3000)

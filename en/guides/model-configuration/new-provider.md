@@ -16,7 +16,7 @@ Users need to add credentials configuration for each model. For example, Xinfere
 
 Similar to the `predefined-model` configuration method, users only need to configure unified provider credentials, and the models are fetched from the provider using the credential information.
 
-For instance, with OpenAI, we can fine-tune multiple models based on gpt-turbo-3.5, all under the same **api_key**. When configured as `fetch-from-remote`, developers only need to configure a unified **api_key** to allow Dify Runtime to fetch all the developer's fine-tuned models and connect to Dify.
+For instance, with OpenAI, we can fine-tune multiple models based on gpt-turbo-3.5, all under the same **api_key**. When configured as `fetch-from-remote`, developers only need to configure a unified **api_key** to allow Fusionworks Runtime to fetch all the developer's fine-tuned models and connect to Fusionworks.
 
 These three configuration methods **can coexist**, meaning a provider can support `predefined-model` + `customizable-model` or `predefined-model` + `fetch-from-remote`, etc. This allows using predefined models and models fetched from remote with unified provider credentials, and additional custom models can be used if added.
 
@@ -30,11 +30,11 @@ These three configuration methods **can coexist**, meaning a provider can suppor
 
 Adding a new provider mainly involves several steps. Here is a brief outline to give you an overall understanding. Detailed steps will be introduced below.
 
-* Create a provider YAML file and write it according to the [Provider Schema](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/docs/zh_Hans/schema.md).
+* Create a provider YAML file and write it according to the [Provider Schema](https://github.com/langgenius/fusionworks/blob/main/api/core/model_runtime/docs/zh_Hans/schema.md).
 * Create provider code and implement a `class`.
 * Create corresponding model type `modules` under the provider `module`, such as `llm` or `text_embedding`.
 * Create same-named code files under the corresponding model `module`, such as `llm.py`, and implement a `class`.
-* If there are predefined models, create same-named YAML files under the model `module`, such as `claude-2.1.yaml`, and write them according to the [AI Model Entity](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/docs/zh_Hans/schema.md).
+* If there are predefined models, create same-named YAML files under the model `module`, such as `claude-2.1.yaml`, and write them according to the [AI Model Entity](https://github.com/langgenius/fusionworks/blob/main/api/core/model_runtime/docs/zh_Hans/schema.md).
 * Write test code to ensure functionality is available.
 
 #### Let's Get Started
@@ -79,7 +79,7 @@ provider_credential_schema:  # Provider credential rules, since Anthropic only s
       en_US: Enter your API URL
 ```
 
-If the connected provider offers customizable models, such as `OpenAI` which provides fine-tuned models, we need to add [`model_credential_schema`](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/docs/zh_Hans/schema.md). Taking `OpenAI` as an example:
+If the connected provider offers customizable models, such as `OpenAI` which provides fine-tuned models, we need to add [`model_credential_schema`](https://github.com/langgenius/fusionworks/blob/main/api/core/model_runtime/docs/zh_Hans/schema.md). Taking `OpenAI` as an example:
 
 ```yaml
 model_credential_schema:
@@ -119,7 +119,7 @@ model_credential_schema:
       en_US: Enter your API Base
 ```
 
-You can also refer to the [YAML configuration information](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/docs/zh_Hans/schema.md) in the directories of other providers under the `model_providers` directory.
+You can also refer to the [YAML configuration information](https://github.com/langgenius/fusionworks/blob/main/api/core/model_runtime/docs/zh_Hans/schema.md) in the directories of other providers under the `model_providers` directory.
 
 **Implement Provider Code**
 
@@ -137,7 +137,7 @@ class XinferenceProvider(Provider):
 
 **Predefined Model Providers**
 
-Providers need to inherit from the `__base.model_provider.ModelProvider` base class and implement the `validate_provider_credentials` method to validate the provider's unified credentials. You can refer to [AnthropicProvider](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/model_providers/anthropic/anthropic.py).
+Providers need to inherit from the `__base.model_provider.ModelProvider` base class and implement the `validate_provider_credentials` method to validate the provider's unified credentials. You can refer to [AnthropicProvider](https://github.com/langgenius/fusionworks/blob/main/api/core/model_runtime/model_providers/anthropic/anthropic.py).
 
 ```python
 def validate_provider_credentials(self, credentials: dict) -> None:
@@ -156,11 +156,11 @@ You can also reserve the `validate_provider_credentials` implementation first an
 
 **Adding Models**
 
-[**Adding Predefined Models**](https://docs.dify.ai/v/zh-hans/guides/model-configuration/predefined-model)**👈🏻**
+[**Adding Predefined Models**](https://docs.fusionworks.ai/v/zh-hans/guides/model-configuration/predefined-model)**👈🏻**
 
 For predefined models, we can connect them by simply defining a YAML file and implementing the calling code.
 
-[**Adding Custom Models**](https://docs.dify.ai/v/zh-hans/guides/model-configuration/customizable-model) **👈🏻**
+[**Adding Custom Models**](https://docs.fusionworks.ai/v/zh-hans/guides/model-configuration/customizable-model) **👈🏻**
 
 For custom models, we only need to implement the calling code to connect them, but the parameters they handle may be more complex.
 

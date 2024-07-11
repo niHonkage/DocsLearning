@@ -9,9 +9,9 @@ If deployed using docker compose, you can execute the following command to reset
 ```
 ERROR:root:Unknown Error in completion
 Traceback (most recent call last):
-  File "/www/wwwroot/dify/dify/api/libs/rsa.py", line 45, in decrypt
+  File "/www/wwwroot/fusionworks/fusionworks/api/libs/rsa.py", line 45, in decrypt
     private_key = storage.load(filepath)
-  File "/www/wwwroot/dify/dify/api/extensions/ext_storage.py", line 65, in load
+  File "/www/wwwroot/fusionworks/fusionworks/api/extensions/ext_storage.py", line 65, in load
     raise FileNotFoundError("File not found")
 FileNotFoundError: File not found
 ```
@@ -81,11 +81,11 @@ Find the configuration domain name APP\_WEB\_URL in `docker_compose.yaml`.
 
 ### 9. If database migration is required, what things need to be backed up?
 
-The database, configured storage, and vector database data need to be backed up. If deployed in Docker Compose mode, all data content in the `dify/docker/volumes` directory can be directly backed up.
+The database, configured storage, and vector database data need to be backed up. If deployed in Docker Compose mode, all data content in the `fusionworks/docker/volumes` directory can be directly backed up.
 
-### 10. Why is Docker deploying Dify and starting OpenLLM locally using 127.0.0.1, but unable to access the local port?
+### 10. Why is Docker deploying Fusionworks and starting OpenLLM locally using 127.0.0.1, but unable to access the local port?
 
-`127.0.0.1` is the internal address of the container, and the server address configured by Dify requires the host LAN IP address.
+`127.0.0.1` is the internal address of the container, and the server address configured by Fusionworks requires the host LAN IP address.
 
 ### 11. How to solve the size and quantity limitations for uploading knowledge documents in the local deployment version？
 
@@ -160,7 +160,7 @@ flask vdb-migrarte # or docker exec -it docker-api-1 flask vdb-migrarte
 
 ### 16. Why is SSRF_PROXY Needed?
 
-You may have noticed the `SSRF_PROXY` environment variable in the `docker-compose.yaml` file. This is crucial because the local deployment of Dify uses `SSRF_PROXY` to prevent Server-Side Request Forgery (SSRF) attacks. For more details on SSRF attacks, refer to [this resource](https://portswigger.net/web-security/ssrf).
+You may have noticed the `SSRF_PROXY` environment variable in the `docker-compose.yaml` file. This is crucial because the local deployment of Fusionworks uses `SSRF_PROXY` to prevent Server-Side Request Forgery (SSRF) attacks. For more details on SSRF attacks, refer to [this resource](https://portswigger.net/web-security/ssrf).
 
 To reduce potential risks, we have set up a proxy for all services that could be vulnerable to SSRF attacks. This proxy ensures that services like Sandbox can only access external networks through it, thereby protecting your data and services. By default, this proxy does not intercept any local requests. However, you can customize the proxy's behavior by modifying the `squid` configuration file.
 

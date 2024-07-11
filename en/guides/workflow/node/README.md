@@ -76,7 +76,7 @@
 </tr>
 <tr>
 <td><a href="tools.md"><strong>Tools</strong></a></td>
-<td>Enables calling built-in Dify tools, custom tools, sub-workflows, and more within the workflow.</td>
+<td>Enables calling built-in Fusionworks tools, custom tools, sub-workflows, and more within the workflow.</td>
 <td></td>
 </tr>
 </tbody>

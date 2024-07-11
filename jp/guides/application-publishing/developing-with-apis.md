@@ -2,7 +2,7 @@
 
 Difyは、「**後端即サービス**」の理念に基づいて、すべてのアプリケーションにAPIを提供し、AIアプリケーション開発者に多くの利便性をもたらしています。この理念を通じて、開発者は複雑なバックエンドアーキテクチャやデプロイプロセスを気にすることなく、フロントエンドアプリケーションで大型言語モデル（LLM）の強力な能力を直接利用できます。
 
-### Dify API を使用する利点
+### Fusionworks API を使用する利点
 
 * フロントエンドアプリケーションが直接安全にLLMの能力を呼び出すことができ、バックエンドサービスの開発プロセスを省略
 * 視覚的なインターフェースでアプリケーションを設計し、すべてのクライアントにリアルタイムで反映
@@ -36,7 +36,7 @@ Difyは、「**後端即サービス**」の理念に基づいて、すべての
 {% tabs %}
 {% tab title="cURL" %}
 ```
-curl --location --request POST 'https://api.dify.ai/v1/completion-messages' \
+curl --location --request POST 'https://api.fusionworks.ai/v1/completion-messages' \
 --header 'Authorization: Bearer ENTER-YOUR-SECRET-KEY' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -52,7 +52,7 @@ curl --location --request POST 'https://api.dify.ai/v1/completion-messages' \
 import requests
 import json
 
-url = "https://api.dify.ai/v1/completion-messages"
+url = "https://api.fusionworks.ai/v1/completion-messages"
 
 headers = {
     'Authorization': 'Bearer ENTER-YOUR-SECRET-KEY',
@@ -83,7 +83,7 @@ print(response.text)
 {% tabs %}
 {% tab title="cURL" %}
 ```
-curl --location --request POST 'https://api.dify.ai/v1/chat-messages' \
+curl --location --request POST 'https://api.fusionworks.ai/v1/chat-messages' \
 --header 'Authorization: Bearer ENTER-YOUR-SECRET-KEY' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -102,7 +102,7 @@ curl --location --request POST 'https://api.dify.ai/v1/chat-messages' \
 import requests
 import json
 
-url = 'https://api.dify.ai/v1/chat-messages'
+url = 'https://api.fusionworks.ai/v1/chat-messages'
 headers = {
     'Authorization': 'Bearer ENTER-YOUR-SECRET-KEY',
     'Content-Type': 'application/json',

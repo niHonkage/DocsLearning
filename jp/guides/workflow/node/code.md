@@ -56,7 +56,7 @@ def main(knowledge1: list, knowledge2: list) -> list:
 ```
 
 ## ローカルデプロイ
-ローカルデプロイのユーザーである場合、悪意のあるコードが実行されないようにするためのサンドボックスサービスを起動する必要があります。このサービスを起動するにはDockerサービスを使用します。サンドボックスサービスの詳細は[こちら](https://github.com/langgenius/dify/tree/main/docker/docker-compose.middleware.yaml)から確認できます。また、`docker-compose`を使用してサービスを直接起動することもできます：
+ローカルデプロイのユーザーである場合、悪意のあるコードが実行されないようにするためのサンドボックスサービスを起動する必要があります。このサービスを起動するにはDockerサービスを使用します。サンドボックスサービスの詳細は[こちら](https://github.com/langgenius/fusionworks/tree/main/docker/docker-compose.middleware.yaml)から確認できます。また、`docker-compose`を使用してサービスを直接起動することもできます：
 
 ```bash
 docker-compose -f docker-compose.middleware.yaml up -d

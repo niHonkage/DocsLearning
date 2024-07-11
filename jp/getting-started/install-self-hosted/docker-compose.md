@@ -13,7 +13,7 @@
 Difyのソースコードをローカルにクローンします
 
 ```bash
-git clone https://github.com/langgenius/dify.git
+git clone https://github.com/langgenius/fusionworks.git
 ```
 
 ### Difyの開始
@@ -21,7 +21,7 @@ git clone https://github.com/langgenius/dify.git
 difyソースコードのdockerディレクトリに移動し、次のコマンドを実行してdifyを起動する：
 
 ```Shell
-cd dify/docker
+cd fusionworks/docker
 cp .env.example .env
 docker compose up -d
 ```
@@ -51,13 +51,13 @@ docker compose ps
 
 ```bash
 NAME                IMAGE                              COMMAND                  SERVICE             CREATED             STATUS              PORTS
-docker-api-1        langgenius/dify-api:0.3.2          "/entrypoint.sh"         api                 4 seconds ago       Up 2 seconds        80/tcp, 5001/tcp
+docker-api-1        langgenius/fusionworks-api:0.3.2          "/entrypoint.sh"         api                 4 seconds ago       Up 2 seconds        80/tcp, 5001/tcp
 docker-db-1         postgres:15-alpine                 "docker-entrypoint.s…"   db                  4 seconds ago       Up 2 seconds        0.0.0.0:5432->5432/tcp
 docker-nginx-1      nginx:latest                       "/docker-entrypoint.…"   nginx               4 seconds ago       Up 2 seconds        0.0.0.0:80->80/tcp
 docker-redis-1      redis:6-alpine                     "docker-entrypoint.s…"   redis               4 seconds ago       Up 3 seconds        6379/tcp
 docker-weaviate-1   semitechnologies/weaviate:1.18.4   "/bin/weaviate --hos…"   weaviate            4 seconds ago       Up 3 seconds        
-docker-web-1        langgenius/dify-web:0.3.2          "/entrypoint.sh"         web                 4 seconds ago       Up 3 seconds        80/tcp, 3000/tcp
-docker-worker-1     langgenius/dify-api:0.3.2          "/entrypoint.sh"         worker              4 seconds ago       Up 2 seconds        80/tcp, 5001/tcp
+docker-web-1        langgenius/fusionworks-web:0.3.2          "/entrypoint.sh"         web                 4 seconds ago       Up 3 seconds        80/tcp, 3000/tcp
+docker-worker-1     langgenius/fusionworks-api:0.3.2          "/entrypoint.sh"         worker              4 seconds ago       Up 2 seconds        80/tcp, 5001/tcp
 ```
 
 ### Difyの更新
@@ -65,7 +65,7 @@ docker-worker-1     langgenius/dify-api:0.3.2          "/entrypoint.sh"         
 difyソースコードのdockerディレクトリに入り、以下のコマンドを順に実行：
 
 ```bash
-cd dify/docker
+cd fusionworks/docker
 git pull origin main
 docker compose down
 docker compose pull

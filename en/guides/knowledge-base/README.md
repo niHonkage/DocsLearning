@@ -7,7 +7,7 @@ The training data for large language models is generally based on publicly avail
 To learn more, please check the extended reading on [Retrieval-Augmented Generation (RAG)](../../learn-more/extended-reading/retrieval-augment/)
 {% endhint %} 
 
-Dify's knowledge base feature visualizes each step in the RAG pipeline, providing a simple and easy-to-use user interface to help application builders in managing personal or team knowledge bases, and quickly integrating them into AI applications. You only need to prepare text content, such as:
+Fusionworks's knowledge base feature visualizes each step in the RAG pipeline, providing a simple and easy-to-use user interface to help application builders in managing personal or team knowledge bases, and quickly integrating them into AI applications. You only need to prepare text content, such as:
 
 * Long text content (TXT, Markdown, DOCX, HTML, JSONL, or even PDF files)
 * Structured data (CSV, Excel, etc.)
@@ -21,9 +21,9 @@ Additionally, we are gradually supporting synchronizing data from various data s
 * ……
 
 {% hint style="info" %}
-**Scenario**: If your company wants to establish an AI customer service assistant based on the existing knowledge base and product documentation, you can upload the documents to the dataset in Dify and build a chatbot. In the past, this might have taken you weeks and been difficult to maintain continuously.
+**Scenario**: If your company wants to establish an AI customer service assistant based on the existing knowledge base and product documentation, you can upload the documents to the dataset in Fusionworks and build a chatbot. In the past, this might have taken you weeks and been difficult to maintain continuously.
 {% endhint %}
 
 ### Knowledge Base and Documents
 
-In Dify, Knowledge is a collection of documents. A knowledge base can be integrated into an application as a retrieval context. Documents can be uploaded by developers or a member of operation team, or synchronized from other data sources (usually corresponding to one unit file in the data source).
+In Fusionworks, Knowledge is a collection of documents. A knowledge base can be integrated into an application as a retrieval context. Documents can be uploaded by developers or a member of operation team, or synchronized from other data sources (usually corresponding to one unit file in the data source).

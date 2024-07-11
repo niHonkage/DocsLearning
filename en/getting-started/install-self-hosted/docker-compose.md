@@ -10,22 +10,22 @@
 
 > \[!IMPORTANT]
 >
-> Dify 0.6.12 has introduced significant enhancements to Docker Compose deployment, designed to improve your setup and update experience. For more information, read the [README.md](https://github.com/langgenius/dify/blob/main/docker/README.md).
+> Fusionworks 0.6.12 has introduced significant enhancements to Docker Compose deployment, designed to improve your setup and update experience. For more information, read the [README.md](https://github.com/langgenius/fusionworks/blob/main/docker/README.md).
 
-### Clone Dify
+### Clone Fusionworks
 
-Clone the Dify source code to your local machine:
+Clone the Fusionworks source code to your local machine:
 
 ```bash
-git clone https://github.com/langgenius/dify.git
+git clone https://github.com/langgenius/fusionworks.git
 ```
 
-### Start Dify
+### Start Fusionworks
 
-Navigate to the docker directory in the Dify source code and execute the following command to start Dify:
+Navigate to the docker directory in the Fusionworks source code and execute the following command to start Fusionworks:
 
 ```bash
-cd dify/docker
+cd fusionworks/docker
 cp .env.example .env
 docker compose up -d
 ```
@@ -59,23 +59,23 @@ This includes 3 core services: `api / worker / web`, and 6 dependent components:
 
 ```bash
 NAME                  IMAGE                              COMMAND                   SERVICE      CREATED              STATUS                        PORTS
-docker-api-1          langgenius/dify-api:0.6.13         "/bin/bash /entrypoi…"   api          About a minute ago   Up About a minute             5001/tcp
+docker-api-1          langgenius/fusionworks-api:0.6.13         "/bin/bash /entrypoi…"   api          About a minute ago   Up About a minute             5001/tcp
 docker-db-1           postgres:15-alpine                 "docker-entrypoint.s…"   db           About a minute ago   Up About a minute (healthy)   5432/tcp
 docker-nginx-1        nginx:latest                       "sh -c 'cp /docker-e…"   nginx        About a minute ago   Up About a minute             0.0.0.0:80->80/tcp, :::80->80/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp
 docker-redis-1        redis:6-alpine                     "docker-entrypoint.s…"   redis        About a minute ago   Up About a minute (healthy)   6379/tcp
-docker-sandbox-1      langgenius/dify-sandbox:0.2.1      "/main"                   sandbox      About a minute ago   Up About a minute             
+docker-sandbox-1      langgenius/fusionworks-sandbox:0.2.1      "/main"                   sandbox      About a minute ago   Up About a minute             
 docker-ssrf_proxy-1   ubuntu/squid:latest                "sh -c 'cp /docker-e…"   ssrf_proxy   About a minute ago   Up About a minute             3128/tcp
 docker-weaviate-1     semitechnologies/weaviate:1.19.0   "/bin/weaviate --hos…"   weaviate     About a minute ago   Up About a minute             
-docker-web-1          langgenius/dify-web:0.6.13         "/bin/sh ./entrypoin…"   web          About a minute ago   Up About a minute             3000/tcp
-docker-worker-1       langgenius/dify-api:0.6.13         "/bin/bash /entrypoi…"   worker       About a minute ago   Up About a minute             5001/tcp
+docker-web-1          langgenius/fusionworks-web:0.6.13         "/bin/sh ./entrypoin…"   web          About a minute ago   Up About a minute             3000/tcp
+docker-worker-1       langgenius/fusionworks-api:0.6.13         "/bin/bash /entrypoi…"   worker       About a minute ago   Up About a minute             5001/tcp
 ```
 
-### Upgrade Dify
+### Upgrade Fusionworks
 
-Enter the docker directory of the dify source code and execute the following commands:
+Enter the docker directory of the fusionworks source code and execute the following commands:
 
 ```bash
-cd dify/docker
+cd fusionworks/docker
 git pull origin main
 docker compose down
 docker compose pull
@@ -87,13 +87,13 @@ docker compose up -d
 * If the `.env.example` file has been updated, be sure to modify your local `.env` file accordingly.
 * Check and modify the configuration items in the `.env` file as needed to ensure they match your actual environment. You may need to add any new variables from `.env.example` to your `.env` file, and update any values that have changed.
 
-### Access Dify
+### Access Fusionworks
 
-Finally, access [http://localhost/install](http://localhost/install) to use the deployed Dify.
+Finally, access [http://localhost/install](http://localhost/install) to use the deployed Fusionworks.
 
-### Customize Dify
+### Customize Fusionworks
 
-Edit the environment variable values in your `.env` file directly. Then, restart Dify with:
+Edit the environment variable values in your `.env` file directly. Then, restart Fusionworks with:
 
 ```
 docker compose down

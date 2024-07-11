@@ -1,50 +1,50 @@
 ---
-description: Learn about the Different Models Supported by Dify.
+description: Learn about the Different Models Supported by Fusionworks.
 ---
 
 # Model Configuration
 
-Dify is a development platform for AI application based on LLM Apps, when you are using Dify for the first time, you need to go to **Settings --> Model Providers** to add and configure the LLM you are going to use. 
+Fusionworks is a development platform for AI application based on LLM Apps, when you are using Fusionworks for the first time, you need to go to **Settings --> Model Providers** to add and configure the LLM you are going to use. 
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/model-provider-page.png" alt=""><figcaption>Settings - Model Provider</figcaption></figure>
 
 
-Dify supports major model providers like OpenAI's GPT series and Anthropic's Claude series. Each model's capabilities and parameters differ, so select a model provider that suits your application's needs. **Obtain the API key from the model provider's official website before using it in Dify.**
+Fusionworks supports major model providers like OpenAI's GPT series and Anthropic's Claude series. Each model's capabilities and parameters differ, so select a model provider that suits your application's needs. **Obtain the API key from the model provider's official website before using it in Fusionworks.**
 
-## Model Types in Dify
+## Model Types in Fusionworks
 
-Dify classifies models into 4 types, each for different uses:
+Fusionworks classifies models into 4 types, each for different uses:
 
 1.  **System Inference Models:** Used in applications for tasks like chat, name generation, and suggesting follow-up questions.
 
-    > Providers include [OpenAI](https://platform.openai.com/account/api-keys)、[Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service/)、[Anthropic](https://console.anthropic.com/account/keys)、Hugging Face Hub、Replicate、Xinference、OpenLLM、[iFLYTEK SPARK](https://www.xfyun.cn/solutions/xinghuoAPI)、[WENXINYIYAN](https://console.bce.baidu.com/qianfan/ais/console/applicationConsole/application)、[TONGYI](https://dashscope.console.aliyun.com/api-key\_management?spm=a2c4g.11186623.0.0.3bbc424dxZms9k)、[Minimax](https://api.minimax.chat/user-center/basic-information/interface-key)、ZHIPU(ChatGLM) [Ollama](https://docs.dify.ai/tutorials/model-configuration/ollama)、[LocalAI](https://github.com/mudler/LocalAI)、.
+    > Providers include [OpenAI](https://platform.openai.com/account/api-keys)、[Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service/)、[Anthropic](https://console.anthropic.com/account/keys)、Hugging Face Hub、Replicate、Xinference、OpenLLM、[iFLYTEK SPARK](https://www.xfyun.cn/solutions/xinghuoAPI)、[WENXINYIYAN](https://console.bce.baidu.com/qianfan/ais/console/applicationConsole/application)、[TONGYI](https://dashscope.console.aliyun.com/api-key\_management?spm=a2c4g.11186623.0.0.3bbc424dxZms9k)、[Minimax](https://api.minimax.chat/user-center/basic-information/interface-key)、ZHIPU(ChatGLM) [Ollama](https://docs.fusionworks.ai/tutorials/model-configuration/ollama)、[LocalAI](https://github.com/mudler/LocalAI)、.
 2.  **Embedding Models:** Employed for embedding segmented documents in knowledge and processing user queries in applications.
 
     > Providers include OpenAI, ZHIPU (ChatGLM), Jina AI([Jina Embeddings 2](https://jina.ai/embeddings/)).
-3.  [**Rerank Models**](https://docs.dify.ai/advanced/retrieval-augment/rerank)**:** Enhance search capabilities in LLMs.
+3.  [**Rerank Models**](https://docs.fusionworks.ai/advanced/retrieval-augment/rerank)**:** Enhance search capabilities in LLMs.
 
     > Provider: Cohere.
 4.  **Speech-to-Text Models:** Convert spoken words to text in conversational applications.
 
     > Provider: OpenAI.
 
-Dify plans to add more LLM providers as technology and user needs evolve.
+Fusionworks plans to add more LLM providers as technology and user needs evolve.
 
 ## Hosted Model Trial Service
 
-Dify offers trial quotas for cloud service users to experiment with different models. Set up your model provider before the trial ends to ensure uninterrupted application use.
+Fusionworks offers trial quotas for cloud service users to experiment with different models. Set up your model provider before the trial ends to ensure uninterrupted application use.
 
 * OpenAI Hosted Model Trial: Includes 200 invocations for models like GPT3.5-turbo, GPT3.5-turbo-16k, text-davinci-003 models.
 
 ## Setting the Default Model
 
-Dify automatically selects the default model based on usage. Configure this in `Settings > Model Provider`.
+Fusionworks automatically selects the default model based on usage. Configure this in `Settings > Model Provider`.
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/image-default-models.png" alt=""><figcaption></figcaption></figure>
 
 ## Model Integration Settings
 
-Choose your model in Dify's `Settings > Model Provider`.
+Choose your model in Fusionworks's `Settings > Model Provider`.
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/image-20231210143654461.png" alt=""><figcaption></figcaption></figure>
 
@@ -55,20 +55,20 @@ Model providers fall into two categories:
 
 Integration methods differ between these categories.
 
-**Proprietary Model Providers:** Dify connects to all models from an integrated provider. Set the provider's API key in Dify to integrate.
+**Proprietary Model Providers:** Fusionworks connects to all models from an integrated provider. Set the provider's API key in Fusionworks to integrate.
 
 {% hint style="info" %}
-Dify uses [PKCS1\_OAEP](https://pycryptodome.readthedocs.io/en/latest/src/cipher/oaep.html) encryption to protect your API keys. Each user (tenant) has a unique key pair for encryption, ensuring your API keys remain confidential.
+Fusionworks uses [PKCS1\_OAEP](https://pycryptodome.readthedocs.io/en/latest/src/cipher/oaep.html) encryption to protect your API keys. Each user (tenant) has a unique key pair for encryption, ensuring your API keys remain confidential.
 {% endhint %}
 
 **Hosted Model Providers:** Integrate third-party models individually.
 
 Specific integration methods are not detailed here.
 
-* [Hugging Face](https://docs.dify.ai/advanced/model-configuration/hugging-face)
-* [Replicate](https://docs.dify.ai/advanced/model-configuration/replicate)
-* [Xinference](https://docs.dify.ai/advanced/model-configuration/xinference)
-* [OpenLLM](https://docs.dify.ai/advanced/model-configuration/openllm)
+* [Hugging Face](https://docs.fusionworks.ai/advanced/model-configuration/hugging-face)
+* [Replicate](https://docs.fusionworks.ai/advanced/model-configuration/replicate)
+* [Xinference](https://docs.fusionworks.ai/advanced/model-configuration/xinference)
+* [OpenLLM](https://docs.fusionworks.ai/advanced/model-configuration/openllm)
 
 ## Using Models
 

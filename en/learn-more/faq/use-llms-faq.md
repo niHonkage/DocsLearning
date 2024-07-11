@@ -2,7 +2,7 @@
 
 ### 1. How to access OpenAI via a proxy server in China?
 
-Dify supports custom API domain names for OpenAI and any large model API server compatible with OpenAI. In the community edition, you can fill in the target server address through **Settings --> Model Providers --> OpenAI --> Edit API**.
+Fusionworks supports custom API domain names for OpenAI and any large model API server compatible with OpenAI. In the community edition, you can fill in the target server address through **Settings --> Model Providers --> OpenAI --> Edit API**.
 
 ### 2. How to choose a base model?
 
@@ -36,10 +36,10 @@ When embedding vectors are normalized to a length of 1, calculating the cosine s
 
 ### 6. How to get free trial quotas for Zhipu·AI, iFlytek Spark, and MiniMax models?
 
-We collaborate with major model providers to offer a certain amount of free token trial quotas to Chinese users. Through Dify **Settings --> Model Providers --> Show more model providers**, click "Get Free" on the Zhipu·AI, iFlytek Spark, or MiniMax icons. If you can't see the entrance in the English interface, switch the product language to Chinese:
+We collaborate with major model providers to offer a certain amount of free token trial quotas to Chinese users. Through Fusionworks **Settings --> Model Providers --> Show more model providers**, click "Get Free" on the Zhipu·AI, iFlytek Spark, or MiniMax icons. If you can't see the entrance in the English interface, switch the product language to Chinese:
 
 * **Zhipu·AI: Get 10 million tokens for free.** Click "Get Free", enter your phone number and verification code to receive the quota, regardless of whether you have registered with Zhipu·AI before.
-* **iFlytek Spark (V1.5 model, V2.0 model): Get 6 million tokens for free, 3 million tokens for each model, quotas are not interchangeable**. Enter through Dify, complete the registration on iFlytek Spark's open platform (only for phone numbers not previously registered with iFlytek Spark), return to Dify, wait for 5 minutes, and refresh the page to see the available quota.
+* **iFlytek Spark (V1.5 model, V2.0 model): Get 6 million tokens for free, 3 million tokens for each model, quotas are not interchangeable**. Enter through Fusionworks, complete the registration on iFlytek Spark's open platform (only for phone numbers not previously registered with iFlytek Spark), return to Fusionworks, wait for 5 minutes, and refresh the page to see the available quota.
 * **MiniMax: Get 1 million tokens for free.** Click "Get Free" to receive the quota without manual registration, regardless of whether you have registered with MiniMax before.
 
 Once the trial quota is credited, select the model you need to use in **Prompt Arrangement --> Model and Parameters --> Language Model**.
@@ -92,7 +92,7 @@ Query or prefix prompt is too long, you can reduce the prefix prompt, or shrink 
 
 In the parameter settings on the orchestration page, reduce the value of "max token."
 
-### 13. What is the default model in Dify, and can open-source models be used?
+### 13. What is the default model in Fusionworks, and can open-source models be used?
 
 The default model can be configured in **Settings - Model Providers**. Currently, it supports text generation models from providers like OpenAI / Azure OpenAI / Anthropic, and also supports integration of open-source models hosted on Hugging Face / Replicate / xinference.
 
@@ -109,7 +109,7 @@ If you encounter the error "Invalid token," try the following solutions:
 
 ### 16. What are the size limits for uploading dataset documents?
 
-Currently, the maximum size for a single document upload is 15MB, with a total document limit of 100. If you need to adjust these limits for a locally deployed version, refer to [documentation](https://docs.dify.ai/v/zh-hans/getting-started/faq/install-faq#11.-ben-di-bu-shu-ban-ru-he-jie-jue-shu-ju-ji-wen-dang-shang-chuan-de-da-xiao-xian-zhi-he-shu-liang).
+Currently, the maximum size for a single document upload is 15MB, with a total document limit of 100. If you need to adjust these limits for a locally deployed version, refer to [documentation](https://docs.fusionworks.ai/v/zh-hans/getting-started/faq/install-faq#11.-ben-di-bu-shu-ban-ru-he-jie-jue-shu-ju-ji-wen-dang-shang-chuan-de-da-xiao-xian-zhi-he-shu-liang).
 
 ### 17. Why does choosing the Claude model still consume OpenAI's quota?
 
@@ -117,7 +117,7 @@ Because Claude does not support the Embedding model, the Embedding process and o
 
 ### 18. How can I control the use of more contextual data rather than the model's own generation capabilities?
 
-Whether to use the dataset depends on the dataset's description. Make the dataset description as clear as possible. For specific writing techniques, refer to [this documentation](https://docs.dify.ai/v/zh-hans/advanced/datasets).
+Whether to use the dataset depends on the dataset's description. Make the dataset description as clear as possible. For specific writing techniques, refer to [this documentation](https://docs.fusionworks.ai/v/zh-hans/advanced/datasets).
 
 ### 19. When uploading dataset documents in Excel, how to better segment them?
 
@@ -125,13 +125,13 @@ Set the header in the first row, and display content in each subsequent row with
 
 For example, in the table below, only retain the second row's header. The first row (Table 1) is an extra header and should be removed.
 
-### 20. Why can't I use GPT-4 in Dify even though I bought ChatGPT Plus?
+### 20. Why can't I use GPT-4 in Fusionworks even though I bought ChatGPT Plus?
 
 OpenAI's GPT-4 model API and ChatGPT Plus are two separate products with separate charges. The model API has its own pricing. Refer to [OpenAI pricing documentation](https://openai.com/pricing). To apply for paid access, you must first bind a card. Binding a card grants GPT-3.5 access but not GPT-4 access. GPT-4 access requires a paid bill. Refer to [OpenAI official documentation](https://platform.openai.com/account/billing/overview) for details.
 
 ### 21. How to add other Embedding Models?
 
-Dify supports the following for use as Embedding models. Simply select the `Embeddings` type in the configuration box.
+Fusionworks supports the following for use as Embedding models. Simply select the `Embeddings` type in the configuration box.
 
 * Azure
 * LocalAI
@@ -142,4 +142,4 @@ Dify supports the following for use as Embedding models. Simply select the `Embe
 
 ### 22. How to set an application I created as an application template?
 
-This feature provides application templates for cloud version users to reference, and currently does not support setting your created applications as templates. If you use the cloud version, you can **Add to Workspace** or **Customize** it to become your own application. If you use the community version and need to create more application templates for your team, you can contact our commercialization team for paid technical support: `business@dify.ai`.
+This feature provides application templates for cloud version users to reference, and currently does not support setting your created applications as templates. If you use the cloud version, you can **Add to Workspace** or **Customize** it to become your own application. If you use the community version and need to create more application templates for your team, you can contact our commercialization team for paid technical support: `business@fusionworks.ai`.

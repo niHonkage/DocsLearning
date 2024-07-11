@@ -22,7 +22,7 @@ For example, with Cohere Rerank, you only need to register an account and apply 
 
 ### How to Configure the Re-rank Model?
 
-Dify currently supports the Cohere Rerank model. You can enter the "Model Providers -> Cohere" page and fill in the API key for the Re-rank model:
+Fusionworks currently supports the Cohere Rerank model. You can enter the "Model Providers -> Cohere" page and fill in the API key for the Re-rank model:
 
 <figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption><p>Configure Cohere Rerank Model in Model Providers</p></figcaption></figure>
 

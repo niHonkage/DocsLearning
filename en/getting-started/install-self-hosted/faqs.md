@@ -2,7 +2,7 @@
 
 ### 1. Not receiving reset password emails
 
-You need to configure the `Mail` parameters in the `.env` file. For detailed instructions, please refer to ["Environment Variables Explanation: Mail-related configuration"](https://docs.dify.ai/getting-started/install-self-hosted/environments#mail-related-configuration).
+You need to configure the `Mail` parameters in the `.env` file. For detailed instructions, please refer to ["Environment Variables Explanation: Mail-related configuration"](https://docs.fusionworks.ai/getting-started/install-self-hosted/environments#mail-related-configuration).
 
 After modifying the configuration, run the following commands to restart the service:
 

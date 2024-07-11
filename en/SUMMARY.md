@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-* [Welcome to Dify](README.md)
+* [Welcome to Fusionworks](README.md)
   * [Features and Specifications](getting-started/readme/features-and-specifications.md)
   * [List of Model Providers](getting-started/readme/model-providers.md)
 * [Cloud Services](getting-started/cloud.md)
@@ -116,7 +116,7 @@
 
 * [Use Cases](learn-more/use-cases/README.md)
   * [Build a Notion AI Assistant](learn-more/use-cases/build-an-notion-ai-assistant.md)
-  * [Create a MidJourney Prompt Bot with Dify](learn-more/use-cases/create-a-midjourney-prompt-bot-with-dify.md)
+  * [Create a MidJourney Prompt Bot with Fusionworks](learn-more/use-cases/create-a-midjourney-prompt-bot-with-fusionworks.md)
   * [Create an AI Chatbot with Business Data in Minutes](learn-more/use-cases/create-an-ai-chatbot-with-business-data-in-minutes.md)
 * [Extended Reading](learn-more/extended-reading/README.md)
   * [What is LLMOps?](learn-more/extended-reading/what-is-llmops.md)
@@ -132,5 +132,5 @@
 
 * [Open Source License](policies/open-source.md)
 * [User Agreement](policies/agreement/README.md)
-  * [Terms of Service](https://dify.ai/terms)
-  * [Privacy Policy](https://dify.ai/privacy)
+  * [Terms of Service](https://fusionworks.ai/terms)
+  * [Privacy Policy](https://fusionworks.ai/privacy)

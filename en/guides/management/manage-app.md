@@ -16,10 +16,10 @@ TODO 🚧
 
 ### Exporting Application
 
-Applications created in Dify can be exported in DSL format. You can freely import the configuration file into any Dify workspace.
+Applications created in Fusionworks can be exported in DSL format. You can freely import the configuration file into any Fusionworks workspace.
 
 {% hint style="info" %}
-Dify DSL is an AI application engineering file standard defined by Dify.AI in v0.6 and later. The file format is YML. This standard covers the basic description of the application, model parameters, orchestration configuration, and other information.
+Fusionworks DSL is an AI application engineering file standard defined by Fusionworks.AI in v0.6 and later. The file format is YML. This standard covers the basic description of the application, model parameters, orchestration configuration, and other information.
 {% endhint %}
 
 ### Deleting Application

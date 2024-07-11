@@ -13,7 +13,7 @@ Introduction to Langfuse: [https://langfuse.com/](https://langfuse.com/)
 ### 2. How to Configure Langfuse
 
 1. Register and log in to Langfuse on the [official website](https://langfuse.com/)
-2. Create a project in Langfuse. After logging in, click **New** on the homepage to create your own project. The **project** will be used to associate with **applications** in Dify for data monitoring.
+2. Create a project in Langfuse. After logging in, click **New** on the homepage to create your own project. The **project** will be used to associate with **applications** in Fusionworks for data monitoring.
 
 <figure><img src="/en/.gitbook/assets/guides/monitoring/image (249).png" alt=""><figcaption><p>Create a project in Langfuse</p></figcaption></figure>
 
@@ -33,7 +33,7 @@ Copy and save the **Secret Key**, **Public Key**, and **Host**.
 
 <figure><img src="/en/.gitbook/assets/guides/monitoring/image (254).png" alt=""><figcaption><p>Get API Key configuration</p></figcaption></figure>
 
-4. Configure Langfuse in Dify. Open the application you need to monitor, open **Monitoring** in the side menu, and select **Configure** on the page.
+4. Configure Langfuse in Fusionworks. Open the application you need to monitor, open **Monitoring** in the side menu, and select **Configure** on the page.
 
 <figure><img src="/en/.gitbook/assets/guides/monitoring/image (255).png" alt=""><figcaption><p>Configure Langfuse</p></figcaption></figure>
 
@@ -49,9 +49,9 @@ Once successfully saved, you can view the status on the current page. If it show
 
 ### 3. Viewing Monitoring Data in Langfuse
 
-After configuration, debugging or production data of the application in Dify can be viewed in Langfuse.
+After configuration, debugging or production data of the application in Fusionworks can be viewed in Langfuse.
 
-<figure><img src="/en/.gitbook/assets/guides/monitoring/image (259).png" alt=""><figcaption><p>Debugging applications in Dify</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/monitoring/image (259).png" alt=""><figcaption><p>Debugging applications in Fusionworks</p></figcaption></figure>
 
 <figure><img src="/en/.gitbook/assets/guides/monitoring/image (258).png" alt=""><figcaption><p>Viewing application data in Langfuse</p></figcaption></figure>
 

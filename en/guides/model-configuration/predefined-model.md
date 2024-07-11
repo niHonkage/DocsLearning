@@ -143,7 +143,7 @@ Create an Anthropic LLM class in `llm.py`, which we will name `AnthropicLargeLan
     ```
 *   Invocation Error Mapping Table
 
-    When a model invocation error occurs, it needs to be mapped to the `InvokeError` type specified by Runtime, facilitating Dify to handle different errors differently.
+    When a model invocation error occurs, it needs to be mapped to the `InvokeError` type specified by Runtime, facilitating Fusionworks to handle different errors differently.
 
     Runtime Errors:
 
@@ -166,7 +166,7 @@ Create an Anthropic LLM class in `llm.py`, which we will name `AnthropicLargeLan
         """
     ```
 
-For interface method descriptions, see: [Interfaces](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/docs/zh_Hans/interfaces.md), and for specific implementation, refer to: [llm.py](https://github.com/langgenius/dify-runtime/blob/main/lib/model_providers/anthropic/llm/llm.py).
+For interface method descriptions, see: [Interfaces](https://github.com/langgenius/fusionworks/blob/main/api/core/model_runtime/docs/zh_Hans/interfaces.md), and for specific implementation, refer to: [llm.py](https://github.com/langgenius/fusionworks-runtime/blob/main/lib/model_providers/anthropic/llm/llm.py).
 
 [^1]: #### Provider
 

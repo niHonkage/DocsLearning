@@ -56,7 +56,7 @@ def main(knowledge1: list, knowledge2: list) -> list:
 ```
 
 ## Local Deployment
-If you are a local deployment user, you need to start a sandbox service to ensure that malicious code is not executed. This service requires the use of Docker. You can find specific information about the sandbox service [here](https://github.com/langgenius/dify/tree/main/docker/docker-compose.middleware.yaml). You can also start the service directly via `docker-compose`:
+If you are a local deployment user, you need to start a sandbox service to ensure that malicious code is not executed. This service requires the use of Docker. You can find specific information about the sandbox service [here](https://github.com/langgenius/fusionworks/tree/main/docker/docker-compose.middleware.yaml). You can also start the service directly via `docker-compose`:
 
 ```bash
 docker-compose -f docker-compose.middleware.yaml up -d

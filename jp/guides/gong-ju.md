@@ -20,7 +20,7 @@ Difyは現在、以下のツールをサポートしています：
 <table><thead><tr><th width="154">ツール</th><th>ツールの説明</th></tr></thead><tbody><tr><td>Google検索</td><td>Google SERP検索を実行し、スニペットやウェブページを抽出するツール。入力は検索クエリであるべきです。</td></tr><tr><td>ウィキペディア</td><td>ウィキペディア検索を実行し、スニペットやウェブページを抽出するツール。</td></tr><tr><td>DALL-E</td><td>自然言語入力を通じて高品質な画像を生成するツール。</td></tr><tr><td>ウェブスクレイピング</td><td>ウェブページデータをクロールするためのツール。</td></tr><tr><td>WolframAlpha</td><td>質問に基づいた標準化された回答を提供し、強力な数学計算機能を持つ知識エンジン。</td></tr><tr><td>可視化チャート生成</td><td>棒グラフ、折れ線グラフ、円グラフなどの可視化チャートを生成するツール。</td></tr><tr><td>現在時刻</td><td>現在の時刻を問い合わせるツール。</td></tr><tr><td>Yahooファイナンス</td><td>最新のニュース、株価情報などの財務情報を取得して整理するツール。</td></tr><tr><td>Stable Diffusion</td><td>ローカルに展開可能な画像生成ツールで、stable-diffusion-webuiを使用して展開できます。</td></tr><tr><td>ベクトライザー</td><td>PNGおよびJPG画像をSVGベクトル画像に迅速かつ簡単に変換するツール。</td></tr><tr><td>YouTube</td><td>YouTubeチャンネルの動画統計データを取得するためのツール。</td></tr></tbody></table>
 
 {% hint style="info" %}
-Difyに自分で開発したツールを貢献することを歓迎します。貢献方法については[Dify開発貢献ドキュメント](https://github.com/langgenius/dify/blob/main/CONTRIBUTING.md)を確認してください。あなたのサポートは私たちにとって非常に貴重です。
+Difyに自分で開発したツールを貢献することを歓迎します。貢献方法については[Dify開発貢献ドキュメント](https://github.com/langgenius/fusionworks/blob/main/CONTRIBUTING.md)を確認してください。あなたのサポートは私たちにとって非常に貴重です。
 {% endhint %}
 
 #### 第一方ツールの認証
@@ -51,7 +51,7 @@ Difyエコシステムが提供する第一方内蔵ツールを直接使用す�
 
 #### Cloudflare Workers
 
-[dify-tools-worker](https://github.com/crazywoola/dify-tools-worker)を使用してカスタムツールを迅速に展開することもできます。このツールは以下を提供します：
+[fusionworks-tools-worker](https://github.com/crazywoola/fusionworks-tools-worker)を使用してカスタムツールを迅速に展開することもできます。このツールは以下を提供します：
 
 * Difyにインポート可能なルーティング `https://difytoolsworker.yourname.workers.dev/doc`、OpenAPI互換のインターフェースドキュメントを提供します。
 * APIの実装コードを提供し、Cloudflare Workersに直接展開できます。

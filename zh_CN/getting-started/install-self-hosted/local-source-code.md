@@ -8,12 +8,12 @@
 | Linux platforms            | <p>Docker 19.03 or later<br>Docker Compose 1.25.1 or later</p> | 请参阅[安装 Docker](https://docs.docker.com/engine/install/) 和[安装 Docker Compose](https://docs.docker.com/compose/install/) 以获取更多信息。                                                      |
 | Windows with WSL 2 enabled | Docker Desktop                                                 | 我们建议将源代码和其他数据绑定到 Linux 容器中时，将其存储在 Linux 文件系统中，而不是 Windows 文件系统中。有关更多信息，请参阅[使用 WSL 2 后端在 Windows 上安装 Docker Desktop](https://docs.docker.com/desktop/windows/install/#wsl-2-backend)。 |
 
-> 若需要使用 OpenAI TTS，需要在系统中安装 FFmpeg 才可正常使用，详情可参考：[Link](https://docs.dify.ai/v/zh-hans/learn-more/faq/install-faq#id-15.-wen-ben-zhuan-yu-yin-yu-dao-zhe-ge-cuo-wu-zen-me-ban)。
+> 若需要使用 OpenAI TTS，需要在系统中安装 FFmpeg 才可正常使用，详情可参考：[Link](https://docs.fusionworks.ai/v/zh-hans/learn-more/faq/install-faq#id-15.-wen-ben-zhuan-yu-yin-yu-dao-zhe-ge-cuo-wu-zen-me-ban)。
 
-Clone Dify 代码：
+Clone Fusionworks 代码：
 
 ```Bash
-git clone https://github.com/langgenius/dify.git
+git clone https://github.com/langgenius/fusionworks.git
 ```
 
 在启用业务服务之前，我们需要先部署 PostgresSQL / Redis / Weaviate（如果本地没有的话），可以通过以下命令启动：
@@ -67,7 +67,7 @@ pyenv global 3.10
     ```
 4.  安装依赖包
 
-    Dify API 服务使用 [Poetry](https://python-poetry.org/docs/) 来管理依赖。您可以执行 `poetry shell` 来激活环境。
+    Fusionworks API 服务使用 [Poetry](https://python-poetry.org/docs/) 来管理依赖。您可以执行 `poetry shell` 来激活环境。
 
     ```
     poetry env use 3.10
@@ -124,7 +124,7 @@ pyenv global 3.10
     - ** ---------- [config]
     - ** ---------- .> app:         app:0x7fb568572a10
     - ** ---------- .> transport:   redis://:**@localhost:6379/1
-    - ** ---------- .> results:     postgresql://postgres:**@localhost:5432/dify
+    - ** ---------- .> results:     postgresql://postgres:**@localhost:5432/fusionworks
     - *** --- * --- .> concurrency: 1 (gevent)
     -- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
     --- ***** ----- 
@@ -193,7 +193,7 @@ Web 前端服务启动需要用到 [Node.js v18.x (LTS)](http://nodejs.org) 、[
     NEXT_PUBLIC_EDITION=SELF_HOSTED
     # The base URL of console application, refers to the Console base URL of WEB service if console domain is
     # different from api or web app domain.
-    # example: http://cloud.dify.ai/console/api
+    # example: http://cloud.fusionworks.ai/console/api
     NEXT_PUBLIC_API_PREFIX=http://localhost:5001/console/api
     # The URL for Web APP, refers to the Web App base URL of WEB service if web app domain is different from
     # console or api domain.
@@ -229,6 +229,6 @@ warn  - Experimental features are not covered by semver, and may cause unexpecte
 info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
 ```
 
-### 访问 Dify
+### 访问 Fusionworks
 
-最后，访问 http://127.0.0.1:3000 即可使用本地部署的 Dify。
+最后，访问 http://127.0.0.1:3000 即可使用本地部署的 Fusionworks。

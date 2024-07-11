@@ -10,7 +10,7 @@ Difyに貢献したいと思っていることには素晴らしいと思いま�
 
 ## 始める前に
 
-[既存のイシューを探す](https://github.com/langgenius/dify/issues?q=is:issue+is:closed)か、新しいイシューを[作成する](https://github.com/langgenius/dify/issues/new/choose)ことができます。イシューは次の2つのカテゴリに分かれます：
+[既存のイシューを探す](https://github.com/langgenius/fusionworks/issues?q=is:issue+is:closed)か、新しいイシューを[作成する](https://github.com/langgenius/fusionworks/issues/new/choose)ことができます。イシューは次の2つのカテゴリに分かれます：
 
 ### 機能リクエスト：
 
@@ -36,7 +36,7 @@ Difyに貢献したいと思っていることには素晴らしいと思いま�
 | 機能タイプ                                                 | 優先度          |
 | --------------------------------------------------------- | --------------- |
 | チームメンバーが高優先度としてラベル付けした機能         | 高優先度        |
-| [コミュニティフィードバックボード](https://github.com/langgenius/dify/discussions/categories/ideas)からの人気のある機能リクエスト | 中優先度        |
+| [コミュニティフィードバックボード](https://github.com/langgenius/fusionworks/discussions/categories/ideas)からの人気のある機能リクエスト | 中優先度        |
 | コア機能でないものや小さな改善                           | 低優先度        |
 | 価値はあるが即時でないもの                               | 将来の機能      |
 
@@ -63,7 +63,7 @@ Difyに貢献したいと思っていることには素晴らしいと思いま�
 ターミナルからフォークしたリポジトリをクローンします：
 
 ```
-git clone git@github.com:<github_username>/dify.git
+git clone git@github.com:<github_username>/fusionworks.git
 ```
 
 ### 3. 依存関係を確認する
@@ -80,7 +80,7 @@ Difyは以下のツールとライブラリに依存しています：
 
 Difyはバックエンドとフロントエンドで構成されています。`cd api/`を使ってバックエンドディレクトリに移動し、次は[バックエンドREADME](api/README.md)に従ってインストールして下さい。別のターミナルで`cd web/`を使ってフロントエンドディレクトリに移動し、そして[フロントエンドREADME](web/README.md)に従ってインストールして下さい。
 
-一般的な問題とトラブルシューティングの手順については[インストールFAQ](https://docs.dify.ai/getting-started/faq/install-faq)を参照してください。
+一般的な問題とトラブルシューティングの手順については[インストールFAQ](https://docs.fusionworks.ai/getting-started/faq/install-faq)を参照してください。
 
 ### 5. ブラウザでDifyにアクセスする
 
@@ -88,7 +88,7 @@ Difyはバックエンドとフロントエンドで構成されています。`
 
 ## 開発
 
-モデルを追加提供する場合は、[このガイド](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/README.md)を参照してください。
+モデルを追加提供する場合は、[このガイド](https://github.com/langgenius/fusionworks/blob/main/api/core/model_runtime/README.md)を参照してください。
 
 エージェントやワークフローにツールを追加提供する場合は、[このガイド](./api/core/tools/README.md)を参照してください。
 
@@ -150,7 +150,7 @@ DifyのバックエンドはPythonで書かれており、[Flask](https://flask.
 
 最後に、私たちのリポジトリにプルリクエスト（PR）を提出する時が来ました。重要な機能の場合、最初に `deploy/dev` ブランチにマージしてテストを行い、その後 `main` ブランチにマージします。マージコンフリクトが発生した場合や、プルリクエストの提出方法が分からない場合は、[GitHubのプルリクエストチュートリアル](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)を参照してください。
 
-これで完了です！あなたのPRがマージされると、あなたは私たちの[README](https://github.com/langgenius/dify/blob/main/README.md)に貢献者として掲載されます。
+これで完了です！あなたのPRがマージされると、あなたは私たちの[README](https://github.com/langgenius/fusionworks/blob/main/README.md)に貢献者として掲載されます。
 
 ## ヘルプを求める
 

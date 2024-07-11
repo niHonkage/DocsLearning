@@ -5,15 +5,15 @@ If you still have questions or suggestions about using the product while reading
 ### Community Support
 
 {% hint style="info" %}
-Please do not share your Dify account information or other sensitive information with the community. Our support staff will not ask for your account information.
+Please do not share your Fusionworks account information or other sensitive information with the community. Our support staff will not ask for your account information.
 {% endhint %}
 
-* Submit an Issue on [GitHub](https://github.com/langgenius/dify)
+* Submit an Issue on [GitHub](https://github.com/langgenius/fusionworks)
 * Join the [Discord community](https://discord.gg/8Tpq4AcN9c)
-* Email [support@dify.ai](mailto:support@dify.ai)
+* Email [support@fusionworks.ai](mailto:support@fusionworks.ai)
 
 ### Contact Us
 
 For matters other than product support.
 
-* Email [hello@dify.ai](mailto:hello@dify.ai)
+* Email [hello@fusionworks.ai](mailto:hello@fusionworks.ai)

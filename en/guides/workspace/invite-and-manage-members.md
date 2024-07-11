@@ -1,12 +1,12 @@
 # Inviting and Managing Members
 
-Members of a workspace can be invited and managed by the owner and administrators. After logging in, go to the settings under the user avatar dropdown in Dify, and open the member management interface from the left side of that screen.
+Members of a workspace can be invited and managed by the owner and administrators. After logging in, go to the settings under the user avatar dropdown in Fusionworks, and open the member management interface from the left side of that screen.
 
 ### Inviting Members
 
 Provide the email of the invitee. The system will immediately grant the invitee access to the workspace, and the invitee will also receive an email notification.
 
-The system will automatically create a Dify account for the new member.
+The system will automatically create a Fusionworks account for the new member.
 
 ### Removing Members
 

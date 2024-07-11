@@ -4,23 +4,23 @@
 
 #### CONSOLE\_API\_URL
 
-The backend URL of the console API, used to concatenate the authorization callback. If empty, it is the same domain. Example: `https://api.console.dify.ai`
+The backend URL of the console API, used to concatenate the authorization callback. If empty, it is the same domain. Example: `https://api.console.fusionworks.ai`
 
 #### CONSOLE\_WEB\_URL
 
-The front-end URL of the console web, used to concatenate some front-end addresses and for CORS configuration use. If empty, it is the same domain. Example: `https://console.dify.ai`
+The front-end URL of the console web, used to concatenate some front-end addresses and for CORS configuration use. If empty, it is the same domain. Example: `https://console.fusionworks.ai`
 
 #### SERVICE\_API\_URL
 
-Service API Url, used to display Service API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.dify.ai`
+Service API Url, used to display Service API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.fusionworks.ai`
 
 #### APP\_API\_URL
 
-WebApp API backend Url, used to declare the back-end URL for the front-end API. If empty, it is the same domain. Example: `https://app.dify.ai`
+WebApp API backend Url, used to declare the back-end URL for the front-end API. If empty, it is the same domain. Example: `https://app.fusionworks.ai`
 
 #### APP\_WEB\_URL
 
-WebApp Url, used to display WebAPP API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.app.dify.ai`
+WebApp Url, used to display WebAPP API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.app.fusionworks.ai`
 
 #### FILES\_URL
 
@@ -80,7 +80,7 @@ You need to manually execute `flask db upgrade` in the api directory when starti
 
 #### CHECK\_UPDATE\_URL
 
-Whether to enable the version check policy. If set to false, `https://updates.dify.ai` will not be called for version check.
+Whether to enable the version check policy. If set to false, `https://updates.fusionworks.ai` will not be called for version check.
 
 Since the version interface based on CloudFlare Worker cannot be directly accessed in China at present, setting this variable to empty can shield this interface call.
 
@@ -263,9 +263,9 @@ Used to store uploaded data set files, team/tenant encryption keys, and other fi
 
     **Available enumeration types include:**
 
-    *   dify
+    *   fusionworks
 
-        Dify's proprietary file extraction scheme
+        Fusionworks's proprietary file extraction scheme
     *   Unstructured
 
         Unstructured.io file extraction scheme
@@ -312,7 +312,7 @@ Notion integration configuration variables can be obtained by applying for Notio
 * MAIL\_TYPE
   * resend
     * MAIL\_DEFAULT\_SEND\_FROM\
-      The sender's email name, such as: no-reply [no-reply@dify.ai](mailto:no-reply@dify.ai), not mandatory.
+      The sender's email name, such as: no-reply [no-reply@fusionworks.ai](mailto:no-reply@fusionworks.ai), not mandatory.
     * RESEND\_API\_KEY\
       API-Key for the Resend email provider, can be obtained from API-Key.
   * smtp
@@ -327,7 +327,7 @@ Notion integration configuration variables can be obtained by applying for Notio
     * SMTP\_USE\_TLS\
       Whether to use TLS, default is false
     * MAIL\_DEFAULT\_SEND\_FROM\
-      The sender's email name, such as: no-reply [no-reply@dify.ai](mailto:no-reply@dify.ai), not mandatory.
+      The sender's email name, such as: no-reply [no-reply@fusionworks.ai](mailto:no-reply@fusionworks.ai), not mandatory.
 
 #### Others
 
@@ -347,19 +347,19 @@ Sentry DSN address, default is empty, when empty, all monitoring information is 
 
 > ⚠️ Modified in 0.3.8, will be deprecated in 0.4.9, replaced by: `CONSOLE_API_URL` and `CONSOLE_WEB_URL`.
 
-Console URL, used to concatenate the authorization callback, console front-end address, and CORS configuration use. If empty, it is the same domain. Example: `https://console.dify.ai`.
+Console URL, used to concatenate the authorization callback, console front-end address, and CORS configuration use. If empty, it is the same domain. Example: `https://console.fusionworks.ai`.
 
 #### API\_URL
 
 > ⚠️ Modified in 0.3.8, will be deprecated in 0.4.9, replaced by `SERVICE_API_URL`.
 
-API URL, used to display Service API Base URL to the front-end. If empty, it is the same domain. Example: `https://api.dify.ai`
+API URL, used to display Service API Base URL to the front-end. If empty, it is the same domain. Example: `https://api.fusionworks.ai`
 
 #### APP\_URL
 
 > ⚠️ Modified in 0.3.8, will be deprecated in 0.4.9, replaced by `APP_API_URL` and `APP_WEB_URL`.
 
-WebApp Url, used to display WebAPP API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.app.dify.ai`
+WebApp Url, used to display WebAPP API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.app.fusionworks.ai`
 
 #### Session Configuration
 

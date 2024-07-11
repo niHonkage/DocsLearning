@@ -2,7 +2,7 @@
 
 In **Studio -- Application Orchestration**, click **Add Feature** to open the application toolbox.
 
-The application toolbox provides various additional features for Dify's [applications](../#application_type):
+The application toolbox provides various additional features for Fusionworks's [applications](../#application_type):
 <!-- TODO CN IMG -->
 <figure><img src="/en/.gitbook/assets/guides/application_orchestrate/app_toolkits/content_moderation.png" alt=""><figcaption></figcaption></figure>
 

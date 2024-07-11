@@ -1,6 +1,6 @@
-# Zeabur に Dify をデプロイする
+# Zeabur に Fusionworks をデプロイする
 
-[Zeabur](https://zeabur.com) は、ワンクリックデプロイで Dify をデプロイできるサービスデプロイプラットフォームです。本ガイドは、Zeabur に Dify をデプロイする方法を説明します。
+[Zeabur](https://zeabur.com) は、ワンクリックデプロイで Fusionworks をデプロイできるサービスデプロイプラットフォームです。本ガイドは、Zeabur に Fusionworks をデプロイする方法を説明します。
 
 ## 前提条件
 
@@ -9,7 +9,7 @@
 - Zeabur のアカウント。アカウントをお持ちでない場合は、[Zeabur](https://zeabur.com/) で無料のアカウントを登録できます。
 - Zeabur のアカウントを開発者プラン（月額 5 ドル）にアップグレードする必要があります。詳細は [Zeabur 定价](https://zeabur.com/pricing) をご覧ください。
 
-## Dify を Zeabur にデプロイする
+## Fusionworks を Zeabur にデプロイする
 
 Zeabur チームはワンクリックデプロイテンプレートを用意しています。以下のボタンをクリックするだけで開始できます：
 
@@ -19,12 +19,12 @@ Zeabur チームはワンクリックデプロイテンプレートを用意し�
 
 <figure><img src="../../.gitbook/assets/zeabur-template-overview.jpeg" alt="Zeabur テンプレート概要"><figcaption></figcaption></figure>
 
-デプロイボタンをクリックした後、生成されたドメイン名を入力し、そのドメイン名を Dify インスタンスにバインドし、他のサービスに環境変数として注入します。
-次に、お好みのリージョンを選択し、デプロイボタンをクリックすると、数分以内に Dify インスタンスがデプロイされます。
+デプロイボタンをクリックした後、生成されたドメイン名を入力し、そのドメイン名を Fusionworks インスタンスにバインドし、他のサービスに環境変数として注入します。
+次に、お好みのリージョンを選択し、デプロイボタンをクリックすると、数分以内に Fusionworks インスタンスがデプロイされます。
 
 <figure><img src="../../.gitbook/assets/zeabur-region-select.png" alt="リージョンを選択"><figcaption></figcaption></figure>
 
-デプロイが完了すると、Zeabur コンソール上にプロジェクトページが表示されます。以下の図のように、デプロイ中に入力したドメイン名が自動的に NGINX サービスにバインドされ、そのドメイン名を使用して Dify インスタンスにアクセスできます。
+デプロイが完了すると、Zeabur コンソール上にプロジェクトページが表示されます。以下の図のように、デプロイ中に入力したドメイン名が自動的に NGINX サービスにバインドされ、そのドメイン名を使用して Fusionworks インスタンスにアクセスできます。
 
 <figure><img src="../../.gitbook/assets/zeabur-project.png" alt="Zeabur プロジェクト概要"><figcaption></figcaption></figure>
 

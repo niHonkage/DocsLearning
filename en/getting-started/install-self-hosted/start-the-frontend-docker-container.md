@@ -5,7 +5,7 @@ When developing the backend separately, you may only need to start the backend s
 #### Pull the Docker image for the frontend service from DockerHub:
 
 ```Bash
-docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http://127.0.0.1:5001 langgenius/dify-web:latest
+docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http://127.0.0.1:5001 langgenius/fusionworks-web:latest
 ```
 
 #### Build Docker Image from Source Code
@@ -13,12 +13,12 @@ docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http
 1.  Build the frontend image：
 
     ```
-    cd web && docker build . -t dify-web
+    cd web && docker build . -t fusionworks-web
     ```
 2.  Start the frontend image
 
     ```
-    docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http://127.0.0.1:5001 dify-web
+    docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http://127.0.0.1:5001 fusionworks-web
     ```
 3. When the console domain and web app domain are different, you can set the CONSOLE\_URL and APP\_URL separately.
 4. To access it locally, you can visit [http://127.0.0.1:3000](http://127.0.0.1:3000/).

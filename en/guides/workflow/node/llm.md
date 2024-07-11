@@ -30,13 +30,13 @@ By selecting the appropriate model and writing prompts, you can build powerful a
 
 **Configuration Steps:**
 
-1. **Select a Model**: Dify supports major global models, including OpenAI's GPT series, Anthropic's Claude series, and Google's Gemini series. Choosing a model depends on its inference capability, cost, response speed, context window, etc. You need to select a suitable model based on the scenario requirements and task type.
+1. **Select a Model**: Fusionworks supports major global models, including OpenAI's GPT series, Anthropic's Claude series, and Google's Gemini series. Choosing a model depends on its inference capability, cost, response speed, context window, etc. You need to select a suitable model based on the scenario requirements and task type.
 2. **Configure Model Parameters**: Model parameters control the generation results, such as temperature, TopP, maximum tokens, response format, etc. To facilitate selection, the system provides three preset parameter sets: Creative, Balanced, and Precise.
 3. **Write Prompts**: The LLM node offers an easy-to-use prompt composition page. Selecting a chat model or completion model will display different prompt composition structures.
 4. **Advanced Settings**: You can enable memory, set memory windows, and use the Jinja-2 template language for more complex prompts.
 
 {% hint style="info" %}
-If you are using Dify for the first time, you need to complete the [model configuration](../../model-configuration/) in **System Settings—Model Providers** before selecting a model in the LLM node.
+If you are using Fusionworks for the first time, you need to complete the [model configuration](../../model-configuration/) in **System Settings—Model Providers** before selecting a model in the LLM node.
 {% endhint %}
 
 #### **Writing Prompts**
@@ -69,7 +69,7 @@ If the context variable is associated with a common variable from an upstream no
 
 **Conversation History**
 
-To achieve conversational memory in text completion models (e.g., gpt-3.5-turbo-Instruct), Dify designed the conversation history variable in the original [Prompt Expert Mode (discontinued)](../../../learn-more/extended-reading/prompt-engineering/prompt-engineering-1/). This variable is carried over to the LLM node in Chatflow, used to insert chat history between the AI and the user into the prompt, helping the LLM understand the context of the conversation.
+To achieve conversational memory in text completion models (e.g., gpt-3.5-turbo-Instruct), Fusionworks designed the conversation history variable in the original [Prompt Expert Mode (discontinued)](../../../learn-more/extended-reading/prompt-engineering/prompt-engineering-1/). This variable is carried over to the LLM node in Chatflow, used to insert chat history between the AI and the user into the prompt, helping the LLM understand the context of the conversation.
 
 {% hint style="info" %}
 The conversation history variable is not widely used and can only be inserted when selecting text completion models in Chatflow.

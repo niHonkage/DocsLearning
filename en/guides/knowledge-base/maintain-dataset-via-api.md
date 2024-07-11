@@ -4,14 +4,14 @@
 
 ### Advantages of Using Dataset API
 
-* Synchronize your data system with Dify datasets to create powerful workflows.
+* Synchronize your data system with Fusionworks datasets to create powerful workflows.
 * Provide dataset list, document list, and detail queries to facilitate building your own data management page.
 * Support both plain text and file uploads and updates for documents, and support batch addition and modification at the segment level to streamline your synchronization process.
-* Reduce the time spent on manual document processing and synchronization, enhancing your visibility into Dify's software and services.
+* Reduce the time spent on manual document processing and synchronization, enhancing your visibility into Fusionworks's software and services.
 
 ### How to Use
 
-Navigate to the dataset page, and you can switch to the **API** page from the left navigation. On this page, you can view the dataset API documentation provided by Dify and manage the credentials for accessing the dataset API in **API Keys**.
+Navigate to the dataset page, and you can switch to the **API** page from the left navigation. On this page, you can view the dataset API documentation provided by Fusionworks and manage the credentials for accessing the dataset API in **API Keys**.
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/dataset-api-token.png" alt=""><figcaption><p>Knowledge API Document</p></figcaption></figure>
 
@@ -24,7 +24,7 @@ Only used to create an empty dataset
 {% endhint %}
 
 ```
-curl --location --request POST 'https://api.dify.ai/v1/datasets' \
+curl --location --request POST 'https://api.fusionworks.ai/v1/datasets' \
 --header 'Authorization: Bearer {api_key}' \
 --header 'Content-Type: application/json' \
 --data-raw '{"name": "name"}'
@@ -33,19 +33,19 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets' \
 #### **Dataset List**
 
 ```
-curl --location --request GET 'https://api.dify.ai/v1/datasets?page=1&limit=20' \
+curl --location --request GET 'https://api.fusionworks.ai/v1/datasets?page=1&limit=20' \
 --header 'Authorization: Bearer {api_key}'
 ```
 
 #### **Create Document by Text**
 
 ```
-curl --location --request POST 'https://api.dify.ai/v1/datasets/<uuid:dataset_id>/document/create_by_text' \
+curl --location --request POST 'https://api.fusionworks.ai/v1/datasets/<uuid:dataset_id>/document/create_by_text' \
 --header 'Authorization: Bearer {api_key}' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "name": "Dify",
-    "text": "Dify means Do it for you...",
+    "name": "Fusionworks",
+    "text": "Fusionworks means Do it for you...",
     "indexing_technique": "high_quality",
     "process_rule": {
         "rules": {
@@ -69,10 +69,10 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/<uuid:dataset_id
 #### **Create Document by File**
 
 ```
-curl --location POST 'https://api.dify.ai/v1/datasets/{dataset_id}/document/create_by_file' \
+curl --location POST 'https://api.fusionworks.ai/v1/datasets/{dataset_id}/document/create_by_file' \
 --header 'Authorization: Bearer {api_key}' \
 --form 'data="{
-	"name": "Dify",
+	"name": "Fusionworks",
 	"indexing_technique": "high_quality",
 	"process_rule": {
 		"rules": {
@@ -98,33 +98,33 @@ curl --location POST 'https://api.dify.ai/v1/datasets/{dataset_id}/document/crea
 #### **Get Document Embedding Status (Progress)**
 
 ```
-curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/documents/{batch}/indexing-status' \
+curl --location --request GET 'https://api.fusionworks.ai/v1/datasets/{dataset_id}/documents/{batch}/indexing-status' \
 --header 'Authorization: Bearer {api_key}'
 ```
 
 #### **Delete Document**
 
 ```
-curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/documents/{document_id}' \
+curl --location --request DELETE 'https://api.fusionworks.ai/v1/datasets/{dataset_id}/documents/{document_id}' \
 --header 'Authorization: Bearer {api_key}'
 ```
 
 #### **Dataset Document List**
 
 ```
-curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/documents' \
+curl --location --request GET 'https://api.fusionworks.ai/v1/datasets/{dataset_id}/documents' \
 --header 'Authorization: Bearer {api_key}'
 ```
 
 #### **Add Segments**
 
 ```
-curl 'https://api.dify.ai/v1/datasets/aac47674-31a8-4f12-aab2-9603964c4789/documents/2034e0c1-1b75-4532-849e-24e72666595b/segment' \
+curl 'https://api.fusionworks.ai/v1/datasets/aac47674-31a8-4f12-aab2-9603964c4789/documents/2034e0c1-1b75-4532-849e-24e72666595b/segment' \
   --header 'Authorization: Bearer {api_key}' \
   --header 'Content-Type: application/json' \
   --data-raw $'"chunks":[
-  {"content":"Dify means Do it for you",
-  "keywords":["Dify","Do"]
+  {"content":"Fusionworks means Do it for you",
+  "keywords":["Fusionworks","Do"]
   }
   ]'
   --compressed

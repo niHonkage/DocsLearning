@@ -4,9 +4,9 @@
 **ヒント:** Difyは現在ベータテストフェーズにあります。ドキュメントと製品に不一致がある場合は、製品の実際の体験を優先してください。
 {% endhint %}
 
-Difyはすべてのユーザーに[クラウドサービス](http://cloud.dify.ai)を提供しており、自分でデプロイすることなくDifyの完全な機能を利用できます。Difyのクラウドサービスを利用するには、GitHubまたはGoogleアカウントが必要です。
+Difyはすべてのユーザーに[クラウドサービス](http://cloud.fusionworks.ai)を提供しており、自分でデプロイすることなくDifyの完全な機能を利用できます。Difyのクラウドサービスを利用するには、GitHubまたはGoogleアカウントが必要です。
 
-1. [Difyクラウドサービス](https://cloud.dify.ai)にログインし、新しいワークスペースを作成するか、既存のワークスペースに参加します。
+1. [Difyクラウドサービス](https://cloud.fusionworks.ai)にログインし、新しいワークスペースを作成するか、既存のワークスペースに参加します。
 2. モデルプロバイダーを設定するか、提供されているホスト型モデルプロバイダーを使用します。
 3. [アプリケーションを作成](../guides/application_orchestrate/creating-an-application.md)しましょう！
 
@@ -19,4 +19,4 @@ Difyはすべてのユーザーに[クラウドサービス](http://cloud.dify.a
 * チーム版
 * エンタープライズ版
 
-各バージョンの価格設定については、[https://dify.ai/pricing](https://dify.ai/pricing)をご参照ください。
+各バージョンの価格設定については、[https://fusionworks.ai/pricing](https://fusionworks.ai/pricing)をご参照ください。
