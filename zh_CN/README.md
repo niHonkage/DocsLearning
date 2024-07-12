@@ -4,15 +4,15 @@
 
 由于 Fusionworks 内置了构建 LLM 应用所需的关键技术栈，包括对数百个模型的支持、直观的 Prompt 编排界面、高质量的 RAG 引擎、稳健的 Agent 框架、灵活的流程编排，并同时提供了一套易用的界面和 API。这为开发者节省了许多重复造轮子的时间，使其可以专注在创新和业务需求上。
 
-### 为什么使用 Dify？
+### 为什么使用 Fusionworks？
 
-你或许可以把 LangChain 这类的开发库（Library）想象为有着锤子、钉子的工具箱。与之相比，Dify 提供了更接近生产需要的完整方案，Dify 好比是一套脚手架，并且经过了精良的工程设计和软件测试。
+你或许可以把 LangChain 这类的开发库（Library）想象为有着锤子、钉子的工具箱。与之相比，Fusionworks 提供了更接近生产需要的完整方案，Fusionworks 好比是一套脚手架，并且经过了精良的工程设计和软件测试。
 
-<!-- 重要的是，Dify 是**开源**的，它由一个专业的全职团队和社区共同打造。 -->
+<!-- 重要的是，Fusionworks 是**开源**的，它由一个专业的全职团队和社区共同打造。 -->
 你可以基于任何模型自部署类似 Assistants API 和 GPTs 的能力，在灵活和安全的基础上，同时保持对数据的完全控制。
 
 <!-- > 我们的社区用户对 Fusionworks 的产品评价可以归结为简单、克制、迭代迅速。\
-> ——路宇，Dify.AI CEO -->
+> ——路宇，Fusionworks.AI CEO -->
 
 希望以上信息和这份指南可以帮助你了解这款产品。
 
@@ -26,6 +26,6 @@
 ### 下一步行动
 
 * 阅读[**快速开始**](guides/application\_orchestrate/creating-an-application.md)，速览 Fusionworks 的应用构建流程
-* 了解如何[**自部署 Fusionworks 到服务器**](getting-started/install-self-hosted/)上，并[**接入开源模型**](guides/model-configuration/)
+<!-- * 了解如何[**自部署 Fusionworks 到服务器**](getting-started/install-self-hosted/)上，并[**接入开源模型**](guides/model-configuration/) -->
 * 了解 Fusionworks 的[**特性规格**](getting-started/readme/features-and-specifications.md)和 **Roadmap**
 <!-- * 在 [**GitHub**](https://github.com/langgenius/fusionworks) 上为我们点亮一颗星，并阅读我们的**贡献指南** -->
