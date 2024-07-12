@@ -6,12 +6,12 @@
   * [Features and Specifications](getting-started/readme/features-and-specifications.md)
   * [List of Model Providers](getting-started/readme/model-providers.md)
 * [Cloud Services](getting-started/cloud.md)
-* [Community Edition](getting-started/install-self-hosted/README.md)
+<!-- * [Community Edition](getting-started/install-self-hosted/README.md)
   * [Deploy with Docker Compose](getting-started/install-self-hosted/docker-compose.md)
   * [Start with Local Source Code](getting-started/install-self-hosted/local-source-code.md)
   * [Start Frontend Docker Container Separately](getting-started/install-self-hosted/start-the-frontend-docker-container.md)
   * [Environment Variables Explanation](getting-started/install-self-hosted/environments.md)
-  * [FAQs](getting-started/install-self-hosted/faqs.md)
+  * [FAQs](getting-started/install-self-hosted/faqs.md) -->
 
 ## Guides
 
@@ -101,16 +101,16 @@
 * [Management](guides/management/README.md)
   * [Manage App](guides/management/manage-app.md)
 
-## Community
+<!-- ## Community
 
 * [Seek Support](community/support.md)
-* [Become a Contributor](community/contribution.md)
+* [Become a Contributor](community/contribution.md) -->
 
-## Development
+<!-- ## Development
 
 * [Backend](development/backend/README.md)
   * [DifySandbox](development/backend/sandbox/README.md)
-    * [Contribution Guide](development/backend/sandbox/contribution.md)
+    * [Contribution Guide](development/backend/sandbox/contribution.md) -->
 
 ## Learn More
 
@@ -130,7 +130,7 @@
 
 ## Policies
 
-* [Open Source License](policies/open-source.md)
-* [User Agreement](policies/agreement/README.md)
+<!-- * [Open Source License](policies/open-source.md)
+* [User Agreement](policies/agreement/README.md) -->
   * [Terms of Service](https://fusionworks.ai/terms)
   * [Privacy Policy](https://fusionworks.ai/privacy)
