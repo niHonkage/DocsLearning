@@ -22,10 +22,10 @@
   * [负载均衡](guides/model-configuration/load\_balancing.md)
 * [构建](guides/application\_orchestrate/README.md)
   * [创建应用](guides/application\_orchestrate/creating-an-application.md)
-  * [聊天助手](guides/application\_orchestrate/conversation-application.md)
+  <!-- * [聊天助手](guides/application\_orchestrate/conversation-application.md)
   * [Agent](guides/application\_orchestrate/agent.md)
   * [应用工具箱](guides/application\_orchestrate/app\_toolkits/README.md)
-    * [敏感内容审查](guides/application\_orchestrate/app\_toolkits/moderation-tool.md)
+    * [敏感内容审查](guides/application\_orchestrate/app\_toolkits/moderation-tool.md) -->
 * [工作流](guides/workflow/README.md)
   * [关键概念](guides/workflow/key\_concept.md)
   * [节点说明](guides/workflow/node/README.md)

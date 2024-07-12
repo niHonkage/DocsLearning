@@ -28,10 +28,10 @@
   * [Load Balancing](guides/model-configuration/load-balancing.md)
 * [Application Orchestration](guides/application-orchestrate/README.md)
   * [Create Application](guides/application-orchestrate/creating-an-application.md)
-  * [Conversation Assistant](guides/application-orchestrate/conversation-application.md)
+  <!-- * [Conversation Assistant](guides/application-orchestrate/conversation-application.md)
   * [Agent](guides/application-orchestrate/agent.md)
   * [Application Toolkits](guides/application-orchestrate/app-toolkits/README.md)
-    * [Moderation Tool](guides/application-orchestrate/app-toolkits/moderation-tool.md)
+    * [Moderation Tool](guides/application-orchestrate/app-toolkits/moderation-tool.md) -->
 * [Workflow](guides/workflow/README.md)
   * [Key Concepts](guides/workflow/key-concept.md)
   * [Node Description](guides/workflow/node/README.md)

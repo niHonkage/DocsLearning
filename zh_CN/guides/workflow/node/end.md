@@ -8,9 +8,9 @@
 
 结束节点需要声明一个或多个输出变量，声明时可以引用任意上游节点的输出变量。
 
-{% hint style="info" %}
+<!-- {% hint style="info" %}
 Chatflow 内不支持结束节点
-{% endhint %}
+{% endhint %} -->
 
 ***
 

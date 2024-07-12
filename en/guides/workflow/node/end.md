@@ -8,9 +8,9 @@ The end node is a termination point in the process; no further nodes can be adde
 
 The end node must declare one or more output variables, which can reference any upstream node's output variables.
 
-{% hint style="info" %}
+<!-- {% hint style="info" %}
 End nodes are not supported within Chatflow.
-{% endhint %}
+{% endhint %} -->
 
 ***
 

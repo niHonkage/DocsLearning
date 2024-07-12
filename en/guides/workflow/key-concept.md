@@ -20,12 +20,12 @@ For core workflow nodes, please refer to [Node Description](node/).
 
 ***
 
-### 3. Chatflow and Workflow
+<!-- ### 3. Chatflow and Workflow
 
 **Application Scenarios**
 
 * **Chatflow**: Designed for conversational scenarios, including customer service, semantic search, and other conversational applications that require multi-step logic in response construction.
-* **Workflow**: Geared towards automation and batch processing scenarios, suitable for high-quality translation, data analysis, content generation, email automation, and more.
+* **Workflow**: Geared towards automation and batch processing scenarios, suitable for high-quality translation, data analysis, content generation, email automation, and more. -->
 
 **Usage Entry Points**
 

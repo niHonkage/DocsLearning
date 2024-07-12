@@ -20,7 +20,7 @@
 
 ***
 
-### 3 Chatflow 和 Workflow&#x20;
+<!-- ### 3 Chatflow 和 Workflow&#x20;
 
 **应用场景**
 
@@ -31,7 +31,7 @@
 
 <figure><img src="../../.gitbook/assets/output.png" alt=""><figcaption><p>Chatflow 入口</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/output (4).png" alt=""><figcaption><p>Workflow 入口</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/output (4).png" alt=""><figcaption><p>Workflow 入口</p></figcaption></figure> -->
 
 **可用节点差异**
 

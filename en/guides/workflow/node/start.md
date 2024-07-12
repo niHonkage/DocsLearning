@@ -22,10 +22,10 @@ Once configured, the workflow will prompt for the values of the variables define
 
 <figure><img src="/en/.gitbook/assets/guides/workflow/node/start/output (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
+<!-- {% hint style="info" %}
 Tip: In Chatflow, the start node provides built-in system variables: `sys.query` and `sys.files`.
 
 `sys.query` is used for user input questions in conversational applications.
 
 `sys.files` is used for file uploads in conversations, such as uploading an image, which needs to be used in conjunction with an image understanding model.
-{% endhint %}
+{% endhint %} -->
