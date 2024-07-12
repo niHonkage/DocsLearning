@@ -94,10 +94,10 @@ When OpenAI cannot be accessed in China, replace it with a domestic mirror addre
 
 Only effective when starting with docker image or docker-compose.
 
-*   DIFY\_BIND\_ADDRESS
+*   FUSIONWORKS\_BIND\_ADDRESS
 
     API service binding address, default: 0.0.0.0, i.e., all addresses can be accessed.
-*   DIFY\_PORT
+*   FUSIONWORKS\_PORT
 
     API service binding port number, default 5001.
 *   SERVER\_WORKER\_AMOUNT
@@ -152,7 +152,7 @@ This Redis configuration is used for caching and for pub/sub during conversation
     redis://<redis_username>:<redis_password>@<redis_host>:<redis_port>/<redis_database>
     ```
 
-    Example: `redis://:difyai123456@redis:6379/1`
+    Example: `redis://:fusionworksai123456@redis:6379/1`
 *   BROKER\_USE\_SSL
 
     If set to true, use SSL protocol for connection, default is false
@@ -195,9 +195,9 @@ Used to store uploaded data set files, team/tenant encryption keys, and other fi
 * S3\_ACCESS\_KEY: S3 Access Key
 * S3\_SECRET\_KEY: S3 Secret Key
 * S3\_REGION: S3 region information, such as: us-east-1
-* AZURE\_BLOB\_ACCOUNT\_NAME: your-account-name eg, 'difyai'
-* AZURE\_BLOB\_ACCOUNT\_KEY: your-account-key eg, 'difyai'
-* AZURE\_BLOB\_CONTAINER\_NAME: your-container-name eg, 'difyai-container'
+* AZURE\_BLOB\_ACCOUNT\_NAME: your-account-name eg, 'fusionworksai'
+* AZURE\_BLOB\_ACCOUNT\_KEY: your-account-key eg, 'fusionworksai'
+* AZURE\_BLOB\_CONTAINER\_NAME: your-container-name eg, 'fusionworksai-container'
 * AZURE\_BLOB\_ACCOUNT\_URL: 'https://\<your\_account\_name>.blob.core.windows.net'
 
 #### Vector Database Configuration

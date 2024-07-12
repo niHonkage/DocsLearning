@@ -80,10 +80,10 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
 仅在使用 docker 镜像或者 docker-compose 启动时有效。
 
-*   DIFY\_BIND\_ADDRESS
+*   FUSIONWORKS\_BIND\_ADDRESS
 
     API 服务绑定地址，默认：0.0.0.0，即所有地址均可访问。
-*   DIFY\_PORT
+*   FUSIONWORKS\_PORT
 
     API 服务绑定端口号，默认 5001。
 *   SERVER\_WORKER\_AMOUNT
@@ -142,7 +142,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
     </strong><strong>  
     </strong></code></pre>
 
-    范例：`redis://:difyai123456@redis:6379/1`
+    范例：`redis://:fusionworksai123456@redis:6379/1`
 *   BROKER\_USE\_SSL
 
     若设置为 true，则使用 SSL 协议进行连接，默认 false
@@ -185,9 +185,9 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 * S3\_ACCESS\_KEY：S3 Access Key
 * S3\_SECRET\_KEY：S3 Secret Key
 * S3\_REGION：S3 地域信息，如：us-east-1
-* AZURE\_BLOB\_ACCOUNT\_NAME: your-account-name 如 'difyai'
-* AZURE\_BLOB\_ACCOUNT\_KEY: your-account-key 如 'difyai'
-* AZURE\_BLOB\_CONTAINER\_NAME: your-container-name 如 'difyai-container'
+* AZURE\_BLOB\_ACCOUNT\_NAME: your-account-name 如 'fusionworksai'
+* AZURE\_BLOB\_ACCOUNT\_KEY: your-account-key 如 'fusionworksai'
+* AZURE\_BLOB\_CONTAINER\_NAME: your-container-name 如 'fusionworksai-container'
 * AZURE\_BLOB\_ACCOUNT\_URL: 'https://\<your\_account\_name>.blob.core.windows.net'
 
 #### 向量数据库配置
