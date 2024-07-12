@@ -6,12 +6,12 @@
   * [特性与技术规格](getting-started/readme/features-and-specifications.md)
   * [模型供应商列表](getting-started/readme/model-providers.md)
 * [云服务](getting-started/cloud.md)
-* [社区版](getting-started/install-self-hosted/README.md)
+<!-- * [社区版](getting-started/install-self-hosted/README.md)
   * [Docker Compose 部署](getting-started/install-self-hosted/docker-compose.md)
   * [本地源码启动](getting-started/install-self-hosted/local-source-code.md)
   * [单独启动前端 Docker 容器](getting-started/install-self-hosted/start-the-frontend-docker-container.md)
   * [环境变量说明](getting-started/install-self-hosted/environments.md)
-  * [常见问题](getting-started/install-self-hosted/faq.md)
+  * [常见问题](getting-started/install-self-hosted/faq.md) -->
 
 ## 手册 <a href="#guides" id="guides"></a>
 
@@ -101,7 +101,7 @@
 * [管理](guides/management/README.md)
   * [管理应用](guides/management/manage-app.md)
 
-## 社区 <a href="#community" id="community"></a>
+<!-- ## 社区 <a href="#community" id="community"></a>
 
 * [寻求支持](community/support.md)
 * [成为贡献者](community/contribution.md)
@@ -110,7 +110,7 @@
 
 * [后端](development/backend/README.md)
   * [DifySandbox](development/backend/sandbox/README.md)
-    * [贡献指南](development/backend/sandbox/contribution.md)
+    * [贡献指南](development/backend/sandbox/contribution.md) -->
 
 ## 阅读更多 <a href="#learn-more" id="learn-more"></a>
 
@@ -137,7 +137,6 @@
 
 ## 政策 <a href="#policies" id="policies"></a>
 
-* [开源许可证](policies/open-source.md)
 * [用户协议](policies/agreement/README.md)
   * [服务条款](https://fusionworks.ai/terms)
   * [隐私政策](https://fusionworks.ai/privacy)

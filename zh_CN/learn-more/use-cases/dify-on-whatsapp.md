@@ -22,7 +22,7 @@
 ## 3. 创建Dify基础编排聊天助手应用 （節錄自[手摸手教你把 Fusionworks 接入微信生态](./fusionworks-on-wechat.md))
 
 
-首先，登录[Dify官方应用平台](https://cloud.fusionworks.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考Dify官方教程[Docker Compose 部署 | 中文 | Fusionworks](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，Dify是开源项目，支持私有部署。
+首先，登录[Dify官方应用平台](https://fusionworks.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考Dify官方教程[Docker Compose 部署 | 中文 | Fusionworks](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，Dify是开源项目，支持私有部署。
 
 <figure><img src="../../.gitbook/assets/fusionworks-on-wechat/create-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
 

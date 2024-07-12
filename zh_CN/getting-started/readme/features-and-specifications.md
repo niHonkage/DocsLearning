@@ -2,15 +2,15 @@
 description: 对于已经熟悉 LLM 应用技术栈的技术人士来说，这份文档将是您了解 Fusionworks 独特优势的捷径。让您能够明智地比较和选择，甚至向同事和朋友推荐。
 ---
 
-# 特性与技术规格
+<!-- # 特性与技术规格
 
 {% hint style="info" %}
 在 Fusionworks，我们采用透明化的产品特性和技术规格政策，确保您在全面了解我们产品的基础上做出决策。这种透明度不仅有利于您的技术选型，也促进了社区成员对产品的深入理解和积极贡献。
-{% endhint %}
-
+{% endhint %} -->
+<!-- 
 ### 项目基础信息
 
-<table data-header-hidden data-full-width="false"><thead><tr><th width="156"></th><th></th></tr></thead><tbody><tr><td>项目设立</td><td>2023 年 3 月</td></tr><tr><td>开源协议</td><td><a href="../../policies/open-source.md">基于 Apache License 2.0 有限商业许可</a></td></tr><tr><td>官方研发团队</td><td>超过 20 名全职员工</td></tr><tr><td>社区贡献者</td><td><a href="https://ossinsight.io/analyze/langgenius/fusionworks">超过 290 人</a> （截止 2024 Q2）</td></tr><tr><td>后端技术</td><td>Python/Flask/PostgreSQL</td></tr><tr><td>前端技术</td><td>Next.js</td></tr><tr><td>代码行数</td><td>超过 13 万行</td></tr><tr><td>发版周期</td><td>平均每周一次</td></tr></tbody></table>
+<table data-header-hidden data-full-width="false"><thead><tr><th width="156"></th><th></th></tr></thead><tbody><tr><td>项目设立</td><td>2023 年 3 月</td></tr><tr><td>开源协议</td><td><a href="../../policies/open-source.md">基于 Apache License 2.0 有限商业许可</a></td></tr><tr><td>官方研发团队</td><td>超过 20 名全职员工</td></tr><tr><td>社区贡献者</td><td><a href="https://ossinsight.io/analyze/langgenius/fusionworks">超过 290 人</a> （截止 2024 Q2）</td></tr><tr><td>后端技术</td><td>Python/Flask/PostgreSQL</td></tr><tr><td>前端技术</td><td>Next.js</td></tr><tr><td>代码行数</td><td>超过 13 万行</td></tr><tr><td>发版周期</td><td>平均每周一次</td></tr></tbody></table> -->
 
 ### 技术特性
 

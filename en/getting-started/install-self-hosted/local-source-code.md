@@ -196,7 +196,7 @@ Please visit [https://nodejs.org/en/download](https://nodejs.org/en/download) an
     NEXT_PUBLIC_EDITION=SELF_HOSTED
     # The base URL of console application, refers to the Console base URL of WEB service if console domain is
     # different from api or web app domain.
-    # example: http://cloud.fusionworks.ai/console/api
+    # example: https://fusionworks.ai/console/api
     NEXT_PUBLIC_API_PREFIX=http://localhost:5001/console/api
     # The URL for Web APP, refers to the Web App base URL of WEB service if web app domain is different from
     # console or api domain.

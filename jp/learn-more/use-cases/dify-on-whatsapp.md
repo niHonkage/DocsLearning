@@ -21,7 +21,7 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 
 ## 3. Difyの基本的なチャットアシスタントアプリケーションの作成（[DifyをWeChatエコシステムに接続する方法](./fusionworks-on-wechat.md)からの抜粋）
 
-まず、[Dify公式アプリケーションプラットフォーム](https://cloud.fusionworks.ai/signin)にログインします。GithubまたはGoogleのアカウントでログインすることができます。また、Dify公式チュートリアル[Docker Composeによるデプロイ | 日本語 | Fusionworks](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose)を参照して、プライベートデプロイを行うことも可能です。Difyはオープンソースプロジェクトであり、プライベートデプロイをサポートしています。
+まず、[Dify公式アプリケーションプラットフォーム](https://fusionworks.ai/signin)にログインします。GithubまたはGoogleのアカウントでログインすることができます。また、Dify公式チュートリアル[Docker Composeによるデプロイ | 日本語 | Fusionworks](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose)を参照して、プライベートデプロイを行うことも可能です。Difyはオープンソースプロジェクトであり、プライベートデプロイをサポートしています。
 
 <figure><img src="../../.gitbook/assets/fusionworks-on-wechat/create-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
 

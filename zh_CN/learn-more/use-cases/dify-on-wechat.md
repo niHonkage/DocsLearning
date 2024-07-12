@@ -24,7 +24,7 @@ Dify是一个优秀的LLMOps（大型语言模型运维）平台，Dify的详细
 
 **（2）登录Dify官方应用平台**
 
-首先，登录[Dify官方应用平台](https://cloud.fusionworks.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考Dify官方教程[Docker Compose 部署 | 中文 | Fusionworks](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，Dify是开源项目，支持私有部署。
+首先，登录[Dify官方应用平台](https://fusionworks.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考Dify官方教程[Docker Compose 部署 | 中文 | Fusionworks](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，Dify是开源项目，支持私有部署。
 
 <figure><img src="../../.gitbook/assets/fusionworks-on-wechat/login.jpg" alt=""><figcaption></figcaption></figure>
 
