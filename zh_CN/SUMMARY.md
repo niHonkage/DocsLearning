@@ -6,12 +6,6 @@
   * [特性与技术规格](getting-started/readme/features-and-specifications.md)
   * [模型供应商列表](getting-started/readme/model-providers.md)
 * [云服务](getting-started/cloud.md)
-<!-- * [社区版](getting-started/install-self-hosted/README.md)
-  * [Docker Compose 部署](getting-started/install-self-hosted/docker-compose.md)
-  * [本地源码启动](getting-started/install-self-hosted/local-source-code.md)
-  * [单独启动前端 Docker 容器](getting-started/install-self-hosted/start-the-frontend-docker-container.md)
-  * [环境变量说明](getting-started/install-self-hosted/environments.md)
-  * [常见问题](getting-started/install-self-hosted/faq.md) -->
 
 ## 手册 <a href="#guides" id="guides"></a>
 
@@ -101,17 +95,6 @@
 * [管理](guides/management/README.md)
   * [管理应用](guides/management/manage-app.md)
 
-<!-- ## 社区 <a href="#community" id="community"></a>
-
-* [寻求支持](community/support.md)
-* [成为贡献者](community/contribution.md)
-
-## 研发 <a href="#development" id="development"></a>
-
-* [后端](development/backend/README.md)
-  * [DifySandbox](development/backend/sandbox/README.md)
-    * [贡献指南](development/backend/sandbox/contribution.md) -->
-
 ## 阅读更多 <a href="#learn-more" id="learn-more"></a>
 
 * [应用案例](learn-more/use-cases/README.md)
@@ -120,8 +103,8 @@
   * [构建一个 Notion AI 助手](learn-more/use-cases/build-an-notion-ai-assistant.md)
   * [如何在几分钟内创建一个带有业务数据的官网 AI 智能客服](learn-more/use-cases/create-an-ai-chatbot-with-business-data-in-minutes.md)
   * [使用全套开源工具构建 LLM 应用实战：在 Fusionworks 调用 Baichuan 开源模型能力](learn-more/use-cases/practical-implementation-of-building-llm-applications-using-a-full-set-of-open-source-tools.md)
-  * [手摸手教你把 Fusionworks 接入微信生态](learn-more/use-cases/fusionworks-on-wechat.md)
-  * [使用Dify 和Twilio构建WhatsApp机器人](learn-more/use-cases/fusionworks-on-whatsapp.md)
+  * [手摸手教你把 Fusionworks 接入微信生态](learn-more/use-cases/shou-mo-shou-jiao-ni-ba-fusionworks-jie-ru-wei-xin-sheng-tai.md)
+  * [使用Dify 和Twilio构建WhatsApp机器人](learn-more/use-cases/shi-yong-dify-he-twilio-gou-jian-whatsapp-ji-qi-ren.md)
 * [扩展阅读](learn-more/extended-reading/README.md)
   * [什么是 LLMOps？](learn-more/extended-reading/what-is-llmops.md)
   * [检索增强生成（RAG）](learn-more/extended-reading/retrieval-augment/README.md)
@@ -137,6 +120,6 @@
 
 ## 政策 <a href="#policies" id="policies"></a>
 
-* [用户协议](policies/agreement/README.md)
+* [用户协议](policies/yong-hu-xie-yi/README.md)
   * [服务条款](https://fusionworks.ai/terms)
   * [隐私政策](https://fusionworks.ai/privacy)
