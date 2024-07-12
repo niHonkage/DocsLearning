@@ -8,19 +8,20 @@ By integrating the key technology stacks required for building LLM applications,
 
 You can think of libraries like LangChain as toolboxes with hammers, nails, etc. In comparison, Fusionworks provides a more production-ready, complete solution - think of Fusionworks as a scaffolding system with refined engineering design and software testing.
 
-Importantly, Fusionworks is **open source**, co-created by a professional full-time team and community. You can self-deploy capabilities similar to Assistants API and GPTs based on any model, maintaining full control over your data with flexible security, all on an easy-to-use interface.
+<!-- Importantly, Fusionworks is **open source**, co-created by a professional full-time team and community.  -->
+You can self-deploy capabilities similar to Assistants API and GPTs based on any model, maintaining full control over your data with flexible security, all on an easy-to-use interface.
 
-> Our community users summarize their evaluation of Fusionworks's products as simple, restrained, and rapid iteration.
+<!-- > Our community users summarize their evaluation of Fusionworks's products as simple, restrained, and rapid iteration.
 >
-> \- Lu Yu, Fusionworks.AI CEO
+> \- Lu Yu, Fusionworks.AI CEO -->
 
-We hope the above information and this guide can help you understand this product. We believe Fusionworks is made for you.
+<!-- We hope the above information and this guide can help you understand this product. We believe Fusionworks is made for you. -->
 
 ### What Can Fusionworks Do?
 
-{% hint style="info" %}
+<!-- {% hint style="info" %}
 The name Fusionworks comes from Define + Modify, referring to defining and continuously improving your AI applications. It's made for you.
-{% endhint %}
+{% endhint %} -->
 
 * **Startups** - Quickly turn your AI ideas into reality, accelerating both success and failure. In the real world, dozens of teams have already built MVPs to get funding or win customer orders through Fusionworks.
 * **Integrate LLMs into existing businesses** - Enhance capabilities of current apps by introducing LLMs. Access Fusionworks’s RESTful APIs to decouple Prompts from business logic. Use Fusionworks’s management interface to track data, costs and usage while continuously improving performance.
@@ -30,6 +31,6 @@ The name Fusionworks comes from Define + Modify, referring to defining and conti
 ### Next Steps
 
 * Read [**Quick Start**](https://docs.fusionworks.ai/application/creating-an-application) for an overview of Fusionworks’s application building workflow.
-* Learn how to [**self-deploy Fusionworks** ](https://docs.fusionworks.ai/getting-started/install-self-hosted)to your servers and [**integrate open source models**](https://docs.fusionworks.ai/advanced/model-configuration)**.**
+<!-- * Learn how to [**self-deploy Fusionworks** ](https://docs.fusionworks.ai/getting-started/install-self-hosted)to your servers and [**integrate open source models**](https://docs.fusionworks.ai/advanced/model-configuration)**.** -->
 * Understand Fusionworks’s [**specifications and roadmap**](getting-started/readme/features-and-specifications.md)**.**
-* [**Star us on GitHub**](https://github.com/langgenius/fusionworks) and read our **Contributor Guidelines.**
+<!-- * [**Star us on GitHub**](https://github.com/langgenius/fusionworks) and read our **Contributor Guidelines.** -->

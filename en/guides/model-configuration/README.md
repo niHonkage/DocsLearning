@@ -21,7 +21,7 @@ Fusionworks classifies models into 4 types, each for different uses:
 2.  **Embedding Models:** Employed for embedding segmented documents in knowledge and processing user queries in applications.
 
     > Providers include OpenAI, ZHIPU (ChatGLM), Jina AI([Jina Embeddings 2](https://jina.ai/embeddings/)).
-3.  [**Rerank Models**](https://docs.fusionworks.ai/advanced/retrieval-augment/rerank)**:** Enhance search capabilities in LLMs.
+3.  **Rerank Models:** Enhance search capabilities in LLMs.
 
     > Provider: Cohere.
 4.  **Speech-to-Text Models:** Convert spoken words to text in conversational applications.
@@ -38,7 +38,7 @@ Fusionworks offers trial quotas for cloud service users to experiment with diffe
 
 ## Setting the Default Model
 
-Fusionworks automatically selects the default model based on usage. Configure this in `Settings > Model Provider`.
+Fusionworks automatically selects the default model based on usage. Configure this in `Studio > Settings`.
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/image-default-models.png" alt=""><figcaption></figcaption></figure>
 

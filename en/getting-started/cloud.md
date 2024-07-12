@@ -4,7 +4,8 @@
 Note: Fusionworks is currently in the Beta testing phase. If there are inconsistencies between the documentation and the product, please refer to the actual product experience.
 {% endhint %}
 
-Fusionworks offers a [cloud service](https://fusionworks.ai) for everyone, so you can use the full functionality of Fusionworks without deploying it yourself. Explore the flexible [Plans and Pricing](https://fusionworks.ai/pricing) and select the plan that best suits your needs and requirements.
+Fusionworks offers a [cloud service](https://fusionworks.ai) for everyone, so you can use the full functionality of Fusionworks without deploying it yourself. 
+<!-- Explore the flexible [Plans and Pricing](https://fusionworks.ai/pricing) and select the plan that best suits your needs and requirements. -->
 
 Get started now with the [Sandbox plan](https://fusionworks.ai), which includes a free trial of 200 OpenAI calls, no credit card required. To use the Sandbox plan of the cloud version, you will need a GitHub or Google account, as well as an OpenAI API key. Here's how you can get started:
 
