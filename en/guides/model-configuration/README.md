@@ -4,9 +4,9 @@ description: Learn about the Different Models Supported by Fusionworks.
 
 # Model Configuration
 
-Fusionworks is a development platform for AI application based on LLM Apps, when you are using Fusionworks for the first time, you need to go to **Settings --> Model Providers** to add and configure the LLM you are going to use. 
+Fusionworks is a development platform for AI application based on LLM Apps, when you are using Fusionworks for the first time, you need to go to **Studio --> Settings --> Models** to add and configure the LLM you are going to use. 
 
-<figure><img src="/en/.gitbook/assets/guides/model-configuration/model-provider-page.png" alt=""><figcaption>Settings - Model Provider</figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/model-configuration/model-provider-page.png" alt=""><figcaption>Studio - Settings - Models</figcaption></figure>
 
 
 Fusionworks supports major model providers like OpenAI's GPT series and Anthropic's Claude series. Each model's capabilities and parameters differ, so select a model provider that suits your application's needs. **Obtain the API key from the model provider's official website before using it in Fusionworks.**
@@ -38,13 +38,13 @@ Fusionworks offers trial quotas for cloud service users to experiment with diffe
 
 ## Setting the Default Model
 
-Fusionworks automatically selects the default model based on usage. Configure this in `Studio > Settings`.
+Fusionworks automatically selects the default model based on usage. Configure this in `Studio > Settings > Models`.
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/image-default-models.png" alt=""><figcaption></figcaption></figure>
 
 ## Model Integration Settings
 
-Choose your model in Fusionworks's `Settings > Model Provider`.
+Choose your model in Fusionworks's `Studio > Settings > Models`.
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/image-20231210143654461.png" alt=""><figcaption></figcaption></figure>
 
