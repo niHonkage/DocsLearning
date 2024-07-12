@@ -6,7 +6,7 @@
 * 创建一个空白应用
 * 通过 DSL 文件导入
 
-### 从模板创建应用
+<!-- ### 从模板创建应用
 
 初次使用 Fusionworks 时，你可能对于应用创建比较陌生。为了帮助新手用户快速了解在 Fusionworks 上能够构建哪些类型的应用，Fusionworks 团队内的提示词工程师已经创建好了多场景、高质量的应用模板。
 
@@ -16,11 +16,11 @@
 
 任意选择某个模板，并将其添加至工作区。
 
-<figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption><p>Fusionworks 应用模板</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption><p>Fusionworks 应用模板</p></figcaption></figure> -->
 
 ### 创建一个新应用
 
-如果你需要在 Fusionworks 上创建一个空白应用，你可以从导航选择 「工作室」 ，在应用列表内选择 「从空白创建 」。
+如果你需要在 Fusionworks 上创建一个空白应用，你可以从导航选择 「工作室 - 智能体」 ，在应用列表内选择 「 创建智能体 」。
 
 <figure><img src="../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,11 +32,11 @@
 
 ### 从 DSL 文件创建
 
-如果你从社区或其它人那里获得了一个模版（DSL 文件），你可以从工作室选择 「 导入DSL 文件 」，导入后将直接加载原应用的所有配置信息。
+如果你从其它人那里获得了一个模版（DSL 文件），你可以从工作室选择 「 导入DSL 文件 」，导入后将直接加载原应用的所有配置信息。
 
 <figure><img src="../../.gitbook/assets/image (172).png" alt=""><figcaption><p>导入 DSL 文件创建应用</p></figcaption></figure>
 
 {% hint style="info" %}
-Fusionworks DSL 是由 Fusionworks.AI 在 v0.6 版本之后定义的 AI 应用工程文件标准，文件格式为 YML。该标准涵盖应用的基本描述、模型参数、编排配置等信息。
+Fusionworks DSL 是由 Fusionworks.AI 定义的 AI 应用工程文件标准，文件格式为 YML。该标准涵盖应用的基本描述、模型参数、编排配置等信息。
 {% endhint %}
 

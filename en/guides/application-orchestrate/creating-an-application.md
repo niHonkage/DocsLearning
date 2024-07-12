@@ -6,7 +6,7 @@ You can create applications in Fusionworks's studio in three ways:
 * Create a blank application
 * Import via a DSL file
 
-### Creating an Application from a Template
+<!-- ### Creating an Application from a Template
 
 When using Fusionworks for the first time, you might be unfamiliar with creating applications. To help new users quickly understand what types of applications can be built on Fusionworks, the prompt engineers from the Fusionworks team have already created high-quality application templates for multiple scenarios.
 
@@ -16,7 +16,7 @@ You can select "Studio" from the navigation menu, then choose "Create from Templ
 
 Select any template and click **Use this template.**
 
-<figure><img src="../../.gitbook/assets/guides/application_orchestrate/creating-an-application/image (169).png" alt=""><figcaption><p>Fusionworks application templates</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/application_orchestrate/creating-an-application/image (169).png" alt=""><figcaption><p>Fusionworks application templates</p></figcaption></figure> -->
 
 ### Creating a New Application
 
@@ -32,11 +32,11 @@ When creating an application, you need to give it a name, choose an appropriate 
 
 ### Creating from a DSL File
 
-If you have obtained a template (DSL file) from the community or others, you can choose "Import DSL File" from the studio. After importing, all configuration information of the original application will be loaded directly.
+If you have obtained a template (DSL file) from others, you can choose "Import DSL File" from the studio. After importing, all configuration information of the original application will be loaded directly.
 
 <figure><img src="../../.gitbook/assets/guides/application_orchestrate/creating-an-application/image (172).png" alt=""><figcaption><p>Create an application by importing a DSL file</p></figcaption></figure>
 
 {% hint style="info" %}
-Fusionworks DSL is an AI application engineering file standard defined by Fusionworks.AI in v0.6 and later. The file format is YML. This standard covers the basic description of the application, model parameters, orchestration configuration, and other information.
+Fusionworks DSL is an AI application engineering file standard defined by Fusionworks.AI. The file format is YML. This standard covers the basic description of the application, model parameters, orchestration configuration, and other information.
 {% endhint %}
 

@@ -22,5 +22,3 @@ Fusionworks offers four types of applications:
 The differences between Text Generation and Chat Assistant are shown in the table below:
 
 <table><thead><tr><th width="180.33333333333331"></th><th>Text Generation</th><th>Chat Assistant</th></tr></thead><tbody><tr><td>WebApp Interface</td><td>Form + Results</td><td>Chat-based</td></tr><tr><td>WebAPI Endpoint</td><td><code>completion-messages</code></td><td><code>chat-messages</code></td></tr><tr><td>Interaction Mode</td><td>One question, one answer</td><td>Multi-turn conversation</td></tr><tr><td>Streaming Results</td><td>Supported</td><td>Supported</td></tr><tr><td>Context Preservation</td><td>Per session</td><td>Continuous</td></tr><tr><td>User Input Form</td><td>Supported</td><td>Supported</td></tr><tr><td>Datasets and Plugins</td><td>Supported</td><td>Supported</td></tr><tr><td>AI Opening Remarks</td><td>Not supported</td><td>Supported</td></tr><tr><td>Example Scenarios</td><td>Translation, judgment, indexing</td><td>Chatting</td></tr></tbody></table>
-
-###
