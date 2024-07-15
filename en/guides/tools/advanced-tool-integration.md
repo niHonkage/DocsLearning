@@ -1,6 +1,6 @@
 # Advanced Tool Integration
 
-Before starting with this advanced guide, please make sure you have a basic understanding of the tool integration process in Fusionworks. Check out [Quick Integration](https://docs.fusionworks.ai/tutorials/quick-tool-integration) for a quick run through.
+Before starting with this advanced guide, please make sure you have a basic understanding of the tool integration process in Fusionworks. Check out [Quick Integration](quick-tool-integration.md) for a quick run through.
 
 ### Tool Interface
 

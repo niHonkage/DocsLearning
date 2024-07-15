@@ -1,6 +1,6 @@
 # 高级接入工具
 
-在开始高级接入之前，请确保你已经阅读过[快速接入](https://docs.fusionworks.ai/v/zh-hans/guides/tools/quick-tool-integration)，并对Fusionworks的工具接入流程有了基本的了解。
+在开始高级接入之前，请确保你已经阅读过[快速接入](quick-tool-integration.md)，并对Fusionworks的工具接入流程有了基本的了解。
 
 ### 工具接口
 

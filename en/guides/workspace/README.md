@@ -4,17 +4,11 @@ Fusionworks is a multi-user platform where workspaces are the basic units of tea
 
 ### Login Methods
 
-It is important to note that the login methods supported by Fusionworks's cloud service and community edition differ, as shown in the table below.
-
-|                | Cloud Service | Community Edition |
-| -------------- | ------------- | ----------------- |
-| Email Login    | Not Supported | Supported         |
-| GitHub Login   | Supported     | Not Supported     |
-| Google Login   | Supported     | Not Supported     |
-| SSO Login      | Planned       | Planned           |
+| Email Login    | Supported 
+| GitHub Login   | Supported     
+| Google Login   | Supported     
+| SSO Login      | Planned       
 
 ### Creating an Account
 
-If you are using the cloud service, a workspace will be automatically created for you upon your first login, and you will become the administrator.
-
-In the community edition, you will be prompted to set an administrator email and password during installation. The community edition does not support the creation of multiple workspaces.
+A workspace will be automatically created for you upon your first login, and you will become the administrator.
