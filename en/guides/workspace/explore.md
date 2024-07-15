@@ -19,3 +19,11 @@ The workspace is the application's navigation. Click an application in the works
 <figure><img src="../explore/images/workspace.jpg" alt=""><figcaption></figcaption></figure>
 
 Apps in the workspace include: your own apps and apps added to the workspace by other teams.
+
+## Member Management
+
+In a workspace, members can be categorized into four roles: Workspace Owner, Admin, Developer, and Member. 
+1. The Workspace Owner can manage the roles of all members within the workspace. 
+2. the Admin can manage the roles of all members within the workspace except for the Workspace Owner and other Admins. 
+3. the Developer can create and modify agents within the workspace. 
+4. the Member can only access and interact with the agents within the workspace.
