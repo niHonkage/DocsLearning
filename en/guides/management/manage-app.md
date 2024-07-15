@@ -2,13 +2,13 @@
 
 ### Editing Application Information
 
-After creating an application, if you want to modify the application name or description, you can click "Edit info" in the upper left corner of the application to revise the application's icon, name, or description.
+After creating an application, if you want to modify the application name or description, you can click "Edit info" in the lower right corner of the application card to revise the application's icon, name, or description.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Edit App Info</p></figcaption></figure>
 
 ### Duplicating Application
 
-All applications support copying. Click "Duplicate" in the upper left corner of the application.
+All applications support copying. Click "Duplicate" in the lower right corner of the application.
 
 ### Switch to Workflow Orchestrate
 
@@ -24,7 +24,7 @@ Fusionworks DSL is an AI application engineering file standard defined by Fusion
 
 ### Deleting Application
 
-If you want to remove an application, you can click "Delete" in the upper left corner of the application.
+If you want to remove an application, you can click "Delete" in the lower right corner of the application.
 
 {% hint style="info" %}
 ⚠️ The deletion of an application cannot be undone. All users will be unable to access your application, and all prompts, orchestration configurations, and logs within the application will be deleted.

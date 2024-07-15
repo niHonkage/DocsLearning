@@ -4,10 +4,10 @@ Fusionworks 是一个多用户平台，工作空间（Workspace）是团队的�
 
 ### 登录方式
 
-| Email 登录       | 支持  
-| 使用 GitHub 账号登录 | 支持
-| 使用 Google 账号登录 | 支持
-| SSO 登录         | 计划支持
+| Email 登录       | 支持    |
+| 使用 GitHub 账号登录 | 支持 |
+| 使用 Google 账号登录 | 支持 |
+| SSO 登录         | 计划支持 |
 
 ### 创建账号
 
