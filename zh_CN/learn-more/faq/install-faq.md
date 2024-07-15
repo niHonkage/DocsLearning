@@ -191,7 +191,7 @@ flask vdb-migrarte # or docker exec -it docker-api-1 flask vdb-migrate
 
 #### 如何自定义代理的行为？
 
-在`docker/volumes/ssrf_proxy/squid.conf`中，你可以找到`squid`的配置文件，你可以在这里自定义代理的行为，比如你可以添加一些ACL规则来限制代理的访问，或者添加一些`http_access`规则来限制代理的访问，例如，您的本地可以访问`192.168.101.0/24`这个网段，但是其中的`192.168.101.19`这个IP具有敏感数据，你不希望使用你本地部署的dify的用户访问到这个IP，但是想要其他的IP可以访问，你可以在`squid.conf`中添加如下规则：
+在`docker/volumes/ssrf_proxy/squid.conf`中，你可以找到`squid`的配置文件，你可以在这里自定义代理的行为，比如你可以添加一些ACL规则来限制代理的访问，或者添加一些`http_access`规则来限制代理的访问，例如，您的本地可以访问`192.168.101.0/24`这个网段，但是其中的`192.168.101.19`这个IP具有敏感数据，你不希望使用你本地部署的fusionworks的用户访问到这个IP，但是想要其他的IP可以访问，你可以在`squid.conf`中添加如下规则：
 
 ```
 acl restricted_ip dst 192.168.101.19
@@ -206,7 +206,7 @@ http_access deny all
 
 ### 19. 如何将自己创建的应用设置为模板？
 
-目前还不支持将你自己创建的应用设置为模板。现有的模板是由Dify官方为云版本用户参考提供的。如果你正在使用云版本，你可以将应用添加到你的工作空间或者在修改后定制它们以创建你自己的应用。如果你正在使用社区版本并且需要为你的团队创建更多的应用模板，你可以咨询我们的商务团队以获得付费技术支持：[business@fusionworks.ai](mailto:business@fusionworks.ai)
+目前还不支持将你自己创建的应用设置为模板。现有的模板是由Fusionworks官方为云版本用户参考提供的。如果你正在使用云版本，你可以将应用添加到你的工作空间或者在修改后定制它们以创建你自己的应用。如果你正在使用社区版本并且需要为你的团队创建更多的应用模板，你可以咨询我们的商务团队以获得付费技术支持：[business@fusionworks.ai](mailto:business@fusionworks.ai)
 
 ### 20.502 Bad Gateway
 
@@ -223,6 +223,6 @@ docker ps -q | xargs -n 1 docker inspect --format '{{ .Name }}: {{range .Network
 /docker-api-1: 172.19.0.7
 ```
 
-记住后面的IP地址。然后打开你存放dify源代码的地方，打开`fusionworks/docker/nginx/conf.d`,将`http://api:5001`替换为`http://172.19.0.7:5001`,将`http://web:3000`替换为`http://172.19.0.5:3000`，随后重启Nginx容器或者重载配置。\
+记住后面的IP地址。然后打开你存放fusionworks源代码的地方，打开`fusionworks/docker/nginx/conf.d`,将`http://api:5001`替换为`http://172.19.0.7:5001`,将`http://web:3000`替换为`http://172.19.0.5:3000`，随后重启Nginx容器或者重载配置。\
 这些IP地址是_**示例性**_ 的，你必须执行命令获取你自己的IP地址，不要直接填入。\
 你可能在重新启动相关容器时需要再次根据IP进行配置。

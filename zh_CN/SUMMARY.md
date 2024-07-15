@@ -95,7 +95,7 @@
 * [管理](guides/management/README.md)
   * [管理应用](guides/management/manage-app.md)
 
-## 阅读更多 <a href="#learn-more" id="learn-more"></a>
+<!-- ## 阅读更多 <a href="#learn-more" id="learn-more"></a>
 
 * [应用案例](learn-more/use-cases/README.md)
   * [如何训练出专属于“你”的问答机器人？](learn-more/use-cases/train-a-qa-chatbot-that-belongs-to-you.md)
@@ -104,7 +104,7 @@
   * [如何在几分钟内创建一个带有业务数据的官网 AI 智能客服](learn-more/use-cases/create-an-ai-chatbot-with-business-data-in-minutes.md)
   * [使用全套开源工具构建 LLM 应用实战：在 Fusionworks 调用 Baichuan 开源模型能力](learn-more/use-cases/practical-implementation-of-building-llm-applications-using-a-full-set-of-open-source-tools.md)
   * [手摸手教你把 Fusionworks 接入微信生态](learn-more/use-cases/shou-mo-shou-jiao-ni-ba-fusionworks-jie-ru-wei-xin-sheng-tai.md)
-  * [使用Dify 和Twilio构建WhatsApp机器人](learn-more/use-cases/shi-yong-dify-he-twilio-gou-jian-whatsapp-ji-qi-ren.md)
+  * [使用Fusionworks 和Twilio构建WhatsApp机器人](learn-more/use-cases/shi-yong-dify-he-twilio-gou-jian-whatsapp-ji-qi-ren.md)
 * [扩展阅读](learn-more/extended-reading/README.md)
   * [什么是 LLMOps？](learn-more/extended-reading/what-is-llmops.md)
   * [检索增强生成（RAG）](learn-more/extended-reading/retrieval-augment/README.md)
@@ -116,10 +116,10 @@
       * [提示词初始模版参考](learn-more/extended-reading/prompt-engineering/prompt-engineering-1/prompt-engineering-template.md)
 * [常见问题](learn-more/faq/README.md)
   * [本地部署相关](learn-more/faq/install-faq.md)
-  * [LLM 配置与使用](learn-more/faq/llms-use-faq.md)
+  * [LLM 配置与使用](learn-more/faq/llms-use-faq.md) -->
 
-## 政策 <a href="#policies" id="policies"></a>
+<!-- ## 政策 <a href="#policies" id="policies"></a>
 
 * [用户协议](policies/yong-hu-xie-yi/README.md)
   * [服务条款](https://fusionworks.ai/terms)
-  * [隐私政策](https://fusionworks.ai/privacy)
+  * [隐私政策](https://fusionworks.ai/privacy) -->

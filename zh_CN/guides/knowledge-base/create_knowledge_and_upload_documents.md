@@ -31,7 +31,7 @@
 
 * 单文档的上传大小限制为 15MB；
 * 单次批量上传文件个数上限为 20 个；
-* SaaS 版本的不同[订阅计划](https://fusionworks.ai/pricing)限定了**批量上传个数、文档上传总数、向量存储**；
+* SaaS 版本的不同订阅计划限定了**批量上传个数、文档上传总数、向量存储**；
 
 ### 3 分段与清洗
 
@@ -74,7 +74,7 @@ Fusionworks 各版本的 ETL 方案选择：
 
 文件解析支持格式的差异：
 
-| DIFY ETL                                       | Unstructured ETL                                                         |
+| FUSIONWORKS ETL                                       | Unstructured ETL                                                         |
 | ---------------------------------------------- | ------------------------------------------------------------------------ |
 | txt、markdown、md、pdf、html、htm、xlsx、xls、docx、csv | txt、markdown、md、pdf、html、htm、xlsx、xls、docx、csv、eml、msg、pptx、ppt、xml、epub |
 

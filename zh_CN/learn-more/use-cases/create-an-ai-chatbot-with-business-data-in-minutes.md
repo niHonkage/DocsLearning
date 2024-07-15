@@ -20,7 +20,7 @@ AI 模型的消息调用需要消耗 token，Fusionworks 提供了 OpenAI GPT �
 
 #### 上传你的产品文档或知识库
 
-如果你希望能基于公司现有的知识库和产品文档构建人工智能客服，来与用户交流，那么你需要尽可能将你产品有关的文档上传到 Fusionworks 的数据集中。Fusionworks 帮助你完成数据的**分段处理和清洗**。Dify数据集支持高质量和经济两种索引模式，我们推荐使用高质量模式，会消耗 token 但能提供更高的准确性。操作步骤：在 【数据集】页面，新建一个数据集，上传你的业务数据（支持批量上传多个文本），选择清洗方式，【保存并处理】，只需几秒钟即可完成处理。
+如果你希望能基于公司现有的知识库和产品文档构建人工智能客服，来与用户交流，那么你需要尽可能将你产品有关的文档上传到 Fusionworks 的数据集中。Fusionworks 帮助你完成数据的**分段处理和清洗**。Fusionworks数据集支持高质量和经济两种索引模式，我们推荐使用高质量模式，会消耗 token 但能提供更高的准确性。操作步骤：在 【数据集】页面，新建一个数据集，上传你的业务数据（支持批量上传多个文本），选择清洗方式，【保存并处理】，只需几秒钟即可完成处理。
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ AI 模型的消息调用需要消耗 token，Fusionworks 提供了 OpenAI GPT �
 
 > 指令：你将扮演 Fusionworks 的 AI 智能客服,你是 Fusionworks 的第一个 AI 员工，名字叫 Bob。专门解答关于 Fusionworks 产品、团队或 LLMOps 相关的用户问题。请注意,当用户提出的问题不在你的上下文内容范围内时,请回答不知道。请以友好的语气和用户交流，可以适当加入一些 emoji 表情增进与用户之间的互动。
 
-> 开场白：你好，我是 Bob☀️, Dify的第一位AI成员。您可以与我讨论任何与Dify产品、团队甚至LLMOps相关的问题。
+> 开场白：你好，我是 Bob☀️, Fusionworks的第一位AI成员。您可以与我讨论任何与Fusionworks产品、团队甚至LLMOps相关的问题。
 
 <figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 

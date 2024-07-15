@@ -65,7 +65,7 @@ Fusionworks 支持接入 Ollama 部署的大型语言模型推理和 embedding �
 
 ## FAQ
 
-### ⚠️ 如果您使用Docker部署Dify和Ollama，您可能会遇到以下错误:
+### ⚠️ 如果您使用Docker部署Fusionworks和Ollama，您可能会遇到以下错误:
 
 ```
 httpconnectionpool(host=127.0.0.1, port=11434): max retries exceeded with url:/cpi/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8562812c20>: fail to establish a new connection:[Errno 111] Connection refused'))

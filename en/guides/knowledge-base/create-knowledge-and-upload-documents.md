@@ -31,7 +31,7 @@ If you choose to use an external data source when creating a dataset, the type o
 
 * The upload size limit for a single document is 15MB;
 * The maximum number of files for a single batch upload is 20;
-* Different [subscription plans](https://fusionworks.ai/pricing) for the SaaS version limit **batch upload numbers, total document uploads, and vector storage**;
+* Different subscription plans for the SaaS version limit **batch upload numbers, total document uploads, and vector storage**;
 
 ### 3 Segmenting and Cleaning
 

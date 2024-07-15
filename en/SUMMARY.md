@@ -112,7 +112,7 @@
   * [DifySandbox](development/backend/sandbox/README.md)
     * [Contribution Guide](development/backend/sandbox/contribution.md) -->
 
-## Learn More
+<!-- ## Learn More
 
 * [Use Cases](learn-more/use-cases/README.md)
   * [Build a Notion AI Assistant](learn-more/use-cases/build-an-notion-ai-assistant.md)
@@ -126,11 +126,11 @@
     * [Retrieval Modes](learn-more/extended-reading/retrieval-augment/retrieval.md)
 * [FAQ](learn-more/faq/README.md)
   * [Self-Host Related](learn-more/faq/self-host-faq.md)
-  * [LLM Configuration and Usage](learn-more/faq/use-llms-faq.md)
+  * [LLM Configuration and Usage](learn-more/faq/use-llms-faq.md) -->
 
-## Policies
+<!-- ## Policies
 
-<!-- * [Open Source License](policies/open-source.md)
-* [User Agreement](policies/agreement/README.md) -->
+* [Open Source License](policies/open-source.md)
+* [User Agreement](policies/agreement/README.md)
   * [Terms of Service](https://fusionworks.ai/terms)
-  * [Privacy Policy](https://fusionworks.ai/privacy)
+  * [Privacy Policy](https://fusionworks.ai/privacy) -->

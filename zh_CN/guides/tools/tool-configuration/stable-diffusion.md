@@ -61,4 +61,4 @@ git clone https://huggingface.co/JamesFlare/pastel-mix
 
 ## 4. 完成
 
-尝试在Dify中使用它吧！
+尝试在Fusionworks中使用它吧！
