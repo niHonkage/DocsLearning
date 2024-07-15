@@ -4,7 +4,8 @@ Fusionworks is a multi-user platform where workspaces are the basic units of tea
 
 ### Login Methods
 
-| ------------------ | -------- |
+| Login Method   | Supported |
+| -------------- | --------- |
 | Email Login    | Supported |
 | GitHub Login   | Supported |   
 | Google Login   | Supported |   
