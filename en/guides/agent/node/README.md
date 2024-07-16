@@ -1,6 +1,6 @@
 # Node Description
 
-**Nodes are the key components of a workflow**, enabling the execution of a series of operations by connecting nodes with different functionalities.
+**Nodes are the key components of a agent**, enabling the execution of a series of operations by connecting nodes with different functionalities.
 
 ### Core Nodes
 
@@ -11,12 +11,12 @@
 <tbody>
 <tr>
 <td><a href="start.md"><strong>Start</strong></a></td>
-<td>Defines the initial parameters for starting a workflow process.</td>
+<td>Defines the initial parameters for starting a agent process.</td>
 <td></td>
 </tr>
 <tr>
 <td><a href="end.md"><strong>End</strong></a></td>
-<td>Defines the final output content for ending a workflow process.</td>
+<td>Defines the final output content for ending a agent process.</td>
 <td></td>
 </tr>
 <tr>
@@ -41,12 +41,12 @@
 </tr>
 <tr>
 <td><a href="ifelse.md"><strong>IF/ELSE</strong></a></td>
-<td>Allows you to split the workflow into two branches based on if/else conditions.</td>
+<td>Allows you to split the agent into two branches based on if/else conditions.</td>
 <td></td>
 </tr>
 <tr>
 <td><a href="code.md"><strong>Code Execution</strong></a></td>
-<td>Runs Python/NodeJS code to execute custom logic such as data transformation within the workflow.</td>
+<td>Runs Python/NodeJS code to execute custom logic such as data transformation within the agent.</td>
 <td></td>
 </tr>
 <tr>
@@ -76,7 +76,7 @@
 </tr>
 <tr>
 <td><a href="tools.md"><strong>Tools</strong></a></td>
-<td>Enables calling built-in Fusionworks tools, custom tools, sub-workflows, and more within the workflow.</td>
+<td>Enables calling built-in Fusionworks tools, custom tools, sub-workflows, and more within the agent.</td>
 <td></td>
 </tr>
 </tbody>

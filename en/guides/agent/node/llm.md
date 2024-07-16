@@ -4,13 +4,13 @@
 
 Invoke large language models to answer questions or process natural language.
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>LLM Node</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>LLM Node</p></figcaption></figure>
 
 ***
 
 ### Scenarios
 
-LLM is the core node of Chatflow/Workflow, utilizing the conversational/generative/classification/processing capabilities of large language models to handle a wide range of tasks based on given prompts and can be used in different stages of workflows.
+LLM is the core node of Chatflow/Agent, utilizing the conversational/generative/classification/processing capabilities of large language models to handle a wide range of tasks based on given prompts and can be used in different stages of workflows.
 
 * **Intent Recognition**: In customer service scenarios, identifying and classifying user inquiries to guide downstream processes.
 * **Text Generation**: In content creation scenarios, generating relevant text based on themes and keywords.
@@ -20,13 +20,13 @@ LLM is the core node of Chatflow/Workflow, utilizing the conversational/generati
 * **RAG**: In knowledge base Q&A scenarios, reorganizing retrieved relevant knowledge to respond to user questions.
 * **Image Understanding**: Using multimodal models with vision capabilities to understand and answer questions about the information within images.
 
-By selecting the appropriate model and writing prompts, you can build powerful and reliable solutions within Chatflow/Workflow.
+By selecting the appropriate model and writing prompts, you can build powerful and reliable solutions within Chatflow/Agent.
 
 ***
 
 ### How to Configure
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (200).png" alt=""><figcaption><p>LLM Node Configuration - Model Selection</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (200).png" alt=""><figcaption><p>LLM Node Configuration - Model Selection</p></figcaption></figure>
 
 **Configuration Steps:**
 
@@ -43,11 +43,11 @@ If you are using Fusionworks for the first time, you need to complete the [model
 
 In the LLM node, you can customize the model input prompts. If you select a chat model, you can customize the SYSTEM/User/ASSISTANT sections.
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (203).png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (203).png" alt="" width="352"><figcaption></figcaption></figure>
 
 In the prompt editor, you can call out the **variable insertion menu** by typing **"/"** or **"{"** to insert **special variable blocks** or **upstream node variables** into the prompt as context content.
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (202).png" alt="" width="366"><figcaption><p>Calling Out the Variable Insertion Menu</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (202).png" alt="" width="366"><figcaption><p>Calling Out the Variable Insertion Menu</p></figcaption></figure>
 
 ***
 
@@ -57,7 +57,7 @@ In the prompt editor, you can call out the **variable insertion menu** by typing
 
 Context variables are a special type of variable defined within the LLM node, used to insert externally retrieved text content into the prompt.
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (205).png" alt=""><figcaption><p>Context Variables</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (205).png" alt=""><figcaption><p>Context Variables</p></figcaption></figure>
 
 In common knowledge base Q&A applications, the downstream node of knowledge retrieval is typically the LLM node. The **output variable** `result` of knowledge retrieval needs to be configured in the **context variable** within the LLM node for association and assignment. After association, inserting the **context variable** at the appropriate position in the prompt can incorporate the externally retrieved knowledge into the prompt.
 
@@ -75,7 +75,7 @@ To achieve conversational memory in text completion models (e.g., gpt-3.5-turbo-
 The conversation history variable is not widely used and can only be inserted when selecting text completion models in Chatflow.
 {% endhint %}
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (204).png" alt=""><figcaption><p>Inserting Conversation History Variable</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (204).png" alt=""><figcaption><p>Inserting Conversation History Variable</p></figcaption></figure>
 
 ***
 

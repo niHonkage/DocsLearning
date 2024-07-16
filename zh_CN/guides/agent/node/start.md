@@ -6,7 +6,7 @@
 
 在开始节点中，您可以自定义启动智能体的输入变量。每个智能体都需要一个开始节点。
 
-<figure><img src="../../../../en/.gitbook/assets/guides/workflow/node/start/image (236).png" alt="" width="375"><figcaption><p>智能体开始节点</p></figcaption></figure>
+<figure><img src="../../../../en/.gitbook/assets/guides/Agent/node/start/image (236).png" alt="" width="375"><figcaption><p>智能体开始节点</p></figcaption></figure>
 
 开始节点支持定义四种类型的输入变量:
 

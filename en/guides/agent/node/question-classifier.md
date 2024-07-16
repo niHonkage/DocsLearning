@@ -12,9 +12,9 @@ Common use cases include **customer service conversation intent classification, 
 
 In a typical product customer service Q&A scenario, the issue classifier can serve as a preliminary step before knowledge base retrieval. It classifies the user's input question, directing it to different downstream knowledge base queries to accurately respond to the user's question.
 
-The following diagram is an example workflow template for a product customer service scenario:
+The following diagram is an example agent template for a product customer service scenario:
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/question_classifier/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/question_classifier/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In this scenario, we set up three classification labels/descriptions:
 
@@ -32,7 +32,7 @@ When users input different questions, the issue classifier will automatically cl
 
 ### 3. How to Configure
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/question_classifier/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/question_classifier/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Configuration Steps:**
 

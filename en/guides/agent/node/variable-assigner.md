@@ -4,7 +4,7 @@
 
 Aggregate variables from multiple branches into a single variable to achieve unified configuration for downstream nodes.
 
-The variable aggregation node (formerly the variable assignment node) is a key node in the workflow. It is responsible for integrating the output results from different branches, ensuring that regardless of which branch is executed, its results can be referenced and accessed through a unified variable. This is particularly useful in multi-branch scenarios, as it maps variables with the same function from different branches into a single output variable, avoiding the need for repeated definitions in downstream nodes.
+The variable aggregation node (formerly the variable assignment node) is a key node in the agent. It is responsible for integrating the output results from different branches, ensuring that regardless of which branch is executed, its results can be referenced and accessed through a unified variable. This is particularly useful in multi-branch scenarios, as it maps variables with the same function from different branches into a single output variable, avoiding the need for repeated definitions in downstream nodes.
 
 ***
 
@@ -16,15 +16,15 @@ Through variable aggregation, you can aggregate multiple outputs, such as from i
 
 Without variable aggregation, the branches of Classification 1 and Classification 2, after different knowledge base retrievals, would require repeated definitions for downstream LLM and direct response nodes.
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/variable_assigner/image (227).png" alt=""><figcaption><p>Issue Classification (without Variable Aggregation)</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/variable_assigner/image (227).png" alt=""><figcaption><p>Issue Classification (without Variable Aggregation)</p></figcaption></figure>
 
 By adding variable aggregation, the outputs of the two knowledge retrieval nodes can be aggregated into a single variable.
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/variable_assigner/image (225).png" alt=""><figcaption><p>Multi-Branch Aggregation after Issue Classification</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/variable_assigner/image (225).png" alt=""><figcaption><p>Multi-Branch Aggregation after Issue Classification</p></figcaption></figure>
 
 **Multi-Branch Aggregation after IF/ELSE Conditional Branching**
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/variable_assigner/image (226).png" alt=""><figcaption><p>Multi-Branch Aggregation after Conditional Branching</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/variable_assigner/image (226).png" alt=""><figcaption><p>Multi-Branch Aggregation after Conditional Branching</p></figcaption></figure>
 
 ### 3 Format Requirements
 

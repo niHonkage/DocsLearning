@@ -8,11 +8,11 @@
 
 ## Introduction
 
-The code node supports running Python/NodeJS code to perform data transformations within a workflow. It can simplify your workflow and is suitable for scenarios such as arithmetic operations, JSON transformations, text processing, and more.
+The code node supports running Python/NodeJS code to perform data transformations within a agent. It can simplify your agent and is suitable for scenarios such as arithmetic operations, JSON transformations, text processing, and more.
 
-This node significantly enhances the flexibility for developers, allowing them to embed custom Python or JavaScript scripts within the workflow and manipulate variables in ways that preset nodes cannot achieve. Through configuration options, you can specify the required input and output variables and write the corresponding execution code:
+This node significantly enhances the flexibility for developers, allowing them to embed custom Python or JavaScript scripts within the agent and manipulate variables in ways that preset nodes cannot achieve. Through configuration options, you can specify the required input and output variables and write the corresponding execution code:
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/code/image (157).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/code/image (157).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Configuration
 If you need to use variables from other nodes in the code node, you must define the variable names in the `input variables` and reference these variables. You can refer to [Variable References](../key_concept.md#variables).
@@ -34,7 +34,7 @@ def main(http_response: str) -> str:
 ```
 
 ### Mathematical Calculations
-When you need to perform complex mathematical calculations in a workflow, you can also use the code node. For example, calculating a complex mathematical formula or performing some statistical analysis on data. Here is a simple example that calculates the variance of an array:
+When you need to perform complex mathematical calculations in a agent, you can also use the code node. For example, calculating a complex mathematical formula or performing some statistical analysis on data. Here is a simple example that calculates the variance of an array:
 
 ```python
 def main(x: list) -> float:
