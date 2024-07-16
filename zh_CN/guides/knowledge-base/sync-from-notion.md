@@ -25,8 +25,6 @@ _**请注意：图片和文件暂不支持导入，表格类数据会被转换�
 
 <figure><img src="../../.gitbook/assets/sync-notion.png" alt=""><figcaption><p>同步 Notion 内容</p></figcaption></figure>
 
-### 社区版 Notion 的集成配置方法
-
 Notion集成分为**内部集成**（internal integration）和**外部集成**（public integration）两种方式。可按需在 Fusionworks 里配置。两种集成方式的具体区别请参阅 [Notion 官方文档](https://developers.notion.com/docs/authorization)。
 
 ### 1、**使用 internal 集成方式**

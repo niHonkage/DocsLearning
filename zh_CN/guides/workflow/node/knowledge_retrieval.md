@@ -45,4 +45,4 @@
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>配置下游 LLM 节点</p></figcaption></figure>
 
-该变量除了可以作为 LLM 回复问题时的提示词上下文作为外部知识参考引用，另外由于其数据结构中包含了分段引用信息，同时可以支持应用端的 [**引用与归属**](../../knowledge-base/retrieval\_test\_and\_citation.md#id-2-yin-yong-yu-gui-shu) 功能。
+该变量除了可以作为 LLM 回复问题时的提示词上下文作为外部知识参考引用，另外由于其数据结构中包含了分段引用信息，同时可以支持应用端的 [**引用与归属**](broken-reference) 功能。

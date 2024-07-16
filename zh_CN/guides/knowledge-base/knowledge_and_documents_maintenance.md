@@ -98,7 +98,7 @@
 
 **索引模式**，[参考文档](create\_knowledge\_and\_upload\_documents.md#suo-yin-fang-shi)
 
-**Embedding 模型，**修改知识库的嵌入模型，修改 Embedding 模型将对知识库内的所有文档重新嵌入，原先的嵌入将会被删除。
+**Embedding 模型**，修改知识库的嵌入模型，修改 Embedding 模型将对知识库内的所有文档重新嵌入，原先的嵌入将会被删除。
 
 **检索设置**，[参考文档](create\_knowledge\_and\_upload\_documents.md#jian-suo-she-zhi)
 
@@ -106,6 +106,6 @@
 
 ### 9 知识库 API 管理
 
-Fusionworks 知识库提供整套标准 API  ，开发者通过 API 调用对知识库内的文档、分段进行增删改查等日常管理维护操作，请参考[知识库 API 文档](maintain-dataset-via-api.md)。
+Fusionworks 知识库提供整套标准 API ，开发者通过 API 调用对知识库内的文档、分段进行增删改查等日常管理维护操作，请参考[知识库 API 文档](broken-reference)。
 
 <figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption><p>知识库 API 管理</p></figcaption></figure>
