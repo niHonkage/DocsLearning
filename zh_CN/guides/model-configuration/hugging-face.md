@@ -22,7 +22,7 @@ Fusionworks 支持用两种方式接入 Hugging Face 上的模型：
 
 #### 1 选择模型
 
-模型详情页右侧有包含 Hosted inference API 的 区域才支持 Hosted inference API 。如下图所：
+模型详情页右侧有包含 Hosted inference API 的 区域才支持 Hosted inference API 。如下图所示：
 
 <figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +32,7 @@ Fusionworks 支持用两种方式接入 Hugging Face 上的模型：
 
 #### 2 在 Fusionworks 中使用接入模型
 
-在 `设置 > 模型供应商 > Hugging Face > 模型类型` 的 Endpoint Type 选择 Hosted Inference API。如下图所示：
+在 `设置 > 模型 > Hugging Face > 模型类型` 的 Endpoint Type 选择 Hosted Inference API。如下图所示：
 
 <figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
 
@@ -58,7 +58,7 @@ API Token 为文章开头设置的 API Key。模型名字为上一步获得的�
 
 #### 3 在 Fusionworks 中使用接入模型
 
-在 `设置 > 模型供应商 > Hugging Face > 模型类型` 的 Endpoint Type 选择 Inference Endpoints。如下图所示：
+在 `设置 > 模型 > Hugging Face > 模型类型` 的 Endpoint Type 选择 Inference Endpoints。如下图所示：
 
 <figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 

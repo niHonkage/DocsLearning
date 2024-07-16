@@ -1,10 +1,9 @@
 # Agent
 
 ### Basic Introduction
+Agent workflows reduce system complexity by breaking down complex tasks into smaller steps (nodes), reducing reliance on prompt engineering and model inference capabilities, and enhancing the performance of LLM applications for complex tasks. This also improves the system's interpretability, stability, and fault tolerance.
 
-Workflows reduce system complexity by breaking down complex tasks into smaller steps (nodes), reducing reliance on prompt engineering and model inference capabilities, and enhancing the performance of LLM applications for complex tasks. This also improves the system's interpretability, stability, and fault tolerance.
-
-<!-- Fusionworks workflows are divided into two types:
+<!-- Fusionworks agent workflows are divided into two types:
 
 * **Chatflow**: Designed for conversational scenarios, including customer service, semantic search, and other conversational applications that require multi-step logic in response construction.
 * **Agent**: Geared towards automation and batch processing scenarios, suitable for high-quality translation, data analysis, content generation, email automation, and more. -->
@@ -40,6 +39,6 @@ LLM can be used to draft emails, social media updates, and other forms of commun
 ### How to Get Started
 
 * Start by building a agent from scratch or use system templates to help you get started.
-* Get familiar with basic operations, including creating nodes on the canvas, connecting and configuring nodes, debugging workflows, and viewing run history.
+* Get familiar with basic operations, including creating nodes on the canvas, connecting and configuring nodes, debugging agent workflows, and viewing run history.
 * Save and publish a agent.
 * Run the published application or call the agent through an API.

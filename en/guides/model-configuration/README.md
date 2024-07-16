@@ -40,7 +40,7 @@ Fusionworks automatically selects the default model based on usage. Configure th
 
 Choose your model in Fusionworks's `Studio > Settings > Models`.
 
-<figure><img src="/en/.gitbook/assets/guides/model-configuration/image-20231210143654461.png" alt=""><figcaption></figcaption></figure>
+<!-- <figure><img src="/en/.gitbook/assets/guides/model-configuration/image-20231210143654461.png" alt=""><figcaption></figcaption></figure> -->
 
 Model providers fall into two categories:
 

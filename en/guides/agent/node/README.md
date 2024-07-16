@@ -1,6 +1,6 @@
 # Node Description
 
-**Nodes are the key components of a agent**, enabling the execution of a series of operations by connecting nodes with different functionalities.
+**Nodes are the key components of a agent workflow**, enabling the execution of a series of operations by connecting nodes with different functionalities.
 
 ### Core Nodes
 
@@ -11,17 +11,12 @@
 <tbody>
 <tr>
 <td><a href="start.md"><strong>Start</strong></a></td>
-<td>Defines the initial parameters for starting a agent process.</td>
+<td>Defines the initial parameters for starting a agent workflow process.</td>
 <td></td>
 </tr>
 <tr>
 <td><a href="end.md"><strong>End</strong></a></td>
-<td>Defines the final output content for ending a agent process.</td>
-<td></td>
-</tr>
-<tr>
-<td><a href="answer.md"><strong>Answer</strong></a></td>
-<td>Defines the response content in a Chatflow process.</td>
+<td>Defines the final output content for ending a agent workflow process.</td>
 <td></td>
 </tr>
 <tr>
@@ -41,12 +36,12 @@
 </tr>
 <tr>
 <td><a href="ifelse.md"><strong>IF/ELSE</strong></a></td>
-<td>Allows you to split the agent into two branches based on if/else conditions.</td>
+<td>Allows you to split the agent workflow into two branches based on if/else conditions.</td>
 <td></td>
 </tr>
 <tr>
 <td><a href="code.md"><strong>Code Execution</strong></a></td>
-<td>Runs Python/NodeJS code to execute custom logic such as data transformation within the agent.</td>
+<td>Runs Python/NodeJS code to execute custom logic such as data transformation within the agent workflow.</td>
 <td></td>
 </tr>
 <tr>
@@ -60,23 +55,13 @@
 <td></td>
 </tr>
 <tr>
-<td><a href="parameter_extractor.md"><strong>Parameter Extractor</strong></a></td>
-<td>Uses LLM to infer and extract structured parameters from natural language for subsequent tool calls or HTTP requests.</td>
-<td></td>
-</tr>
-<tr>
-<td><a href="iteration.md"><strong>Iteration</strong></a></td>
-<td>Executes multiple steps on list objects until all results are output.</td>
-<td></td>
-</tr>
-<tr>
 <td><a href="http_request.md"><strong>HTTP Request</strong></a></td>
 <td>Allows sending server requests via the HTTP protocol, suitable for retrieving external results, webhooks, generating images, and other scenarios.</td>
 <td></td>
 </tr>
 <tr>
 <td><a href="tools.md"><strong>Tools</strong></a></td>
-<td>Enables calling built-in Fusionworks tools, custom tools, sub-workflows, and more within the agent.</td>
+<td>Enables calling built-in Fusionworks tools, custom tools, sub-workflows, and more within the agent workflow.</td>
 <td></td>
 </tr>
 </tbody>

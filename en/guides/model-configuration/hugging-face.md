@@ -32,7 +32,7 @@ On the model details page, you can get the name of the model.
 
 #### 2 Using access models in Fusionworks
 
-Select Hosted Inference API for Endpoint Type in `Settings > Model Provider > Hugging Face > Model Type`. As shown below:
+Select Hosted Inference API for Endpoint Type in `Settings > Model > Hugging Face > Model Type`. As shown below:
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/huggingface/create-model.png" alt=""><figcaption></figcaption></figure>
 
@@ -62,7 +62,7 @@ After the model is deployed, you can see the Endpoint URL.
 
 #### 3 Using access models in Fusionworks
 
-Select Inference Endpoints for Endpoint Type in `Settings > Model Provider > Hugging face > Model Type`. As shown below:
+Select Inference Endpoints for Endpoint Type in `Settings > Model > Hugging face > Model Type`. As shown below:
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/huggingface/use-model-in-fusionworks.png" alt=""><figcaption></figcaption></figure>
 

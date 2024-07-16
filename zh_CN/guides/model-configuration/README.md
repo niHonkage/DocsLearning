@@ -35,7 +35,7 @@ Fusionworks 在需要模型时，会根据使用场景来选择设置过的默�
 
 在 Fusionworks 的 `工作室 > 设置 > 模型` 中设置要接入的模型。
 
-<figure><img src="../../.gitbook/assets/image-20231210143654461 (1).png" alt=""><figcaption></figcaption></figure>
+<!-- <figure><img src="../../.gitbook/assets/image-20231210143654461 (1).png" alt=""><figcaption></figcaption></figure> -->
 
 模型供应商分为两种：
 
