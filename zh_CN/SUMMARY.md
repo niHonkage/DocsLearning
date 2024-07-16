@@ -33,7 +33,7 @@
 * [知识库](guides/knowledge-base/README.md)
   * [创建知识库&上传文档](guides/knowledge-base/create\_knowledge\_and\_upload\_documents.md)
   * [知识库及文档维护](guides/knowledge-base/knowledge\_and\_documents\_maintenance.md)
-  * [从 Notion 导入数据](guides/knowledge-base/sync-from-notion.md)
+  <!-- * [从 Notion 导入数据](guides/knowledge-base/sync-from-notion.md) -->
 <!-- * [协同](guides/workspace/README.md)
   * [发现](guides/workspace/app/README.md)
   * [邀请与管理成员](guides/workspace/invite-and-manage-members.md)

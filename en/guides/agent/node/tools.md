@@ -6,7 +6,7 @@ The agent workflow provides a rich selection of tools. Before using built-in too
 
 <figure><img src="/en/.gitbook/assets/guides/workflow/node/tools/image (231).png" alt="" width="258"><figcaption><p>Tool Selection</p></figcaption></figure>
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/tools/image (232).png" alt=""><figcaption><p>Configuring Google Search Tool to Retrieve External Knowledge</p></figcaption></figure>
+<!-- <figure><img src="/en/.gitbook/assets/guides/workflow/node/tools/image (232).png" alt=""><figcaption><p>Configuring Google Search Tool to Retrieve External Knowledge</p></figcaption></figure> -->
 
 Configuring a tool node generally involves two steps:
 

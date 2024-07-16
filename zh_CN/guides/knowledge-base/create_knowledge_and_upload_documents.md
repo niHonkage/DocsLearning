@@ -75,7 +75,7 @@
 
 <figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption><p>Q&#x26;A 分段模式下被总结成多个 Q&#x26;A 对的文本</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption><p>Q to P 与 Q to Q 的索引模式区别</p></figcaption></figure>
+<!-- <figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption><p>Q to P 与 Q to Q 的索引模式区别</p></figcaption></figure> -->
 
 ***
 

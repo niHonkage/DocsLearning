@@ -104,8 +104,8 @@
 
 ***
 
-### 9 知识库 API 管理
+<!-- ### 9 知识库 API 管理
 
 Fusionworks 知识库提供整套标准 API ，开发者通过 API 调用对知识库内的文档、分段进行增删改查等日常管理维护操作，请参考[知识库 API 文档](broken-reference)。
 
-<figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption><p>知识库 API 管理</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption><p>知识库 API 管理</p></figcaption></figure> -->

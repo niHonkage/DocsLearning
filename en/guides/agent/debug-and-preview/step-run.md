@@ -1,6 +1,6 @@
 # Step Run
 
-Agent supports step-by-step debugging of nodes, where you can repetitively test whether the execution of the current node meets expectations.
+Agent workflow supports step-by-step debugging of nodes, where you can repetitively test whether the execution of the current node meets expectations.
 
 <figure><img src="/en/.gitbook/assets/guides/workflow/debug_and_preview/step-run/output (3) (3).png" alt=""><figcaption></figcaption></figure>
 

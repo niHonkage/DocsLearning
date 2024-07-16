@@ -78,7 +78,7 @@ When uploading documents to the knowledge base, the system segments the text so 
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/Q&A-pair.png" alt=""><figcaption><p>Texts summarized into multiple Q&A pairs in Q&A segment mode</p></figcaption></figure>
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/q2p-and-q2q.png" alt=""><figcaption><p>Difference between Q to P and Q to Q indexing modes</p></figcaption></figure>
+<!-- <figure><img src="/en/.gitbook/assets/guides/knowledge-base/q2p-and-q2q.png" alt=""><figcaption><p>Difference between Q to P and Q to Q indexing modes</p></figcaption></figure> -->
 
 ***
 

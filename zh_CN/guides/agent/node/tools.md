@@ -10,7 +10,7 @@ description: Fusionworks 支持各种工具来增强应用的功能。
 
 <figure><img src="../../../.gitbook/assets/image (231).png" alt="" width="258"><figcaption><p>工具选择</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption><p>配置 Google 搜索工具检索外部知识</p></figcaption></figure>
+<!-- <figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption><p>配置 Google 搜索工具检索外部知识</p></figcaption></figure> -->
 
 配置工具节点一般分为两个步骤：
 

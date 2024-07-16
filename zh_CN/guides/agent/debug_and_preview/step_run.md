@@ -1,6 +1,6 @@
 # 单步调试
 
-工作流支持节点的单步调试，在单步调试中你可以重复测试当前节点的执行是否符合预期。
+智能体工作流支持节点的单步调试，在单步调试中你可以重复测试当前节点的执行是否符合预期。
 
 <figure><img src="../../../.gitbook/assets/output (3) (3).png" alt=""><figcaption></figcaption></figure>
 

@@ -49,7 +49,7 @@
   * [Knowledge Base and Document Maintenance](guides/knowledge-base/knowledge-and-documents-maintenance.md)
   <!-- * [Integrate Knowledge Base within Application](guides/knowledge-base/integrate-knowledge-within-application.md)
   * [Retrieval Test/Citation](guides/knowledge-base/retrieval-test-and-citation.md) -->
-  * [Sync Data from Notion](guides/knowledge-base/sync-from-notion.md)
+  <!-- * [Sync Data from Notion](guides/knowledge-base/sync-from-notion.md) -->
   <!-- * [Sync Data from Website](guides/knowledge-base/sync-from-website.md)
   * [Maintain Knowledge Base via API](guides/knowledge-base/maintain-dataset-via-api.md)
   * [External Data Tool](guides/knowledge-base/external-data-tool.md) -->
