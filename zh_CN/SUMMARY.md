@@ -9,16 +9,8 @@
 ## 手册 <a href="#guides" id="guides"></a>
 
 * [模型](guides/model-configuration/README.md)
-  * [增加新供应商](guides/model-configuration/new-provider.md)
-  * [预定义模型接入](guides/model-configuration/predefined-model.md)
-  * [自定义模型接入](guides/model-configuration/customizable-model.md)
   * [接入 Hugging Face 上的开源模型](guides/model-configuration/hugging-face.md)
   * [接入 Replicate 上的开源模型](guides/model-configuration/replicate.md)
-  * [接入 Xinference 部署的本地模型](guides/model-configuration/xinference.md)
-  * [接入 OpenLLM 部署的本地模型](guides/model-configuration/openllm.md)
-  * [接入 LocalAI 部署的本地模型](guides/model-configuration/localai.md)
-  * [接入 Ollama 部署的本地模型](guides/model-configuration/ollama.md)
-  * [负载均衡](guides/model-configuration/load\_balancing.md)
 * [工作流](guides/workflow/README.md)
   * [关键概念](guides/workflow/key\_concept.md)
   * [节点说明](guides/workflow/node/README.md)
