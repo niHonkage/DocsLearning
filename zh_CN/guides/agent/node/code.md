@@ -2,10 +2,9 @@
 
 ## 目录
 
-* [介绍](code.md#介绍)
-* [使用场景](code.md#使用场景)
-* [本地部署](code.md#本地部署)
-* [安全策略](code.md#安全策略)
+* [介绍](code.md#jie-shao)
+* [使用场景](code.md#shi-yong-chang-jing)
+* [限制](code.md#xian-zhi)
 
 ## 介绍
 

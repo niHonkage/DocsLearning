@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Usage Scenarios](#usage-scenarios)
-- [Local Deployment](#local-deployment)
 - [Security Policies](#security-policies)
 
 ## Introduction
@@ -44,7 +43,7 @@ def main(x: list) -> float:
     }
 ```
 
-### Data Concatenation
+<!-- ### Data Concatenation
 Sometimes, you may need to concatenate multiple data sources, such as multiple knowledge retrievals, data searches, API calls, etc. The code node can help you integrate these data sources together. Here is a simple example that merges data from two knowledge bases:
 
 ```python
@@ -53,7 +52,7 @@ def main(knowledge1: list, knowledge2: list) -> list:
         # Note to declare 'result' in the output variables
         'result': knowledge1 + knowledge2
     }
-```
+``` -->
 
 ## Limitations
 Both Python and JavaScript execution environments are strictly isolated (sandboxed) to ensure security. This means that developers cannot use functions that consume large amounts of system resources or may pose security risks, such as direct file system access, making network requests, or executing operating system-level commands. These limitations ensure the safe execution of the code while avoiding excessive consumption of system resources.

@@ -10,7 +10,7 @@ Invoke large language models to answer questions or process natural language.
 
 ### Scenarios
 
-LLM is the core node of Chatflow/Agent, utilizing the conversational/generative/classification/processing capabilities of large language models to handle a wide range of tasks based on given prompts and can be used in different stages of workflows.
+LLM is the core node of Agent, utilizing the conversational/generative/classification/processing capabilities of large language models to handle a wide range of tasks based on given prompts and can be used in different stages of workflows.
 
 * **Intent Recognition**: In customer service scenarios, identifying and classifying user inquiries to guide downstream processes.
 * **Text Generation**: In content creation scenarios, generating relevant text based on themes and keywords.
@@ -20,7 +20,7 @@ LLM is the core node of Chatflow/Agent, utilizing the conversational/generative/
 * **RAG**: In knowledge base Q&A scenarios, reorganizing retrieved relevant knowledge to respond to user questions.
 * **Image Understanding**: Using multimodal models with vision capabilities to understand and answer questions about the information within images.
 
-By selecting the appropriate model and writing prompts, you can build powerful and reliable solutions within Chatflow/Agent.
+By selecting the appropriate model and writing prompts, you can build powerful and reliable solutions within Agent.
 
 ***
 

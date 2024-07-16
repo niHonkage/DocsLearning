@@ -10,13 +10,13 @@ By defining classification descriptions, the issue classifier can infer and matc
 
 Common use cases include **customer service conversation intent classification, product review classification, and bulk email classification**.
 
-In a typical product customer service Q&A scenario, the issue classifier can serve as a preliminary step before knowledge base retrieval. It classifies the user's input question, directing it to different downstream knowledge base queries to accurately respond to the user's question.
+<!-- In a typical product customer service Q&A scenario, the issue classifier can serve as a preliminary step before knowledge base retrieval. It classifies the user's input question, directing it to different downstream knowledge base queries to accurately respond to the user's question. -->
 
-The following diagram is an example agent template for a product customer service scenario:
+<!-- The following diagram is an example agent template for a product customer service scenario:
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/question_classifier/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/node/question_classifier/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> -->
 
-In this scenario, we set up three classification labels/descriptions:
+<!-- In this scenario, we set up three classification labels/descriptions:
 
 * Category 1: **Questions related to after-sales service**
 * Category 2: **Questions related to product usage**
@@ -28,7 +28,7 @@ When users input different questions, the issue classifier will automatically cl
 * "**What is the warranty period?**" —> "**Questions related to after-sales service**"
 * "**How's the weather today?**" —> "**Other questions**"
 
-***
+*** -->
 
 ### 3. How to Configure
 
