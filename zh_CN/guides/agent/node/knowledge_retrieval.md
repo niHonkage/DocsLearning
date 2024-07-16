@@ -25,7 +25,7 @@
 
 1. 选择查询变量，用于作为输入来检索知识库中的相关文本分段，在常见的对话类应用中一般将开始节点的 `sys.query` 作为查询变量；
 2. 选择需要查询的知识库，可选知识库需要在 Fusionworks 知识库内预先[创建](../../knowledge-base/create\_knowledge\_and\_upload\_documents.md#id-1-chuang-jian-zhi-shi-ku)；
-3. 配置[召回模式](broken-reference)和[知识库设置](../../knowledge-base/knowledge\_and\_documents\_maintenance.md#id-8-zhi-shi-ku-she-zhi)；
+3. 配置[知识库设置](../../knowledge-base/knowledge\_and\_documents\_maintenance.md#id-8-zhi-shi-ku-she-zhi)；
 4. 连接并配置下游节点，一般为 LLM 节点；
 
 **输出变量**
@@ -44,6 +44,6 @@
 
 当用户提问时，若在知识检索中召回了相关文本，文本内容会作为上下文变量中的值填入提示词，提供 LLM 回复问题；若未在知识库检索中召回相关的文本，上下文变量值为空，LLM 则会直接回复用户问题。
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>配置下游 LLM 节点</p></figcaption></figure>
-
-该变量除了可以作为 LLM 回复问题时的提示词上下文作为外部知识参考引用，另外由于其数据结构中包含了分段引用信息，同时可以支持应用端的 [**引用与归属**](broken-reference) 功能。
+<!-- <figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>配置下游 LLM 节点</p></figcaption></figure> -->
+<!-- 
+该变量除了可以作为 LLM 回复问题时的提示词上下文作为外部知识参考引用，另外由于其数据结构中包含了分段引用信息，同时可以支持应用端的 [**引用与归属**](broken-reference) 功能。 -->
