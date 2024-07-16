@@ -19,8 +19,6 @@
   * [接入 LocalAI 部署的本地模型](guides/model-configuration/localai.md)
   * [接入 Ollama 部署的本地模型](guides/model-configuration/ollama.md)
   * [负载均衡](guides/model-configuration/load\_balancing.md)
-* [构建](guides/application\_orchestrate/README.md)
-  * [创建应用](guides/application\_orchestrate/creating-an-application.md)
 * [工作流](guides/workflow/README.md)
   * [关键概念](guides/workflow/key\_concept.md)
   * [节点说明](guides/workflow/node/README.md)
