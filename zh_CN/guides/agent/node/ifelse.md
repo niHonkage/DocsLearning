@@ -27,7 +27,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-以上图**文本总结工作流**为例
+以上图**语言风格智能体**为例
 
 * IF条件： 选择开始节点中的`intent`变量，条件为 **是**  `joke`；
 * IF 条件判断为 `True`，执行 IF 路径，通过 joke 节点回复（图中上半部分）；

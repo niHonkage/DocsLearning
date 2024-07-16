@@ -27,7 +27,7 @@ A conditional branching node has three parts:
 
 <figure><img src="/en/.gitbook/assets/guides/workflow/node/ifelse/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Taking the above **Text Summary Agent** as an example:
+Taking the above **Text Style Agent** as an example:
 
 * IF Condition: Select the `intent` variable from the start node, with the condition **is** `joke`.
 * IF condition evaluates to `True`, execute the IF path, responding via the LLM node (upper part of the diagram).
