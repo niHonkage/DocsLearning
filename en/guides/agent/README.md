@@ -38,7 +38,7 @@ LLM can be used to draft emails, social media updates, and other forms of commun
 
 ### How to Get Started
 
-* Start by building a agent from scratch or use system templates to help you get started.
+* Start by building a agent from scratch.
 * Get familiar with basic operations, including creating nodes on the canvas, connecting and configuring nodes, debugging agent workflows, and viewing run history.
 * Save and publish a agent.
-* Run the published application or call the agent through an API.
+* Run the published agent or call the agent through an API.

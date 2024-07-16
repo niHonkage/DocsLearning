@@ -31,7 +31,7 @@
     * [Question Classifier](guides/agent/node/question-classifier.md)
     * [Conditional Branch IF/ELSE](guides/agent/node/ifelse.md)
     * [Code Execution](guides/agent/node/code.md)
-    * [Template](guides/agent/node/template.md)
+    <!-- * [Template](guides/agent/node/template.md) -->
     * [Variable Aggregator](guides/agent/node/variable-assigner.md)
     <!-- * [Iteration](guides/agent/node/iteration.md) -->
     <!-- * [Parameter Extraction](guides/agent/node/parameter-extractor.md) -->

@@ -29,9 +29,9 @@ A conditional branching node has three parts:
 
 Taking the above **Text Summary Agent** as an example:
 
-* IF Condition: Select the `summarystyle` variable from the start node, with the condition **Contains** `technical`.
-* IF condition evaluates to `True`, execute the IF path, querying technical-related knowledge through the Knowledge Retrieval node and then responding via the LLM node (upper part of the diagram).
-* IF condition evaluates to `False`, i.e., the `summarystyle` variable input **does not contain** `technical`, execute the ELSE path, responding via the LLM2 node (lower part of the diagram).
+* IF Condition: Select the `intent` variable from the start node, with the condition **is** `joke`.
+* IF condition evaluates to `True`, execute the IF path, responding via the LLM node (upper part of the diagram).
+* IF condition evaluates to `False`, i.e., the `intent` variable input **is not** `joke`, execute the ELSE path, responding via the LLM2 node (lower part of the diagram).
 
 **Multiple Condition Judgments**
 

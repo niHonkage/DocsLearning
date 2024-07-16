@@ -30,7 +30,7 @@ The name Fusionworks comes from Define + Modify, referring to defining and conti
 
 ### Next Steps
 
-* Read [**Quick Start**](https://docs.fusionworks.ai/application/creating-an-application) for an overview of Fusionworks’s application building workflow.
+* Read [**Agent**](/en/guides/agent/README.md) for an overview of Fusionworks’s application building workflow.
 <!-- * Learn how to [**self-deploy Fusionworks** ](https://docs.fusionworks.ai/getting-started/install-self-hosted)to your servers and [**integrate open source models**](https://docs.fusionworks.ai/advanced/model-configuration)**.** -->
 * Understand Fusionworks’s [**specifications and roadmap**](getting-started/readme/features-and-specifications.md)**.**
 <!-- * [**Star us on GitHub**](https://github.com/langgenius/fusionworks) and read our **Contributor Guidelines.** -->

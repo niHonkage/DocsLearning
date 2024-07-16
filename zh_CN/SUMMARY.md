@@ -21,7 +21,7 @@
     * [问题分类](guides/agent/node/question\_classifier.md)
     * [条件分支](guides/agent/node/ifelse.md)
     * [代码执行](guides/agent/node/code.md)
-    * [模板转换](guides/agent/node/template.md)
+    <!-- * [模板转换](guides/agent/node/template.md) -->
     * [变量聚合](guides/agent/node/variable\_assigner.md)
     * [HTTP 请求](guides/agent/node/http\_request.md)
     * [工具](guides/agent/node/tools.md)

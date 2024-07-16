@@ -21,5 +21,5 @@
 
 ### 下一步行动
 
-* 阅读[**快速开始**](broken-reference)，速览 Fusionworks 的应用构建流程
+* 阅读[**智能体**](/zh_CN/guides/agent/README.md)，速览 Fusionworks 的智能体构建流程
 * 了解 Fusionworks 的[**特性规格**](getting-started/readme/features-and-specifications.md)和 **Roadmap**
