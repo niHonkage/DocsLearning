@@ -29,9 +29,9 @@ For core agent nodes, please refer to [Node Description](node/README.md).
 
 <!-- **Usage Entry Points**
 
-<figure><img src="/en/.gitbook/assets/guides/agent/key-concepts/output.png" alt=""><figcaption><p>Chatflow Entry</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/key-concepts/output.png" alt=""><figcaption><p>Chatflow Entry</p></figcaption></figure>
 
-<figure><img src="/en/.gitbook/assets/guides/agent/key-concepts/output (4).png" alt=""><figcaption><p>Agent Entry</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/key-concepts/output (4).png" alt=""><figcaption><p>Agent Entry</p></figcaption></figure>
 
 **Differences in Available Nodes**
 

@@ -4,7 +4,7 @@
 
 Invoke large language models to answer questions or process natural language.
 
-<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>LLM Node</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>LLM Node</p></figcaption></figure>
 
 ***
 
@@ -26,7 +26,7 @@ By selecting the appropriate model and writing prompts, you can build powerful a
 
 ### How to Configure
 
-<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (200).png" alt=""><figcaption><p>LLM Node Configuration - Model Selection</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (200).png" alt=""><figcaption><p>LLM Node Configuration - Model Selection</p></figcaption></figure>
 
 **Configuration Steps:**
 
@@ -43,10 +43,10 @@ If you are using Fusionworks for the first time, you need to complete the [model
 
 In the LLM node, you can customize the model input prompts. If you select a chat model, you can customize the SYSTEM/User/ASSISTANT sections.
 
-<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (203).png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (203).png" alt="" width="352"><figcaption></figcaption></figure>
 
 In the prompt editor, you can call out the **variable insertion menu** by typing **"/"** or **"{"** to insert **special variable blocks** or **upstream node variables** into the prompt as context content.
 
-<figure><img src="/en/.gitbook/assets/guides/agent/node/llm/image (202).png" alt="" width="366"><figcaption><p>Calling Out the Variable Insertion Menu</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/node/llm/image (202).png" alt="" width="366"><figcaption><p>Calling Out the Variable Insertion Menu</p></figcaption></figure>
 
 ***

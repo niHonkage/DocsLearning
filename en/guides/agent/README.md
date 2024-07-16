@@ -8,7 +8,7 @@ Agent workflows reduce system complexity by breaking down complex tasks into sma
 * **Chatflow**: Designed for conversational scenarios, including customer service, semantic search, and other conversational applications that require multi-step logic in response construction.
 * **Agent**: Geared towards automation and batch processing scenarios, suitable for high-quality translation, data analysis, content generation, email automation, and more. -->
 
-<figure><img src="/en/.gitbook/assets/guides/agent/image (156).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/image (156).png" alt=""><figcaption></figcaption></figure>
 
 <!-- To address the complexity of user intent recognition in natural language input, Chatflow provides question understanding nodes. Compared to Agent, it adds support for Chatbot features such as conversation history (Memory), annotated replies, and Answer nodes. -->
 

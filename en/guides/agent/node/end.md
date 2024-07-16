@@ -18,12 +18,12 @@ End nodes are not supported within Chatflow.
 
 In the following agent, the variable `Output` declared by the end node is the output of the upstream code node. This means the agent will end after the Code3 node completes execution and will output the execution result of Code3.
 
-<figure><img src="/en/.gitbook/assets/guides/agent/node/end/image (233).png" alt=""><figcaption><p>End Node - Example</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/node/end/image (233).png" alt=""><figcaption><p>End Node - Example</p></figcaption></figure>
 
 **Single Path Execution Example:**
 
-<figure><img src="/en/.gitbook/assets/guides/agent/node/end/output (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/node/end/output (5).png" alt=""><figcaption></figcaption></figure>
 
 **Multi-Path Execution Example:**
 
-<figure><img src="/en/.gitbook/assets/guides/agent/node/end/output (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/workflow/node/end/output (1) (3).png" alt=""><figcaption></figcaption></figure>
