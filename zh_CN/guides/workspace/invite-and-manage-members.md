@@ -1,6 +1,8 @@
 # 邀请与管理成员
 
-工作空间的成员可由负责人和管理员邀请和管理，登录后在 Fusionworks 的用户头像下拉中找到设置，在该界面中的左侧打开成员管理界面。
+工作空间的成员可由所有者和管理员邀请和管理，登录后进入 Fusionworks “控制台 - 企业”内，在该界面中的左侧成员选项卡打开成员管理界面。
+
+<figure><img src="../.gitbook/assets/image (262).png" alt=""><figcaption><p>成员管理界面</p></figcaption></figure>
 
 ### 成员邀请
 
