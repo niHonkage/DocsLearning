@@ -55,12 +55,5 @@ def main(knowledge1: list, knowledge2: list) -> list:
     }
 ```
 
-## Local Deployment
-If you are a local deployment user, you need to start a sandbox service to ensure that malicious code is not executed. This service requires the use of Docker. You can find specific information about the sandbox service [here](https://github.com/langgenius/fusionworks/tree/main/docker/docker-compose.middleware.yaml). You can also start the service directly via `docker-compose`:
-
-```bash
-docker-compose -f docker-compose.middleware.yaml up -d
-```
-
 ## Limitations
 Both Python and JavaScript execution environments are strictly isolated (sandboxed) to ensure security. This means that developers cannot use functions that consume large amounts of system resources or may pose security risks, such as direct file system access, making network requests, or executing operating system-level commands. These limitations ensure the safe execution of the code while avoiding excessive consumption of system resources.

@@ -16,9 +16,9 @@ End nodes are not supported within Chatflow.
 
 ### 2 Scenarios
 
-In the following [long story generation agent](iteration.md#example-2-long-article-iterative-generation-another-scheduling-method), the variable `Output` declared by the end node is the output of the upstream code node. This means the agent will end after the Code3 node completes execution and will output the execution result of Code3.
+In the following agent, the variable `Output` declared by the end node is the output of the upstream code node. This means the agent will end after the Code3 node completes execution and will output the execution result of Code3.
 
-<figure><img src="/en/.gitbook/assets/guides/agent/node/end/image (233).png" alt=""><figcaption><p>End Node - Long Story Generation Example</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/end/image (233).png" alt=""><figcaption><p>End Node - Example</p></figcaption></figure>
 
 **Single Path Execution Example:**
 

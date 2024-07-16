@@ -25,8 +25,8 @@ The name Fusionworks comes from Define + Modify, referring to defining and conti
 
 * **Startups** - Quickly turn your AI ideas into reality, accelerating both success and failure. In the real world, dozens of teams have already built MVPs to get funding or win customer orders through Fusionworks.
 * **Integrate LLMs into existing businesses** - Enhance capabilities of current apps by introducing LLMs. Access Fusionworks’s RESTful APIs to decouple Prompts from business logic. Use Fusionworks’s management interface to track data, costs and usage while continuously improving performance.
-* **Enterprise LLM infrastructure** - Some banks and internet companies are deploying Fusionworks as an internal LLM gateway, accelerating the adoption of GenAI technologies while enabling centralized governance.
-* **Explore LLM capabilities** - Even as a tech enthusiast, you can easily practice Prompt engineering and Agent technologies through Fusionworks. Over 60,000 developers have built their first app on Fusionworks even before GPTs came out.
+* **Enterprise LLM infrastructure** - Some internet companies are deploying Fusionworks as an internal LLM gateway, accelerating the adoption of GenAI technologies while enabling centralized governance.
+* **Explore LLM capabilities** - Even as a tech enthusiast, you can easily practice Prompt engineering and Agent technologies through Fusionworks and create your first application. 
 
 ### Next Steps
 

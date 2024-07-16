@@ -14,7 +14,6 @@ The start node supports defining input variables of four types:
 * Paragraph
 * Dropdown Options
 * Number
-* File (coming soon)
 
 <figure><img src="/en/.gitbook/assets/guides/agent/node/start/output (2) (1).png" alt=""><figcaption><p>Configure Start Node Variables</p></figcaption></figure>
 

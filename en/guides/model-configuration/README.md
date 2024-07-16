@@ -30,12 +30,6 @@ Fusionworks classifies models into 4 types, each for different uses:
 
 Fusionworks plans to add more LLM providers as technology and user needs evolve.
 
-## Hosted Model Trial Service
-
-Fusionworks offers trial quotas for cloud service users to experiment with different models. Set up your model provider before the trial ends to ensure uninterrupted application use.
-
-* OpenAI Hosted Model Trial: Includes 200 invocations for models like GPT3.5-turbo, GPT3.5-turbo-16k, text-davinci-003 models.
-
 ## Setting the Default Model
 
 Fusionworks automatically selects the default model based on usage. Configure this in `Studio > Settings > Models`.

@@ -22,8 +22,8 @@ Beyond naive use cases, you can create more complex templates as per Jinja's [do
 {% endraw %}
 ```
 
-<figure><img src="/en/.gitbook/assets/guides/agent/node/template/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/agent/node/template/image (159).png" alt=""><figcaption>Knowledge retrieval node output converted to Markdown</figcaption></figure>
 
-This template node can then be used within a Chatflow to return intermediate outputs to the end user, before a LLM response is initiated.
+You can refer to Jinja's [official documentation](https://jinja.palletsprojects.com/en/3.1.x/templates/) to create more complex templates for performing various tasks.
 
-> The `Answer` node in a Chatflow is non-terminal. It can be inserted anywhere to output responses at multiple points within the flow.
+<!-- > The `Answer` node in a Chatflow is non-terminal. It can be inserted anywhere to output responses at multiple points within the flow. -->

@@ -12,9 +12,9 @@
 
 ### 2 场景
 
-在以下[长故事生成](broken-reference)智能体中，结束节点声明的变量 `Output` 为上游代码节点的输出，即该智能体会在 Code3 节点执行完成之后结束，并输出 Code3 的执行结果。
+在以下智能体中，结束节点声明的变量 `Output` 为上游代码节点的输出，即该智能体会在 Code3 节点执行完成之后结束，并输出 Code3 的执行结果。
 
-<figure><img src="../../../.gitbook/assets/image (233).png" alt=""><figcaption><p>结束节点-长故事生成示例</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (233).png" alt=""><figcaption><p>结束节点-示例</p></figcaption></figure>
 
 **单路执行示例：**
 

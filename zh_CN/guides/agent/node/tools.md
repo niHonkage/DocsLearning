@@ -6,7 +6,7 @@ description: Fusionworks 支持各种工具来增强应用的功能。
 
 ### 定义
 
-工作流内提供丰富的工具选择，使用内置工具之前，你可能需要先给工具进行 **授权**。
+智能体工作流内提供丰富的工具选择。使用内置工具之前，你可能需要先给工具进行 **授权**。
 
 <figure><img src="../../../.gitbook/assets/image (231).png" alt="" width="258"><figcaption><p>工具选择</p></figcaption></figure>
 
@@ -17,4 +17,4 @@ description: Fusionworks 支持各种工具来增强应用的功能。
 1. 对工具授权
 2. 配置工具输入和参数
 
-如何配置工具请参考[工具配置说明](https://docs.fusionworks.ai/v/zh-hans/guides/tools)。
+<!-- 如何配置工具请参考[工具配置说明](https://docs.fusionworks.ai/v/zh-hans/guides/tools)。 -->

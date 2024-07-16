@@ -5,7 +5,7 @@
 * [Welcome to Fusionworks](README.md)
   * [Features and Specifications](getting-started/readme/features-and-specifications.md)
   * [List of Model Providers](getting-started/readme/model-providers.md)
-* [Cloud Services](getting-started/cloud.md)
+<!-- * [Cloud Services](getting-started/cloud.md) -->
 <!-- * [Community Edition](getting-started/install-self-hosted/README.md)
   * [Deploy with Docker Compose](getting-started/install-self-hosted/docker-compose.md)
   * [Start with Local Source Code](getting-started/install-self-hosted/local-source-code.md)
@@ -18,14 +18,14 @@
 * [Model](guides/model-configuration/README.md)
   * [Integrate Open Source Models from Hugging Face](guides/model-configuration/hugging-face.md)
   * [Integrate Open Source Models from Replicate](guides/model-configuration/replicate.md)
-* [Application Orchestration](guides/application-orchestrate/README.md)
-  * [Create Application](guides/application-orchestrate/creating-an-application.md)
+<!-- * [Application Orchestration](guides/application-orchestrate/README.md)
+  * [Create Application](guides/application-orchestrate/creating-an-application.md) -->
 * [Agent](guides/agent/README.md)
   * [Key Concepts](guides/agent/key-concept.md)
   * [Node Description](guides/agent/node/README.md)
     * [Start](guides/agent/node/start.md)
     * [End](guides/agent/node/end.md)
-    * [Direct Reply](guides/agent/node/answer.md)
+    <!-- * [Direct Reply](guides/agent/node/answer.md) -->
     * [LLM](guides/agent/node/llm.md)
     * [Knowledge Retrieval](guides/agent/node/knowledge-retrieval.md)
     * [Question Classifier](guides/agent/node/question-classifier.md)
@@ -33,32 +33,32 @@
     * [Code Execution](guides/agent/node/code.md)
     * [Template](guides/agent/node/template.md)
     * [Variable Aggregator](guides/agent/node/variable-assigner.md)
-    * [Iteration](guides/agent/node/iteration.md)
-    * [Parameter Extraction](guides/agent/node/parameter-extractor.md)
+    <!-- * [Iteration](guides/agent/node/iteration.md) -->
+    <!-- * [Parameter Extraction](guides/agent/node/parameter-extractor.md) -->
     * [HTTP Request](guides/agent/node/http-request.md)
     * [Tools](guides/agent/node/tools.md)
   * [Debug and Preview](guides/agent/debug-and-preview/README.md)
     * [Preview and Run](guides/agent/debug-and-preview/yu-lan-yu-yun-hang.md)
     * [Step Run](guides/agent/debug-and-preview/step-run.md)
-    * [Conversation/Run Logs](guides/agent/debug-and-preview/log.md)
+    <!-- * [Conversation/Run Logs](guides/agent/debug-and-preview/log.md) -->
     * [Checklist](guides/agent/debug-and-preview/checklist.md)
     * [Run History](guides/agent/debug-and-preview/history.md)
   * [Application Publishing](guides/agent/publish.md)
 * [Knowledge Base](guides/knowledge-base/README.md)
   * [Create Knowledge Base & Upload Documents](guides/knowledge-base/create-knowledge-and-upload-documents.md)
   * [Knowledge Base and Document Maintenance](guides/knowledge-base/knowledge-and-documents-maintenance.md)
-  * [Integrate Knowledge Base within Application](guides/knowledge-base/integrate-knowledge-within-application.md)
-  * [Retrieval Test/Citation](guides/knowledge-base/retrieval-test-and-citation.md)
+  <!-- * [Integrate Knowledge Base within Application](guides/knowledge-base/integrate-knowledge-within-application.md)
+  * [Retrieval Test/Citation](guides/knowledge-base/retrieval-test-and-citation.md) -->
   * [Sync Data from Notion](guides/knowledge-base/sync-from-notion.md)
-  * [Sync Data from Website](guides/knowledge-base/sync-from-website.md)
+  <!-- * [Sync Data from Website](guides/knowledge-base/sync-from-website.md)
   * [Maintain Knowledge Base via API](guides/knowledge-base/maintain-dataset-via-api.md)
-  * [External Data Tool](guides/knowledge-base/external-data-tool.md)
-* [Tools](guides/tools/README.md)
+  * [External Data Tool](guides/knowledge-base/external-data-tool.md) -->
+<!-- * [Tools](guides/tools/README.md)
   * [Quick Tool Integration](guides/tools/quick-tool-integration.md)
   * [Advanced Tool Integration](guides/tools/advanced-tool-integration.md)
   * [Tool Configuration](guides/tools/tool-configuration/README.md)
     * [StableDiffusion](guides/tools/tool-configuration/stable-diffusion.md)
-    * [SearXNG](guides/tools/tool-configuration/searxng.md)
+    * [SearXNG](guides/tools/tool-configuration/searxng.md) -->
 <!-- * [Publishing](guides/application-publishing/README.md)
   * [Launch Your Webapp Quickly](guides/application-publishing/launch-your-webapp-quickly/README.md)
     * [Web App Settings](guides/application-publishing/launch-your-webapp-quickly/web-app-settings.md)
@@ -83,11 +83,11 @@
   * [Code-Based Extension](guides/extension/code-based-extension/README.md)
     * [External Data Tool](guides/extension/code-based-extension/external-data-tool.md)
     * [Moderation](guides/extension/code-based-extension/moderation.md) -->
-* [Collaboration](guides/workspace/README.md)
+<!-- * [Collaboration](guides/workspace/README.md)
   * [Discover](guides/workspace/app/README.md)
   * [Invite and Manage Members](guides/workspace/invite-and-manage-members.md)
 * [Management](guides/management/README.md)
-  * [Manage App](guides/management/manage-app.md)
+  * [Manage App](guides/management/manage-app.md) -->
 
 <!-- ## Community
 

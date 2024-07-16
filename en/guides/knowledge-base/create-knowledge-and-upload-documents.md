@@ -61,31 +61,8 @@ In custom mode, users can configure chunk settings and cleaning settings accordi
 
 ***
 
-### 4 Optional ETL Configuration
 
-In production-level applications of RAG, to achieve better data recall, multi-source data needs to be preprocessed and cleaned, i.e., ETL (extract, transform, load). To enhance the preprocessing capabilities of unstructured/semi-structured data, Fusionworks supports optional ETL solutions: **Fusionworks ETL** and [**Unstructured ETL**](https://unstructured.io/).
-
-> Unstructured can efficiently extract and transform your data into clean data for subsequent steps.
-
-ETL solution choices in different versions of Fusionworks:
-
-* The SaaS version defaults to using Unstructured ETL and cannot be changed;
-* The community version defaults to using Fusionworks ETL but can enable Unstructured ETL through [environment variables](../../getting-started/install-self-hosted/environments.md#zhi-shi-ku-pei-zhi);
-<!-- TODO: change link -->
-
-Differences in supported file formats for parsing:
-
-| DIFY ETL | Unstructured ETL |
-| ---------------------------------------------- | ------------------------------------------------------------------------ |
-| txt, markdown, md, pdf, html, htm, xlsx, xls, docx, csv | txt, markdown, md, pdf, html, htm, xlsx, xls, docx, csv, eml, msg, pptx, ppt, xml, epub |
-
-{% hint style="info" %}
-Different ETL solutions may have differences in file extraction effects. For more information on Unstructured ETL’s data processing methods, please refer to the [official documentation](https://docs.unstructured.io/open-source/core-functionality/partitioning).
-{% endhint %}
-
-***
-
-### 5 Indexing Methods
+### 4 Indexing Methods
 
 You need to choose the **indexing method** for the text to specify the data matching method. The indexing strategy is often related to the retrieval method, and you need to choose the appropriate indexing method according to the scenario.
 
@@ -105,7 +82,7 @@ When uploading documents to the knowledge base, the system segments the text so 
 
 ***
 
-### 6 Retrieval Settings
+### 5 Retrieval Settings
 
 In high-quality indexing mode, Fusionworks offers three retrieval options:
 

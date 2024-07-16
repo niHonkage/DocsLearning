@@ -31,9 +31,3 @@ By adding variable aggregation, the outputs of the two knowledge retrieval nodes
 The variable aggregator supports aggregating various data types, including strings (`String`), numbers (`Number`), objects (`Object`), and arrays (`Array`).
 
 **The variable aggregator can only aggregate variables of the same data type**. If the first variable added to the variable aggregation node is of the `String` data type, subsequent connections will automatically filter and allow only `String` type variables to be added.
-
-**Aggregation Grouping**
-
-Starting from version v0.6.10, aggregation grouping is supported.
-
-When aggregation grouping is enabled, the variable aggregator can aggregate multiple groups of variables, with each group requiring the same data type for aggregation.
