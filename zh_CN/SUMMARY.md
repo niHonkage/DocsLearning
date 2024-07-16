@@ -5,7 +5,6 @@
 * [欢迎使用 Fusionworks](README.md)
   * [特性与技术规格](getting-started/readme/features-and-specifications.md)
   * [模型供应商列表](getting-started/readme/model-providers.md)
-* [云服务](getting-started/cloud.md)
 
 ## 手册 <a href="#guides" id="guides"></a>
 
@@ -22,10 +21,6 @@
   * [负载均衡](guides/model-configuration/load\_balancing.md)
 * [构建](guides/application\_orchestrate/README.md)
   * [创建应用](guides/application\_orchestrate/creating-an-application.md)
-  <!-- * [聊天助手](guides/application\_orchestrate/conversation-application.md)
-  * [Agent](guides/application\_orchestrate/agent.md)
-  * [应用工具箱](guides/application\_orchestrate/app\_toolkits/README.md)
-    * [敏感内容审查](guides/application\_orchestrate/app\_toolkits/moderation-tool.md) -->
 * [工作流](guides/workflow/README.md)
   * [关键概念](guides/workflow/key\_concept.md)
   * [节点说明](guides/workflow/node/README.md)
@@ -65,61 +60,8 @@
   * [工具配置](guides/tools/tool-configuration/README.md)
     * [StableDiffusion](guides/tools/tool-configuration/stable-diffusion.md)
     * [SearXNG](guides/tools/tool-configuration/searxng.md)
-<!-- * [发布](guides/application-publishing/README.md)
-  * [发布为公开 Web 站点](guides/application-publishing/launch-your-webapp-quickly/README.md)
-    * [Web 应用的设置](guides/application-publishing/launch-your-webapp-quickly/web-app-settings.md)
-    * [文本生成型应用](guides/application-publishing/launch-your-webapp-quickly/text-generator.md)
-    * [对话型应用](guides/application-publishing/launch-your-webapp-quickly/conversation-application.md)
-  * [嵌入网站](guides/application-publishing/embedding-in-websites.md)
-  * [基于 APIs 开发](guides/application-publishing/embedding-in-websites.md)
-  * [基于前端组件再开发](guides/application-publishing/based-on-frontend-templates.md) -->
-<!-- * [标注](guides/biao-zhu/README.md)
-  * [日志与标注](guides/biao-zhu/logs.md)
-  * [标注回复](guides/biao-zhu/annotation-reply.md) -->
-<!-- * [监测](guides/monitoring/README.md)
-  * [集成外部 Ops 工具](guides/monitoring/integrate\_external\_ops\_tools/README.md)
-    * [集成 LangSmith](guides/monitoring/integrate\_external\_ops\_tools/integrate\_langsmith.md)
-    * [集成 Langfuse](guides/monitoring/integrate\_external\_ops\_tools/integrate\_langfuse.md)
-  * [数据分析](guides/monitoring/analysis.md) -->
-<!-- * [扩展](guides/extension/README.md)
-  * [API 扩展](guides/extension/api\_based\_extension/README.md)
-    * [外部数据工具](guides/extension/api\_based\_extension/external\_data\_tool.md)
-    * [使用 Cloudflare Workers 部署 API Tools](guides/extension/api\_based\_extension/cloudflare\_workers.md)
-    * [敏感内容审查](guides/extension/api\_based\_extension/moderation.md)
-  * [代码扩展](guides/extension/code\_based\_extension/README.md)
-    * [外部数据工具](guides/extension/code\_based\_extension/external\_data\_tool.md)
-    * [敏感内容审查](guides/extension/code\_based\_extension/moderation.md) -->
 * [协同](guides/workspace/README.md)
   * [发现](guides/workspace/app/README.md)
   * [邀请与管理成员](guides/workspace/invite-and-manage-members.md)
 * [管理](guides/management/README.md)
   * [管理应用](guides/management/manage-app.md)
-
-<!-- ## 阅读更多 <a href="#learn-more" id="learn-more"></a>
-
-* [应用案例](learn-more/use-cases/README.md)
-  * [如何训练出专属于“你”的问答机器人？](learn-more/use-cases/train-a-qa-chatbot-that-belongs-to-you.md)
-  * [教你十几分钟不用代码创建 Midjourney 提示词机器人](learn-more/use-cases/create-a-midjoureny-prompt-word-robot-with-zero-code.md)
-  * [构建一个 Notion AI 助手](learn-more/use-cases/build-an-notion-ai-assistant.md)
-  * [如何在几分钟内创建一个带有业务数据的官网 AI 智能客服](learn-more/use-cases/create-an-ai-chatbot-with-business-data-in-minutes.md)
-  * [使用全套开源工具构建 LLM 应用实战：在 Fusionworks 调用 Baichuan 开源模型能力](learn-more/use-cases/practical-implementation-of-building-llm-applications-using-a-full-set-of-open-source-tools.md)
-  * [手摸手教你把 Fusionworks 接入微信生态](learn-more/use-cases/shou-mo-shou-jiao-ni-ba-fusionworks-jie-ru-wei-xin-sheng-tai.md)
-  * [使用Fusionworks 和Twilio构建WhatsApp机器人](learn-more/use-cases/shi-yong-dify-he-twilio-gou-jian-whatsapp-ji-qi-ren.md)
-* [扩展阅读](learn-more/extended-reading/README.md)
-  * [什么是 LLMOps？](learn-more/extended-reading/what-is-llmops.md)
-  * [检索增强生成（RAG）](learn-more/extended-reading/retrieval-augment/README.md)
-    * [混合检索](learn-more/extended-reading/retrieval-augment/hybrid-search.md)
-    * [重排序](learn-more/extended-reading/retrieval-augment/rerank.md)
-    * [召回模式](learn-more/extended-reading/retrieval-augment/retrieval.md)
-  * [提示词编排](learn-more/extended-reading/prompt-engineering/README.md)
-    * [提示词专家模式（已下线）](learn-more/extended-reading/prompt-engineering/prompt-engineering-1/README.md)
-      * [提示词初始模版参考](learn-more/extended-reading/prompt-engineering/prompt-engineering-1/prompt-engineering-template.md)
-* [常见问题](learn-more/faq/README.md)
-  * [本地部署相关](learn-more/faq/install-faq.md)
-  * [LLM 配置与使用](learn-more/faq/llms-use-faq.md) -->
-
-<!-- ## 政策 <a href="#policies" id="policies"></a>
-
-* [用户协议](policies/yong-hu-xie-yi/README.md)
-  * [服务条款](https://fusionworks.ai/terms)
-  * [隐私政策](https://fusionworks.ai/privacy) -->
