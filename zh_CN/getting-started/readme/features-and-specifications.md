@@ -2,6 +2,75 @@
 description: 对于已经熟悉 LLM 应用技术栈的技术人士来说，这份文档将是您了解 FusionWorks 独特优势的捷径。让您能够明智地比较和选择，甚至向同事和朋友推荐。
 ---
 
-# 特性与技术规格
+# 功能和规格
 
-<table data-header-hidden><thead><tr><th width="258"></th><th></th></tr></thead><tbody><tr><td>LLM 推理引擎</td><td>FusionWorks Runtime ( 自 v0.4 起移除了 LangChain)</td></tr><tr><td>商业模型支持</td><td><p><strong>10+ 家</strong>，包括 OpenAI 与 Anthropic</p><p>新的主流模型通常在 48 小时内完成接入</p></td></tr><tr><td>MaaS 供应商支持</td><td><strong>7 家</strong>，Hugging Face，Replicate，AWS Bedrock，NVIDIA，GroqCloud，together.ai，OpenRouter</td></tr><tr><td>本地模型推理 Runtime 支持</td><td>6 <strong>家</strong>，Xoribits（推荐），OpenLLM，LocalAI，ChatGLM，Ollama，NVIDIA TIS</td></tr><tr><td>OpenAI 接口标准模型接入支持</td><td><strong>∞ 家</strong></td></tr><tr><td>多模态技术</td><td><p>ASR 模型</p><p>GPT-4o 规格的富文本模型</p></td></tr><tr><td>Agentic Workflow 特性</td><td><p>行业领先的可视化流程编排界面，所见即所得的节点调试，可插拔的 DSL，原生的代码运行时，构建更复杂、可靠、稳定的 LLM 应用。</p><p><strong>支持节点</strong></p><ul><li>LLM</li><li>知识库检索</li><li>问题分类</li><li>条件分支</li><li>代码执行</li><li>模板转换</li><li>HTTP 请求</li><li>工具</li></ul></td></tr><tr><td>RAG 特性</td><td><p>可视化的知识库管理界面，支持分段预览和召回效果测试。<br><br><strong>索引方式</strong></p><ul><li>关键词</li><li>文本向量</li><li>由 LLM 辅助的问题-分段模式</li></ul><p><strong>检索方式</strong></p><ul><li>关键词</li><li>文本相似度匹配</li><li>混合检索</li><li>N 选 1 模式（即将下线）</li><li>多路召回</li></ul><p><strong>召回优化技术</strong></p><ul><li>使用 ReRank 模型</li></ul></td></tr><tr><td>ETL 技术</td><td><p>支持对 TXT、Markdown、PDF、HTML、DOC、CSV 等格式文件进行自动清洗，内置的 Unstructured 服务开启后可获得最大化支持。</p><p>支持同步来自 Notion 的文档为知识库。<br>支持同步网页为知识库。</p></td></tr><tr><td>向量数据库支持</td><td>Qdrant（推荐），Weaviate，Zilliz/Milvus，Pgvector，Pgvector-rs，Chroma，OpenSearch，TiDB，Tencent Vector，Oracle，Relyt</td></tr><tr><td>Agent 技术</td><td><p>ReAct，Function Call<br></p><p><strong>工具支持</strong></p><ul><li>可调用 OpenAI Plugin 标准的工具</li><li>可直接加载 OpenAPI Specification 的 API 作为工具</li></ul><p><strong>内置工具</strong></p><ul><li>40+ 款（截止 2024 Q2）</li></ul></td></tr><tr><td>日志</td><td>支持，可基于日志进行标注</td></tr><tr><td>内容审查机制</td><td>OpenAI Moderation 或外部 API</td></tr><tr><td>团队协同</td><td>工作空间与多成员管理支持</td></tr><tr><td>API 规格</td><td>RESTful，已覆盖大部分功能</td></tr></tbody></table>
+<table data-header-hidden>
+    <thead>
+      <tr>
+        <th width="258"></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>LLM 推理引擎</td>
+        <td>
+          FusionWorks 支持超过十个商业模型，包括 OpenAI 和 Anthropic，并可在48小时内整合上线新的主流大模型。它还集成了七个 MaaS 供应商，如 Hugging Face 和 NVIDIA，并支持六个本地推理运行时，如 Xorbits 和 OpenLLM。
+        </td>
+      </tr>
+      <tr>
+        <td>多模态能力</td>
+        <td>
+          平台支持 ASR 模型和富文本模型，规格高达 GPT-4。
+        </td>
+      </tr>
+      <tr>
+        <td>智能体工作流功能</td>
+        <td>
+          FusionWorks 提供可视化工作流编排界面，具有实时编辑节点调试、模块化 DSL 和本地代码运行时，支持创建复杂且稳定的 LLM 应用。支持的节点包括 LLM、知识检索、问题分类器、IF/ELSE、CODE、模板、HTTP 请求和工具。
+        </td>
+      </tr>
+      <tr>
+        <td>RAG 功能</td>
+        <td>
+          平台包括可视化知识库管理界面，支持片段预览和召回测试。提供多种索引方法（关键词、文本向量、LLM 辅助问题-片段模型）和检索方法（关键词、文本相似性匹配、混合搜索）。
+        </td>
+      </tr>
+      <tr>
+        <td>ETL 能力</td>
+        <td>
+          FusionWorks 提供 TXT、Markdown、PDF、HTML、DOC 和 CSV 格式的自动清理。支持同步 Notion 文档和网页作为知识库。
+        </td>
+      </tr>
+      <tr>
+        <td>支持的向量数据库</td>
+        <td>
+          FusionWorks 支持多种向量数据库，包括 Qdrant、Weaviate、Zilliz/Milvus、Pgvector 和 OpenSearch。
+        </td>
+      </tr>
+      <tr>
+        <td>智能体技术和工具支持</td>
+        <td>
+          平台支持 ReAct 和 Function Call 智能体技术，调用 OpenAI 插件标准工具，并可直接加载 OpenAPI 规范 API。内置超过40种工具。
+        </td>
+      </tr>
+      <tr>
+        <td>日志记录和内容审核</td>
+        <td>
+          FusionWorks 支持带注释的详细日志记录，并通过 OpenAI Moderation 或外部 API 提供内容审核。
+        </td>
+      </tr>
+      <tr>
+        <td>团队协作和 API 规范</td>
+        <td>
+          平台支持通过工作区和多成员管理进行团队协作，提供涵盖大多数功能的 RESTful API。
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+# 总结
+
+FusionWorks 提供全面的功能，从广泛的模型支持和多模态能力到高级工作流编排和灵活的部署选项。它旨在简化 AI 应用的开发和部署，是一个多功能且强大的平台，满足各种用户需求。
+
+欲了解更多详细信息，请访问[原始页面](/zh_CN/README.md)。
