@@ -16,10 +16,10 @@ TODO 🚧
 
 ### Exporting Application
 
-Applications created in Fusionworks can be exported in DSL format. You can freely import the configuration file into any Fusionworks workspace.
+Applications created in FusionWorks can be exported in DSL format. You can freely import the configuration file into any FusionWorks workspace.
 
 {% hint style="info" %}
-Fusionworks DSL is an AI application engineering file standard defined by Fusionworks.AI in v0.6 and later. The file format is YML. This standard covers the basic description of the application, model parameters, orchestration configuration, and other information.
+FusionWorks DSL is an AI application engineering file standard defined by FusionWorks.AI in v0.6 and later. The file format is YML. This standard covers the basic description of the application, model parameters, orchestration configuration, and other information.
 {% endhint %}
 
 ### Deleting Application

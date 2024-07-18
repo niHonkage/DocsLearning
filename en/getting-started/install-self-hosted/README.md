@@ -1,9 +1,9 @@
 # Install (Self hosted)
 
-The Fusionworks Self hosted Edition, which is the open-source on [GitHub](https://github.com/langgenius/fusionworks), can be deployed in one of the following two ways:
+The FusionWorks Self hosted Edition, which is the open-source on [GitHub](https://github.com/langgenius/FusionWorks), can be deployed in one of the following two ways:
 
-1. [Docker Compose Deployment](https://docs.fusionworks.ai/getting-started/install-self-hosted/docker-compose)
-2. [Local Source Code Start](https://docs.fusionworks.ai/getting-started/install-self-hosted/local-source-code)
+1. [Docker Compose Deployment](https://docs.FusionWorks.ai/getting-started/install-self-hosted/docker-compose)
+2. [Local Source Code Start](https://docs.FusionWorks.ai/getting-started/install-self-hosted/local-source-code)
 
 ### Contributing
 

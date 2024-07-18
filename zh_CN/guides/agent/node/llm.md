@@ -30,12 +30,12 @@ LLM 是 Chatflow/Workflow 的核心节点，利用大语言模型的对话/生�
 
 **配置步骤：**
 
-1. **选择模型**，Fusionworks 提供了全球主流模型的[支持](../../../getting-started/readme/model-providers.md)，包括 OpenAI 的 GPT 系列、Anthropic 的 Claude 系列、Google 的 Gemini 系列等，选择一个模型取决于其推理能力、成本、响应速度、上下文窗口等因素，你需要根据场景需求和任务类型选择合适的模型。
+1. **选择模型**，FusionWorks 提供了全球主流模型的[支持](../../../getting-started/readme/model-providers.md)，包括 OpenAI 的 GPT 系列、Anthropic 的 Claude 系列、Google 的 Gemini 系列等，选择一个模型取决于其推理能力、成本、响应速度、上下文窗口等因素，你需要根据场景需求和任务类型选择合适的模型。
 2. **配置模型参数**，模型参数用于控制模型的生成结果，例如温度、TopP，最大标记、回复格式等，为了方便选择系统同时提供了 3 套预设参数：创意，平衡和精确。
 3. **编写提示词**，LLM 节点提供了一个易用的提示词编排页面，选择聊天模型或补全模型，会显示不同的提示词编排结构。
 
 {% hint style="info" %}
-如果你是初次使用 Fusionworks ，在 LLM 节点选择模型之前，需要在 **系统设置—模型供应商** 内提前完成[模型配置](../../model-configuration/)。
+如果你是初次使用 FusionWorks ，在 LLM 节点选择模型之前，需要在 **系统设置—模型供应商** 内提前完成[模型配置](../../model-configuration/)。
 {% endhint %}
 
 #### **编写提示词**

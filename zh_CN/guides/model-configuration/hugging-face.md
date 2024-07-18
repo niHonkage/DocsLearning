@@ -1,6 +1,6 @@
 # 接入 Hugging Face 上的开源模型
 
-Fusionworks 支持 Text-Generation 和 Embeddings，以下是与之对应的 Hugging Face 模型类型：
+FusionWorks 支持 Text-Generation 和 Embeddings，以下是与之对应的 Hugging Face 模型类型：
 
 * Text-Generation：[text-generation](https://huggingface.co/models?pipeline\_tag=text-generation\&sort=trending)，[text2text-generation](https://huggingface.co/models?pipeline\_tag=text2text-generation\&sort=trending)
 * Embeddings：[feature-extraction](https://huggingface.co/models?pipeline\_tag=feature-extraction\&sort=trending)
@@ -13,7 +13,7 @@ Fusionworks 支持 Text-Generation 和 Embeddings，以下是与之对应的 Hug
 
 <figure><img src="../../.gitbook/assets/image (14) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Fusionworks 支持用两种方式接入 Hugging Face 上的模型：
+FusionWorks 支持用两种方式接入 Hugging Face 上的模型：
 
 1. Hosted Inference API。这种方式是用的 Hugging Face 官方部署的模型。不需要付费。但缺点是，只有少量模型支持这种方式。
 2. Inference Endpoint。这种方式是用 Hugging Face 接入的 AWS 等资源来部署模型，需要付费。
@@ -30,7 +30,7 @@ Fusionworks 支持用两种方式接入 Hugging Face 上的模型：
 
 <figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### 2 在 Fusionworks 中使用接入模型
+#### 2 在 FusionWorks 中使用接入模型
 
 在 `设置 > 模型 > Hugging Face > 模型类型` 的 Endpoint Type 选择 Hosted Inference API。如下图所示：
 
@@ -56,7 +56,7 @@ API Token 为文章开头设置的 API Key。模型名字为上一步获得的�
 
 <figure><img src="../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### 3 在 Fusionworks 中使用接入模型
+#### 3 在 FusionWorks 中使用接入模型
 
 在 `设置 > 模型 > Hugging Face > 模型类型` 的 Endpoint Type 选择 Inference Endpoints。如下图所示：
 

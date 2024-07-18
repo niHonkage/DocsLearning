@@ -4,23 +4,23 @@
 
 #### CONSOLE\_API\_URL
 
-The backend URL of the console API, used to concatenate the authorization callback. If empty, it is the same domain. Example: `https://api.console.fusionworks.ai`
+The backend URL of the console API, used to concatenate the authorization callback. If empty, it is the same domain. Example: `https://api.console.FusionWorks.ai`
 
 #### CONSOLE\_WEB\_URL
 
-The front-end URL of the console web, used to concatenate some front-end addresses and for CORS configuration use. If empty, it is the same domain. Example: `https://console.fusionworks.ai`
+The front-end URL of the console web, used to concatenate some front-end addresses and for CORS configuration use. If empty, it is the same domain. Example: `https://console.FusionWorks.ai`
 
 #### SERVICE\_API\_URL
 
-Service API Url, used to display Service API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.fusionworks.ai`
+Service API Url, used to display Service API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.FusionWorks.ai`
 
 #### APP\_API\_URL
 
-WebApp API backend Url, used to declare the back-end URL for the front-end API. If empty, it is the same domain. Example: `https://app.fusionworks.ai`
+WebApp API backend Url, used to declare the back-end URL for the front-end API. If empty, it is the same domain. Example: `https://app.FusionWorks.ai`
 
 #### APP\_WEB\_URL
 
-WebApp Url, used to display WebAPP API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.app.fusionworks.ai`
+WebApp Url, used to display WebAPP API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.app.FusionWorks.ai`
 
 #### FILES\_URL
 
@@ -80,7 +80,7 @@ You need to manually execute `flask db upgrade` in the api directory when starti
 
 #### CHECK\_UPDATE\_URL
 
-Whether to enable the version check policy. If set to false, `https://updates.fusionworks.ai` will not be called for version check.
+Whether to enable the version check policy. If set to false, `https://updates.FusionWorks.ai` will not be called for version check.
 
 Since the version interface based on CloudFlare Worker cannot be directly accessed in China at present, setting this variable to empty can shield this interface call.
 
@@ -94,10 +94,10 @@ When OpenAI cannot be accessed in China, replace it with a domestic mirror addre
 
 Only effective when starting with docker image or docker-compose.
 
-*   FUSIONWORKS\_BIND\_ADDRESS
+*   FusionWorks\_BIND\_ADDRESS
 
     API service binding address, default: 0.0.0.0, i.e., all addresses can be accessed.
-*   FUSIONWORKS\_PORT
+*   FusionWorks\_PORT
 
     API service binding port number, default 5001.
 *   SERVER\_WORKER\_AMOUNT
@@ -152,7 +152,7 @@ This Redis configuration is used for caching and for pub/sub during conversation
     redis://<redis_username>:<redis_password>@<redis_host>:<redis_port>/<redis_database>
     ```
 
-    Example: `redis://:fusionworksai123456@redis:6379/1`
+    Example: `redis://:FusionWorksai123456@redis:6379/1`
 *   BROKER\_USE\_SSL
 
     If set to true, use SSL protocol for connection, default is false
@@ -195,9 +195,9 @@ Used to store uploaded data set files, team/tenant encryption keys, and other fi
 * S3\_ACCESS\_KEY: S3 Access Key
 * S3\_SECRET\_KEY: S3 Secret Key
 * S3\_REGION: S3 region information, such as: us-east-1
-* AZURE\_BLOB\_ACCOUNT\_NAME: your-account-name eg, 'fusionworksai'
-* AZURE\_BLOB\_ACCOUNT\_KEY: your-account-key eg, 'fusionworksai'
-* AZURE\_BLOB\_CONTAINER\_NAME: your-container-name eg, 'fusionworksai-container'
+* AZURE\_BLOB\_ACCOUNT\_NAME: your-account-name eg, 'FusionWorksai'
+* AZURE\_BLOB\_ACCOUNT\_KEY: your-account-key eg, 'FusionWorksai'
+* AZURE\_BLOB\_CONTAINER\_NAME: your-container-name eg, 'FusionWorksai-container'
 * AZURE\_BLOB\_ACCOUNT\_URL: 'https://\<your\_account\_name>.blob.core.windows.net'
 
 #### Vector Database Configuration
@@ -263,9 +263,9 @@ Used to store uploaded data set files, team/tenant encryption keys, and other fi
 
     **Available enumeration types include:**
 
-    *   fusionworks
+    *   FusionWorks
 
-        Fusionworks's proprietary file extraction scheme
+        FusionWorks's proprietary file extraction scheme
     *   Unstructured
 
         Unstructured.io file extraction scheme
@@ -312,7 +312,7 @@ Notion integration configuration variables can be obtained by applying for Notio
 * MAIL\_TYPE
   * resend
     * MAIL\_DEFAULT\_SEND\_FROM\
-      The sender's email name, such as: no-reply [no-reply@fusionworks.ai](mailto:no-reply@fusionworks.ai), not mandatory.
+      The sender's email name, such as: no-reply [no-reply@FusionWorks.ai](mailto:no-reply@FusionWorks.ai), not mandatory.
     * RESEND\_API\_KEY\
       API-Key for the Resend email provider, can be obtained from API-Key.
   * smtp
@@ -327,7 +327,7 @@ Notion integration configuration variables can be obtained by applying for Notio
     * SMTP\_USE\_TLS\
       Whether to use TLS, default is false
     * MAIL\_DEFAULT\_SEND\_FROM\
-      The sender's email name, such as: no-reply [no-reply@fusionworks.ai](mailto:no-reply@fusionworks.ai), not mandatory.
+      The sender's email name, such as: no-reply [no-reply@FusionWorks.ai](mailto:no-reply@FusionWorks.ai), not mandatory.
 
 #### Others
 
@@ -347,19 +347,19 @@ Sentry DSN address, default is empty, when empty, all monitoring information is 
 
 > ⚠️ Modified in 0.3.8, will be deprecated in 0.4.9, replaced by: `CONSOLE_API_URL` and `CONSOLE_WEB_URL`.
 
-Console URL, used to concatenate the authorization callback, console front-end address, and CORS configuration use. If empty, it is the same domain. Example: `https://console.fusionworks.ai`.
+Console URL, used to concatenate the authorization callback, console front-end address, and CORS configuration use. If empty, it is the same domain. Example: `https://console.FusionWorks.ai`.
 
 #### API\_URL
 
 > ⚠️ Modified in 0.3.8, will be deprecated in 0.4.9, replaced by `SERVICE_API_URL`.
 
-API URL, used to display Service API Base URL to the front-end. If empty, it is the same domain. Example: `https://api.fusionworks.ai`
+API URL, used to display Service API Base URL to the front-end. If empty, it is the same domain. Example: `https://api.FusionWorks.ai`
 
 #### APP\_URL
 
 > ⚠️ Modified in 0.3.8, will be deprecated in 0.4.9, replaced by `APP_API_URL` and `APP_WEB_URL`.
 
-WebApp Url, used to display WebAPP API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.app.fusionworks.ai`
+WebApp Url, used to display WebAPP API Base Url to the front-end. If empty, it is the same domain. Example: `https://api.app.FusionWorks.ai`
 
 #### Session Configuration
 

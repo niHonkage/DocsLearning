@@ -15,9 +15,9 @@ docker exec -it docker-api-1 flask reset-password
 ```
 ERROR:root:Unknown Error in completion
 Traceback (most recent call last):
-  File "/www/wwwroot/fusionworks/fusionworks/api/libs/rsa.py", line 45, in decrypt
+  File "/www/wwwroot/fusionworks/FusionWorks/api/libs/rsa.py", line 45, in decrypt
     private_key = storage.load(filepath)
-  File "/www/wwwroot/fusionworks/fusionworks/api/extensions/ext_storage.py", line 65, in load
+  File "/www/wwwroot/fusionworks/FusionWorks/api/extensions/ext_storage.py", line 65, in load
     raise FileNotFoundError("File not found")
 FileNotFoundError: File not found
 ```
@@ -86,15 +86,15 @@ FileNotFoundError: File not found
 
 ### 9. 如果发生数据库迁移，需要备份哪些东西？
 
-需要备份数据库、配置的存储以及向量数据库数据，若为 docker compose 方式部署，可直接备份 `fusionworks/docker/volumes` 目录下所有数据内容。
+需要备份数据库、配置的存储以及向量数据库数据，若为 docker compose 方式部署，可直接备份 `FusionWorks/docker/volumes` 目录下所有数据内容。
 
-### 10. 为什么 Docker 部署 Fusionworks，本地启动 OpenLLM 用 127.0.0.1 却无法访问本地的端口？
+### 10. 为什么 Docker 部署 FusionWorks，本地启动 OpenLLM 用 127.0.0.1 却无法访问本地的端口？
 
-127.0.0.1 是容器内部地址， Fusionworks 配置的服务器地址需要宿主机局域网 IP 地址。
+127.0.0.1 是容器内部地址， FusionWorks 配置的服务器地址需要宿主机局域网 IP 地址。
 
 ### 11. 本地部署版如何解决数据集文档上传的大小限制和数量限制。
 
-可参考官网[环境变量说明文档](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/environments)去配置。
+可参考官网[环境变量说明文档](https://docs.FusionWorks.ai/v/zh-hans/getting-started/install-self-hosted/environments)去配置。
 
 ### 12. 本地部署版如何通过邮箱邀请成员？
 
@@ -106,7 +106,7 @@ FileNotFoundError: File not found
 Can't load tokenizer for 'gpt2'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'gpt2' is the correct path to a directory containing all relevant files for a GPT2TokenizerFast tokenizer.
 ```
 
-可参考官网[环境变量说明文档](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/environments)去配置。以及相关 [Issue](https://github.com/langgenius/fusionworks/issues/1261)。
+可参考官网[环境变量说明文档](https://docs.FusionWorks.ai/v/zh-hans/getting-started/install-self-hosted/environments)去配置。以及相关 [Issue](https://github.com/langgenius/fusionworks/issues/1261)。
 
 ### 14. 本地部署 80 端口被占用应该如何解决？
 
@@ -158,8 +158,8 @@ Error response from daemon: failed to create task for container: failed to creat
 请下载完整的项目，进入 docker 执行 `docker-compose up -d` 即可。
 
 ```
-git clone https://github.com/langgenius/fusionworks.git
-cd fusionworks/docker
+git clone https://github.com/langgenius/FusionWorks.git
+cd FusionWorks/docker
 docker compose up -d
 ```
 
@@ -191,7 +191,7 @@ flask vdb-migrarte # or docker exec -it docker-api-1 flask vdb-migrate
 
 #### 如何自定义代理的行为？
 
-在`docker/volumes/ssrf_proxy/squid.conf`中，你可以找到`squid`的配置文件，你可以在这里自定义代理的行为，比如你可以添加一些ACL规则来限制代理的访问，或者添加一些`http_access`规则来限制代理的访问，例如，您的本地可以访问`192.168.101.0/24`这个网段，但是其中的`192.168.101.19`这个IP具有敏感数据，你不希望使用你本地部署的fusionworks的用户访问到这个IP，但是想要其他的IP可以访问，你可以在`squid.conf`中添加如下规则：
+在`docker/volumes/ssrf_proxy/squid.conf`中，你可以找到`squid`的配置文件，你可以在这里自定义代理的行为，比如你可以添加一些ACL规则来限制代理的访问，或者添加一些`http_access`规则来限制代理的访问，例如，您的本地可以访问`192.168.101.0/24`这个网段，但是其中的`192.168.101.19`这个IP具有敏感数据，你不希望使用你本地部署的FusionWorks的用户访问到这个IP，但是想要其他的IP可以访问，你可以在`squid.conf`中添加如下规则：
 
 ```
 acl restricted_ip dst 192.168.101.19
@@ -206,7 +206,7 @@ http_access deny all
 
 ### 19. 如何将自己创建的应用设置为模板？
 
-目前还不支持将你自己创建的应用设置为模板。现有的模板是由Fusionworks官方为云版本用户参考提供的。如果你正在使用云版本，你可以将应用添加到你的工作空间或者在修改后定制它们以创建你自己的应用。如果你正在使用社区版本并且需要为你的团队创建更多的应用模板，你可以咨询我们的商务团队以获得付费技术支持：[business@fusionworks.ai](mailto:business@fusionworks.ai)
+目前还不支持将你自己创建的应用设置为模板。现有的模板是由FusionWorks官方为云版本用户参考提供的。如果你正在使用云版本，你可以将应用添加到你的工作空间或者在修改后定制它们以创建你自己的应用。如果你正在使用社区版本并且需要为你的团队创建更多的应用模板，你可以咨询我们的商务团队以获得付费技术支持：[business@FusionWorks.ai](mailto:business@FusionWorks.ai)
 
 ### 20.502 Bad Gateway
 
@@ -223,6 +223,6 @@ docker ps -q | xargs -n 1 docker inspect --format '{{ .Name }}: {{range .Network
 /docker-api-1: 172.19.0.7
 ```
 
-记住后面的IP地址。然后打开你存放fusionworks源代码的地方，打开`fusionworks/docker/nginx/conf.d`,将`http://api:5001`替换为`http://172.19.0.7:5001`,将`http://web:3000`替换为`http://172.19.0.5:3000`，随后重启Nginx容器或者重载配置。\
+记住后面的IP地址。然后打开你存放FusionWorks源代码的地方，打开`FusionWorks/docker/nginx/conf.d`,将`http://api:5001`替换为`http://172.19.0.7:5001`,将`http://web:3000`替换为`http://172.19.0.5:3000`，随后重启Nginx容器或者重载配置。\
 这些IP地址是_**示例性**_ 的，你必须执行命令获取你自己的IP地址，不要直接填入。\
 你可能在重新启动相关容器时需要再次根据IP进行配置。

@@ -2,7 +2,7 @@
 
 ### 1. Creating a Knowledge Base Application
 
-A knowledge base can be used as external knowledge to provide precise answers to user questions through a large language model. You can associate an existing knowledge base with any application type in Fusionworks.
+A knowledge base can be used as external knowledge to provide precise answers to user questions through a large language model. You can associate an existing knowledge base with any application type in FusionWorks.
 
 Taking a chat assistant as an example, the process is as follows:
 
@@ -55,7 +55,7 @@ In Multi-Path Recall mode, the retriever searches for text content related to th
 
 Below is the technical flowchart for the Multi-Path Recall mode:
 
-<figure><img src="https://docs.fusionworks.ai/~gitbook/image?url=https%3A%2F%2F1288284732-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FCdDIVDY6AtAz028MFT4d%252Fuploads%252Fgit-blob-9bb237ea9a2b4cc09637e951e696d5b52eb31033%252Fimage.png%3Falt%3Dmedia&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=0790e257848b5e6c45ce226109aa1c2f5d54bae1c04d1e14dec9fa6a46bdee17" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://docs.FusionWorks.ai/~gitbook/image?url=https%3A%2F%2F1288284732-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FCdDIVDY6AtAz028MFT4d%252Fuploads%252Fgit-blob-9bb237ea9a2b4cc09637e951e696d5b52eb31033%252Fimage.png%3Falt%3Dmedia&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=0790e257848b5e6c45ce226109aa1c2f5d54bae1c04d1e14dec9fa6a46bdee17" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Multi-Path Recall mode requires the configuration of a Rerank model.
@@ -77,7 +77,7 @@ For more information about Rerank, please refer to the extended reading [Re-Rank
 
 #### How to Configure the Rerank Model?
 
-Fusionworks currently supports the Cohere Rerank model. Enter the "Model Provider -> Cohere" page and fill in the Rerank model's API key:
+FusionWorks currently supports the Cohere Rerank model. Enter the "Model Provider -> Cohere" page and fill in the Rerank model's API key:
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/image (112).png" alt=""><figcaption><p>Configuring the Cohere Rerank model in the model provider</p></figcaption></figure>
 

@@ -1,6 +1,6 @@
 # Sensitive Content Moderation
 
-In addition to the system's built-in content moderation types, Fusionworks also supports user-defined content moderation rules. This method is suitable for developers customizing their own private deployments. For instance, in an enterprise internal customer service setup, it may be required that users, while querying or customer service agents while responding, not only avoid entering words related to violence, sex, and illegal activities but also avoid specific terms forbidden by the enterprise or violating internally established moderation logic. Developers can extend custom content moderation rules at the code level in a private deployment of Fusionworks.
+In addition to the system's built-in content moderation types, FusionWorks also supports user-defined content moderation rules. This method is suitable for developers customizing their own private deployments. For instance, in an enterprise internal customer service setup, it may be required that users, while querying or customer service agents while responding, not only avoid entering words related to violence, sex, and illegal activities but also avoid specific terms forbidden by the enterprise or violating internally established moderation logic. Developers can extend custom content moderation rules at the code level in a private deployment of FusionWorks.
 
 ## Quick Start
 
@@ -212,7 +212,7 @@ Following the above steps, run the service to see the newly added custom type.
 
 ### 5. Debug the Extension
 
-At this point, you can select the custom `Cloud Service` content moderation extension type for debugging in the Fusionworks application orchestration interface.
+At this point, you can select the custom `Cloud Service` content moderation extension type for debugging in the FusionWorks application orchestration interface.
 
 ## Implementation Class Template
 

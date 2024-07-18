@@ -2,7 +2,7 @@
 
 ### 1 Creating a Knowledge Base
 
-Click on Knowledge in the main navigation bar of Fusionworks. On this page, you can see your existing knowledge bases. Click **Create Knowledge** to enter the setup wizard:
+Click on Knowledge in the main navigation bar of FusionWorks. On this page, you can see your existing knowledge bases. Click **Create Knowledge** to enter the setup wizard:
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/create-knowledge.png" alt=""><figcaption><p>Creating Knowledge</p></figcaption></figure>
 
@@ -37,7 +37,7 @@ If you choose to use an external data source when creating a dataset, the type o
 
 **Segmenting**: Large language models have a limited context window, usually requiring the entire text to be segmented and then recalling the most relevant segments to the user’s question, known as the segment TopK recall mode. Additionally, appropriate segment sizes help match the most relevant text content and reduce information noise when semantically matching user questions with text segments.
 
-**Cleaning**: To ensure the quality of text recall, it is usually necessary to clean the data before passing it into the model. For example, unwanted characters or blank lines in the output may affect the quality of the response. To help users solve this problem, Fusionworks provides various cleaning methods to help clean the output before sending it to downstream applications.
+**Cleaning**: To ensure the quality of text recall, it is usually necessary to clean the data before passing it into the model. For example, unwanted characters or blank lines in the output may affect the quality of the response. To help users solve this problem, FusionWorks provides various cleaning methods to help clean the output before sending it to downstream applications.
 
 Segmentation and cleaning support two configuration strategies:
 
@@ -84,7 +84,7 @@ When uploading documents to the knowledge base, the system segments the text so 
 
 ### 5 Retrieval Settings
 
-In high-quality indexing mode, Fusionworks offers three retrieval options:
+In high-quality indexing mode, FusionWorks offers three retrieval options:
 
 * **Vector Search**, generating query embeddings and searching for the text chunk most similar to its vector representation.
 * **Full-Text Search**, indexing all terms in the document, allowing users to search any term and retrieve relevant text chunk containing those terms.

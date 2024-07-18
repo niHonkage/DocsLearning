@@ -2,7 +2,7 @@
 
 ## 入门 <a href="#getting-started" id="getting-started"></a>
 
-* [欢迎使用 Fusionworks](README.md)
+* [欢迎使用 FusionWorks](README.md)
   * [特性与技术规格](getting-started/readme/features-and-specifications.md)
   * [模型供应商列表](getting-started/readme/model-providers.md)
 

@@ -4,23 +4,23 @@
 
 #### CONSOLE\_API\_URL
 
-控制台 API 后端 URL，用于拼接授权回调，传空则为同域。范例：`https://api.console.fusionworks.ai`。
+控制台 API 后端 URL，用于拼接授权回调，传空则为同域。范例：`https://api.console.FusionWorks.ai`。
 
 #### CONSOLE\_WEB\_URL
 
-控制台 web **前端** URL，用于拼接部分前端地址，以及 CORS 配置使用，传空则为同域。范例：`https://console.fusionworks.ai`
+控制台 web **前端** URL，用于拼接部分前端地址，以及 CORS 配置使用，传空则为同域。范例：`https://console.FusionWorks.ai`
 
 #### SERVICE\_API\_URL
 
-Service API URL，用于**给前端**展示 Service API Base URL，传空则为同域。范例：`https://api.fusionworks.ai`
+Service API URL，用于**给前端**展示 Service API Base URL，传空则为同域。范例：`https://api.FusionWorks.ai`
 
 #### APP\_API\_URL
 
-WebApp API 后端 URL，用于声明**前端** API 后端地址，传空则为同域。范例：`https://app.fusionworks.ai`
+WebApp API 后端 URL，用于声明**前端** API 后端地址，传空则为同域。范例：`https://app.FusionWorks.ai`
 
 #### APP\_WEB\_URL
 
-WebApp URL，用于**给前端**展示 WebAPP API Base URL，传空则为同域。范例：`https://api.app.fusionworks.ai`
+WebApp URL，用于**给前端**展示 WebAPP API Base URL，传空则为同域。范例：`https://api.app.FusionWorks.ai`
 
 #### FILES\_URL
 
@@ -74,16 +74,16 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
 #### CHECK\_UPDATE\_URL
 
-是否开启检查版本策略，若设置为 false，则不调用 `https://updates.fusionworks.ai` 进行版本检查。由于目前国内无法直接访问基于 CloudFlare Worker 的版本接口，设置该变量为空，可以屏蔽该接口调用。
+是否开启检查版本策略，若设置为 false，则不调用 `https://updates.FusionWorks.ai` 进行版本检查。由于目前国内无法直接访问基于 CloudFlare Worker 的版本接口，设置该变量为空，可以屏蔽该接口调用。
 
 #### 容器启动相关配置
 
 仅在使用 docker 镜像或者 docker-compose 启动时有效。
 
-*   FUSIONWORKS\_BIND\_ADDRESS
+*   FusionWorks\_BIND\_ADDRESS
 
     API 服务绑定地址，默认：0.0.0.0，即所有地址均可访问。
-*   FUSIONWORKS\_PORT
+*   FusionWorks\_PORT
 
     API 服务绑定端口号，默认 5001。
 *   SERVER\_WORKER\_AMOUNT
@@ -142,7 +142,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
     </strong><strong>  
     </strong></code></pre>
 
-    范例：`redis://:fusionworksai123456@redis:6379/1`
+    范例：`redis://:FusionWorksai123456@redis:6379/1`
 *   BROKER\_USE\_SSL
 
     若设置为 true，则使用 SSL 协议进行连接，默认 false
@@ -185,9 +185,9 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 * S3\_ACCESS\_KEY：S3 Access Key
 * S3\_SECRET\_KEY：S3 Secret Key
 * S3\_REGION：S3 地域信息，如：us-east-1
-* AZURE\_BLOB\_ACCOUNT\_NAME: your-account-name 如 'fusionworksai'
-* AZURE\_BLOB\_ACCOUNT\_KEY: your-account-key 如 'fusionworksai'
-* AZURE\_BLOB\_CONTAINER\_NAME: your-container-name 如 'fusionworksai-container'
+* AZURE\_BLOB\_ACCOUNT\_NAME: your-account-name 如 'FusionWorksai'
+* AZURE\_BLOB\_ACCOUNT\_KEY: your-account-key 如 'FusionWorksai'
+* AZURE\_BLOB\_CONTAINER\_NAME: your-container-name 如 'FusionWorksai-container'
 * AZURE\_BLOB\_ACCOUNT\_URL: 'https://\<your\_account\_name>.blob.core.windows.net'
 
 #### 向量数据库配置
@@ -256,7 +256,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
   TiDB Vector 密码配置
 * TIDB\_VECTOR\_DATABASE
 
-  TiDB Vector 数据库配置，如：`fusionworks`
+  TiDB Vector 数据库配置，如：`FusionWorks`
 
 #### 知识库配置
 
@@ -270,9 +270,9 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
     **可使用的枚举类型包括：**
 
-    *   fusionworks
+    *   FusionWorks
 
-        Fusionworks 自研文件 Extract 方案
+        FusionWorks 自研文件 Extract 方案
     *   Unstructured
 
         Unstructured.io 文件 Extract 方案
@@ -317,7 +317,7 @@ Notion 集成配置，变量可通过申请 Notion integration 获取：[https:/
 * MAIL\_TYPE
   * resend
     * MAIL\_DEFAULT\_SEND\_FROM\
-      发件人的电子邮件名称，例如：no-reply [no-reply@fusionworks.ai](mailto:no-reply@fusionworks.ai)，非必需。
+      发件人的电子邮件名称，例如：no-reply [no-reply@FusionWorks.ai](mailto:no-reply@FusionWorks.ai)，非必需。
     * RESEND\_API\_KEY\
       用于 Resend 邮件提供程序的 API 密钥，可以从 API 密钥获取。
   * smtp
@@ -332,7 +332,7 @@ Notion 集成配置，变量可通过申请 Notion integration 获取：[https:/
     * SMTP\_USE\_TLS\
       是否使用 TLS，默认为 false
     * MAIL\_DEFAULT\_SEND\_FROM\
-      发件人的电子邮件名称，例如：no-reply [no-reply@fusionworks.ai](mailto:no-reply@fusionworks.ai)，非必需。
+      发件人的电子邮件名称，例如：no-reply [no-reply@FusionWorks.ai](mailto:no-reply@FusionWorks.ai)，非必需。
 
 #### 其他
 
@@ -352,19 +352,19 @@ Sentry DSN 地址，默认为空，为空时则所有监控信息均不上报 Se
 
 > ⚠️ 修改于 0.3.8，于 0.4.9 废弃，替代为：`CONSOLE_API_URL` 和 `CONSOLE_WEB_URL`。
 
-控制台 URL，用于拼接授权回调、控制台前端地址，以及 CORS 配置使用，传空则为同域。范例：`https://console.fusionworks.ai`。
+控制台 URL，用于拼接授权回调、控制台前端地址，以及 CORS 配置使用，传空则为同域。范例：`https://console.FusionWorks.ai`。
 
 #### API\_URL
 
 > ⚠️ 修改于 0.3.8，于 0.4.9 废弃，替代为 `SERVICE_API_URL`。
 
-API Url，用于**给前端**展示 Service API Base Url，传空则为同域。范例：`https://api.fusionworks.ai`
+API Url，用于**给前端**展示 Service API Base Url，传空则为同域。范例：`https://api.FusionWorks.ai`
 
 #### APP\_URL
 
 > ⚠️ 修改于 0.3.8，于 0.4.9 废弃，替代为 `APP_API_URL` 和 `APP_WEB_URL`。
 
-WebApp Url，用于声明**前端** API 后端地址，传空则为同域。范例：`https://app.fusionworks.ai`
+WebApp Url，用于声明**前端** API 后端地址，传空则为同域。范例：`https://app.FusionWorks.ai`
 
 #### Session 配置
 

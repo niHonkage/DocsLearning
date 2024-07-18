@@ -1,11 +1,11 @@
 # 部署社区版
 
-Fusionworks 社区版即开源版本，你可以通过以下两种方式之一部署 Fusionworks 社区版：
+FusionWorks 社区版即开源版本，你可以通过以下两种方式之一部署 FusionWorks 社区版：
 
-* [Docker Compose 部署](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose)
-* [本地源码启动](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/local-source-code)
+* [Docker Compose 部署](https://docs.FusionWorks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose)
+* [本地源码启动](https://docs.FusionWorks.ai/v/zh-hans/getting-started/install-self-hosted/local-source-code)
 
-在 GitHub 上查看 [Fusionworks 社区版](https://github.com/langgenius/fusionworks)。
+在 GitHub 上查看 [FusionWorks 社区版](https://github.com/langgenius/FusionWorks)。
 
 ### 贡献代码
 

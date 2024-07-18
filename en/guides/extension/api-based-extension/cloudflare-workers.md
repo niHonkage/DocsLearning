@@ -2,21 +2,21 @@
 
 ## Getting Started
 
-Since the Fusionworks API Extension requires a publicly accessible internet address as an API Endpoint, we need to deploy our API extension to a public internet address. Here, we use Cloudflare Workers for deploying our API extension.
+Since the FusionWorks API Extension requires a publicly accessible internet address as an API Endpoint, we need to deploy our API extension to a public internet address. Here, we use Cloudflare Workers for deploying our API extension.
 
-We clone the [Example GitHub Repository](https://github.com/crazywoola/fusionworks-extension-workers), which contains a simple API extension. We can modify this as a base.
+We clone the [Example GitHub Repository](https://github.com/crazywoola/FusionWorks-extension-workers), which contains a simple API extension. We can modify this as a base.
 
 ```bash
-git clone https://github.com/crazywoola/fusionworks-extension-workers.git
+git clone https://github.com/crazywoola/FusionWorks-extension-workers.git
 cp wrangler.toml.example wrangler.toml
 ```
 
 Open the `wrangler.toml` file, and modify `name` and `compatibility_date` to your application's name and compatibility date.
 
-An important configuration here is the `TOKEN` in `vars`, which you will need to provide when adding the API extension in Fusionworks. For security reasons, it's recommended to use a random string as the Token. You should not write the Token directly in the source code but pass it via environment variables. Thus, do not commit your wrangler.toml to your code repository.
+An important configuration here is the `TOKEN` in `vars`, which you will need to provide when adding the API extension in FusionWorks. For security reasons, it's recommended to use a random string as the Token. You should not write the Token directly in the source code but pass it via environment variables. Thus, do not commit your wrangler.toml to your code repository.
 
 ```toml
-name = "fusionworks-extension-example"
+name = "FusionWorks-extension-example"
 compatibility_date = "2023-01-01"
 
 [vars]
@@ -41,9 +41,9 @@ This repository simplifies all configurations except for business logic. You can
 npm run deploy
 ```
 
-After successful deployment, you will get a public internet address, which you can add in Fusionworks as an API Endpoint. Please note not to miss the `endpoint` path.
+After successful deployment, you will get a public internet address, which you can add in FusionWorks as an API Endpoint. Please note not to miss the `endpoint` path.
 
-<figure><img src="/en/.gitbook/assets/guides/extension/api_based_extension/api_extension_edit.png" alt=""><figcaption><p>Adding API Endpoint in Fusionworks</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/extension/api_based_extension/api_extension_edit.png" alt=""><figcaption><p>Adding API Endpoint in FusionWorks</p></figcaption></figure>
 
 <figure><img src="/en/.gitbook/assets/guides/extension/api_based_extension/app_tools_edit.png" alt=""><figcaption><p>Adding API Tool in the App edit page</p></figcaption></figure>
 
@@ -96,4 +96,4 @@ wrangler tail
 
 * [Cloudflare Workers](https://workers.cloudflare.com/)
 * [Cloudflare Workers CLI](https://developers.cloudflare.com/workers/cli-wrangler/install-update)
-* [Example GitHub Repository](https://github.com/crazywoola/fusionworks-extension-workers)
+* [Example GitHub Repository](https://github.com/crazywoola/FusionWorks-extension-workers)

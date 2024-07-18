@@ -61,7 +61,7 @@
 </tr>
 <tr>
 <td><a href="tools.md"><strong>Tools</strong></a></td>
-<td>Enables calling built-in Fusionworks tools, custom tools, sub-workflows, and more within the agent workflow.</td>
+<td>Enables calling built-in FusionWorks tools, custom tools, sub-workflows, and more within the agent workflow.</td>
 <td></td>
 </tr>
 </tbody>

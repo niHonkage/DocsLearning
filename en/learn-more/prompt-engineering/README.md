@@ -1,12 +1,12 @@
 # Designing Prompts & Orchestrating Applications
 
-Master how to use Fusionworks to orchestrate applications and practice Prompt Engineering. By leveraging two built-in application types, you can build high-value AI applications.
+Master how to use FusionWorks to orchestrate applications and practice Prompt Engineering. By leveraging two built-in application types, you can build high-value AI applications.
 
-Fusionworks's core philosophy is the declarative definition of AI applications. Everything, including prompts, context, and plugins, can be described through a YAML file (hence the name Fusionworks). The final output is a single API or a ready-to-use WebApp.
+FusionWorks's core philosophy is the declarative definition of AI applications. Everything, including prompts, context, and plugins, can be described through a YAML file (hence the name FusionWorks). The final output is a single API or a ready-to-use WebApp.
 
-At the same time, Fusionworks provides an easy-to-use prompt orchestration interface, allowing developers to visually orchestrate various application features based on prompts. Sounds simple, right?
+At the same time, FusionWorks provides an easy-to-use prompt orchestration interface, allowing developers to visually orchestrate various application features based on prompts. Sounds simple, right?
 
-Whether the AI application is simple or complex, a good prompt can effectively improve the model's output quality, reduce error rates, and meet specific scenario requirements. Fusionworks already offers two common application types: conversational and text generation. This chapter will guide you through orchestrating AI applications in a visual manner.
+Whether the AI application is simple or complex, a good prompt can effectively improve the model's output quality, reduce error rates, and meet specific scenario requirements. FusionWorks already offers two common application types: conversational and text generation. This chapter will guide you through orchestrating AI applications in a visual manner.
 
 ### Steps for Application Orchestration
 
@@ -18,7 +18,7 @@ Whether the AI application is simple or complex, a good prompt can effectively i
 
 ### Understanding the Differences Between Application Types
 
-Text generation applications and conversational applications in Fusionworks have slight differences in prompt orchestration. Conversational applications need to incorporate the "conversation lifecycle" to meet more complex user scenarios and context management requirements.
+Text generation applications and conversational applications in FusionWorks have slight differences in prompt orchestration. Conversational applications need to incorporate the "conversation lifecycle" to meet more complex user scenarios and context management requirements.
 
 Prompt Engineering has evolved into a promising field worth continuous exploration. Continue reading to learn the orchestration guidelines for the two types of applications.
 

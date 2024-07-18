@@ -1,8 +1,8 @@
 # 基于 APIs 开发
 
-Fusionworks 基于“**后端即服务**”理念为所有应用提供了 API，为 AI 应用开发者带来了诸多便利。通过这一理念，开发者可以直接在前端应用中获取大型语言模型的强大能力，而无需关注复杂的后端架构和部署过程。
+FusionWorks 基于“**后端即服务**”理念为所有应用提供了 API，为 AI 应用开发者带来了诸多便利。通过这一理念，开发者可以直接在前端应用中获取大型语言模型的强大能力，而无需关注复杂的后端架构和部署过程。
 
-### 使用 Fusionworks API 的好处
+### 使用 FusionWorks API 的好处
 
 * 让前端应用直接安全地调用 LLM 能力，省去后端服务的开发过程
 * 在可视化的界面中设计应用，并在所有客户端中实时生效
@@ -13,7 +13,7 @@ Fusionworks 基于“**后端即服务**”理念为所有应用提供了 API，
 
 ### 如何使用
 
-选择一个应用，在应用（Apps）左侧导航中可以找到**访问 API（API Access）**。在该页面中你可以查看 Fusionworks 提供的 API 文档，并管理可访问 API 的凭据。
+选择一个应用，在应用（Apps）左侧导航中可以找到**访问 API（API Access）**。在该页面中你可以查看 FusionWorks 提供的 API 文档，并管理可访问 API 的凭据。
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>访问 API</p></figcaption></figure>
 
@@ -27,7 +27,7 @@ Fusionworks 基于“**后端即服务**”理念为所有应用提供了 API，
 
 ### 文本生成型应用
 
-可用于生成高质量文本的应用，例如生成文章、摘要、翻译等，通过调用 completion-messages 接口，发送用户输入得到生成文本结果。用于生成文本的模型参数和提示词模版取决于开发者在 Fusionworks 提示词编排页的设置。
+可用于生成高质量文本的应用，例如生成文章、摘要、翻译等，通过调用 completion-messages 接口，发送用户输入得到生成文本结果。用于生成文本的模型参数和提示词模版取决于开发者在 FusionWorks 提示词编排页的设置。
 
 你可以在**应用 -> 访问 API** 中找到该应用的 API 文档与范例请求。
 
@@ -36,7 +36,7 @@ Fusionworks 基于“**后端即服务**”理念为所有应用提供了 API，
 {% tabs %}
 {% tab title="cURL" %}
 ```
-curl --location --request POST 'https://api.fusionworks.ai/v1/completion-messages' \
+curl --location --request POST 'https://api.FusionWorks.ai/v1/completion-messages' \
 --header 'Authorization: Bearer ENTER-YOUR-SECRET-KEY' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -52,7 +52,7 @@ curl --location --request POST 'https://api.fusionworks.ai/v1/completion-message
 import requests
 import json
 
-url = "https://api.fusionworks.ai/v1/completion-messages"
+url = "https://api.FusionWorks.ai/v1/completion-messages"
 
 headers = {
     'Authorization': 'Bearer ENTER-YOUR-SECRET-KEY',
@@ -83,7 +83,7 @@ print(response.text)
 {% tabs %}
 {% tab title="cURL" %}
 ```
-curl --location --request POST 'https://api.fusionworks.ai/v1/chat-messages' \
+curl --location --request POST 'https://api.FusionWorks.ai/v1/chat-messages' \
 --header 'Authorization: Bearer ENTER-YOUR-SECRET-KEY' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -102,7 +102,7 @@ curl --location --request POST 'https://api.fusionworks.ai/v1/chat-messages' \
 import requests
 import json
 
-url = 'https://api.fusionworks.ai/v1/chat-messages'
+url = 'https://api.FusionWorks.ai/v1/chat-messages'
 headers = {
     'Authorization': 'Bearer ENTER-YOUR-SECRET-KEY',
     'Content-Type': 'application/json',

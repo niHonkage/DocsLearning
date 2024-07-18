@@ -5,7 +5,7 @@
 #### DockerHubのイメージを直接使用する
 
 ```Bash
-docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http://127.0.0.1:5001 langgenius/fusionworks-web:latest
+docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http://127.0.0.1:5001 langgenius/FusionWorks-web:latest
 ```
 
 #### ソースコードからドッカーイメージを構築する
@@ -13,12 +13,12 @@ docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http
 1.  フロントエンドイメージを構築する
 
     ```
-    cd web && docker build . -t fusionworks-web
+    cd web && docker build . -t FusionWorks-web
     ```
 2.  フロントエンドイメージを起動する
 
     ```
-    docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http://127.0.0.1:5001 fusionworks-web
+    docker run -it -p 3000:3000 -e CONSOLE_URL=http://127.0.0.1:5001 -e APP_URL=http://127.0.0.1:5001 FusionWorks-web
     ```
 3. コンソールのドメイン名とWeb APPのドメイン名が一致しない場合、`CONSOLE_URL`と`APP_URL`を個別に設定できます。
 4. ローカルで [http://127.0.0.1:3000](http://127.0.0.1:3000) にアクセスします。

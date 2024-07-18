@@ -1,14 +1,14 @@
-# Create a MidJourney Prompt Bot with Fusionworks
+# Create a MidJourney Prompt Bot with FusionWorks
 
 via [@op7418](https://twitter.com/op7418) on Twitter
 
-I recently tried out a natural language programming tool called Fusionworks, developed by [@goocarlos](https://twitter.com/goocarlos). It allows someone without coding knowledge to create a web application just by writing prompts. It even generates the API for you, making it easy to deploy your application on your preferred platform.
+I recently tried out a natural language programming tool called FusionWorks, developed by [@goocarlos](https://twitter.com/goocarlos). It allows someone without coding knowledge to create a web application just by writing prompts. It even generates the API for you, making it easy to deploy your application on your preferred platform.
 
-The application I created using Fusionworks took me only 20 minutes, and the results were impressive. Without Fusionworks, it might have taken me much longer to achieve the same outcome. The specific functionality of the application is to generate Midjourney prompts based on short input topics, assisting users in quickly filling in common Midjourney commands. In this tutorial, I will walk you through the process of creating this application to familiarize you with the platform.
+The application I created using FusionWorks took me only 20 minutes, and the results were impressive. Without FusionWorks, it might have taken me much longer to achieve the same outcome. The specific functionality of the application is to generate Midjourney prompts based on short input topics, assisting users in quickly filling in common Midjourney commands. In this tutorial, I will walk you through the process of creating this application to familiarize you with the platform.
 
-Fusionworks offers two types of applications: conversational applications similar to ChatGPT, which involve multi-turn dialogue, and text generation applications that directly generate text content with the click of a button. Since we want to create a Midjoureny prompt bot, we'll choose the text generator.
+FusionWorks offers two types of applications: conversational applications similar to ChatGPT, which involve multi-turn dialogue, and text generation applications that directly generate text content with the click of a button. Since we want to create a Midjoureny prompt bot, we'll choose the text generator.
 
-You can access Fusionworks here: https://fusionworks.ai/
+You can access FusionWorks here: https://FusionWorks.ai/
 
 <figure><img src="/en/.gitbook/assets/learn-more/create-app.png" alt=""><figcaption></figcaption></figure>
 
@@ -54,4 +54,4 @@ With these steps, your application is now complete. After testing and ensuring t
 
 <figure><img src="/en/.gitbook/assets/learn-more/screenshot-20230802-142407.png" alt=""><figcaption></figcaption></figure>
 
-That's how you create a simple AI application using Fusionworks. You can also deploy your application on other platforms or modify its UI using the generated API. Additionally, Fusionworks supports uploading your own data, such as building a customer service bot to assist with product-related queries. This concludes the tutorial, and a special thanks to @goocarlos for creating such a fantastic product.
+That's how you create a simple AI application using FusionWorks. You can also deploy your application on other platforms or modify its UI using the generated API. Additionally, FusionWorks supports uploading your own data, such as building a customer service bot to assist with product-related queries. This concludes the tutorial, and a special thanks to @goocarlos for creating such a fantastic product.

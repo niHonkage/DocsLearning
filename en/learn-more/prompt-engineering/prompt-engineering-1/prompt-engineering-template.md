@@ -1,6 +1,6 @@
 # Initial Prompt Template References
 
-To meet the more customized requirements of LLMs for developers, Fusionworks fully opens up the complete prompts in **Expert Mode** and provides initial templates in the orchestration interface. Here are references for four initial templates:
+To meet the more customized requirements of LLMs for developers, FusionWorks fully opens up the complete prompts in **Expert Mode** and provides initial templates in the orchestration interface. Here are references for four initial templates:
 
 ### 1. Template for Building Conversational Applications Using Chat Models
 
@@ -137,7 +137,7 @@ And answer according to the language of the user's question.
 * Query Variable (`Query`)
 
 {% hint style="warning" %}
-Fusionworks and some model vendors have jointly optimized the system prompts deeply. Therefore, the initial templates under some models may differ from the examples above.
+FusionWorks and some model vendors have jointly optimized the system prompts deeply. Therefore, the initial templates under some models may differ from the examples above.
 {% endhint %}
 
 ### Parameter Descriptions

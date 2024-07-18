@@ -1,20 +1,20 @@
 # Create an AI Chatbot with Business Data in Minutes
 
-AI-powered customer service may be a standard feature for every business website, and it is becoming easier to implement with higher levels of customization. The following content will guide you on how to create an AI-powered customer service for your website in just a few minutes using Fusionworks.
+AI-powered customer service may be a standard feature for every business website, and it is becoming easier to implement with higher levels of customization. The following content will guide you on how to create an AI-powered customer service for your website in just a few minutes using FusionWorks.
 
 ### Prerequisite
 
-**Register or Deploy Fusionworks.AI**
+**Register or Deploy FusionWorks.AI**
 
-Fusionworks is an open source product which you can find on[ GitHub](https://github.com/langgenius/fusionworks) and deploy it to your local or company intranet. Meanwhile, it provides a cloud SaaS version, access [Didy.AI ](https://fusionworks.ai/)to register and use it.
+FusionWorks is an open source product which you can find on[ GitHub](https://github.com/langgenius/FusionWorks) and deploy it to your local or company intranet. Meanwhile, it provides a cloud SaaS version, access [Didy.AI ](https://FusionWorks.ai/)to register and use it.
 
 **Apply for API key from OpenAI and other model providers.**
 
-Fusionworks provides free message call usage quotas for OpenAI GPT series (200 times) and Antropic Claude (1000 times) AI models, which require tokens to be consumed. Before you run out, you need to apply for your own API key through the official channel of the model provider. You can enter the key in Fusionworks's "Settings" - "Model Provider".
+FusionWorks provides free message call usage quotas for OpenAI GPT series (200 times) and Antropic Claude (1000 times) AI models, which require tokens to be consumed. Before you run out, you need to apply for your own API key through the official channel of the model provider. You can enter the key in FusionWorks's "Settings" - "Model Provider".
 
 ### Upload your product documentation or knowledge base.
 
-If you want to build an AI Chatbot based on the company's existing knowledge base and product documents, then you need to upload as many product-related documents as possible to Fusionworks's knowledge. Fusionworks helps you **complete segmentation and cleaning of the data.** The Fusionworks knowledge supports two indexing modes: high quality and economical. We recommend using the high quality mode, which consumes tokens but provides higher accuracy.
+If you want to build an AI Chatbot based on the company's existing knowledge base and product documents, then you need to upload as many product-related documents as possible to FusionWorks's knowledge. FusionWorks helps you **complete segmentation and cleaning of the data.** The FusionWorks knowledge supports two indexing modes: high quality and economical. We recommend using the high quality mode, which consumes tokens but provides higher accuracy.
 
 1. Create a new knowledge base
 2. upload your business data (support batch uploading multiple texts)
@@ -35,9 +35,9 @@ Create a conversational app on the \[Build App] page. Then start setting up the 
 
 In this case, we assign a role to the AI:
 
-> Pre prompt：You are Bob, the AI customer service for Fusionworks, specializing in answering questions about Fusionworks's products, team, or LLMOps for users.Please note, refuse to answer when users ask "inappropriate questions", i.e., content beyond the scope of this document.
+> Pre prompt：You are Bob, the AI customer service for FusionWorks, specializing in answering questions about FusionWorks's products, team, or LLMOps for users.Please note, refuse to answer when users ask "inappropriate questions", i.e., content beyond the scope of this document.
 
-> Opening remarks：Hey \{{username\}}, I'm Bob☀️, the first AI member of Fusionworks. You can discuss with me any questions related to Fusionworks products, team, and even LLMOps.
+> Opening remarks：Hey \{{username\}}, I'm Bob☀️, the first AI member of FusionWorks. You can discuss with me any questions related to FusionWorks products, team, and even LLMOps.
 
 <figure><img src="/en/.gitbook/assets/learn-more/image (53).png" alt=""><figcaption></figcaption></figure>
 
@@ -61,8 +61,8 @@ This step is to embed the prepared AI chatbot into your official website . Click
 
 <figure><img src="/en/.gitbook/assets/learn-more/image (19).png" alt=""><figcaption></figcaption></figure>
 
-Above is an example of how to embed Fusionworks into the official website through the AI chatbot Bob of Fusionworks official website. Of course, you can also use more features provided by Fusionworks to enhance the performance of the chatbot, such as adding some variable settings, so that users can fill in necessary judgment information before interaction, such as name, specific product used and so on.
+Above is an example of how to embed FusionWorks into the official website through the AI chatbot Bob of FusionWorks official website. Of course, you can also use more features provided by FusionWorks to enhance the performance of the chatbot, such as adding some variable settings, so that users can fill in necessary judgment information before interaction, such as name, specific product used and so on.
 
-Welcome to explore in Fusionworks together!
+Welcome to explore in FusionWorks together!
 
 <figure><img src="/en/.gitbook/assets/learn-more/image (25).png" alt=""><figcaption></figcaption></figure>

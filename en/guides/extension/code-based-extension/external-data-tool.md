@@ -1,8 +1,8 @@
 # External Data Tools
 
-External data tools are used to fetch additional data from external sources after the end user submits data, and then assemble this data into prompts as additional context information for the LLM. Fusionworks provides a default tool for external API calls, check [External Data Tool](https://docs.fusionworks.ai/guides/knowledge-base/external-data-tool) for details.
+External data tools are used to fetch additional data from external sources after the end user submits data, and then assemble this data into prompts as additional context information for the LLM. FusionWorks provides a default tool for external API calls, check [External Data Tool](https://docs.FusionWorks.ai/guides/knowledge-base/external-data-tool) for details.
 
-For developers deploying Fusionworks locally, to meet more customized needs or to avoid developing an additional API Server, you can directly insert custom external data tool logic in the form of a plugin based on the Fusionworks service. After extending custom tools, your custom tool options will be added to the dropdown list of tool types, and team members can use these custom tools to fetch external data.
+For developers deploying FusionWorks locally, to meet more customized needs or to avoid developing an additional API Server, you can directly insert custom external data tool logic in the form of a plugin based on the FusionWorks service. After extending custom tools, your custom tool options will be added to the dropdown list of tool types, and team members can use these custom tools to fetch external data.
 
 ## Quick Start
 
@@ -137,7 +137,7 @@ Follow the above steps and run the service to see the newly added custom type.
 
 ### 5. **Debug the Extension**
 
-Now, you can select the custom `Weather Search` external data tool extension type in the Fusionworks application orchestration interface for debugging.
+Now, you can select the custom `Weather Search` external data tool extension type in the FusionWorks application orchestration interface for debugging.
 
 ## Implementation Class Template
 

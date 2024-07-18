@@ -1,4 +1,4 @@
-# Launching Fusionworks Apps
+# Launching FusionWorks Apps
 
 For more detailed information, please refer to the following sections:
 

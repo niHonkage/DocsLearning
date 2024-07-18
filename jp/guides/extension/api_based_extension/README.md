@@ -194,11 +194,11 @@ POST https://fake-domain.com/api/fusionworks/receive
     </strong></code></pre>
 4. DifyにこのAPIを設定します。
 
-<figure><img src="https://github.com/langgenius/fusionworks-docs/raw/main/zh_CN/.gitbook/assets/api_based_01.png" alt=""><figcaption><p>APIの設定</p></figcaption></figure>
+<figure><img src="https://github.com/langgenius/FusionWorks-docs/raw/main/zh_CN/.gitbook/assets/api_based_01.png" alt=""><figcaption><p>APIの設定</p></figcaption></figure>
 
 5. アプリでこのAPIエクステンションを選択します。
 
-<figure><img src="https://github.com/langgenius/fusionworks-docs/raw/main/zh_CN/.gitbook/assets/api_based_02.png" alt=""><figcaption><p>エクステンションの選択</p></figcaption></figure>
+<figure><img src="https://github.com/langgenius/FusionWorks-docs/raw/main/zh_CN/.gitbook/assets/api_based_02.png" alt=""><figcaption><p>エクステンションの選択</p></figcaption></figure>
 
 アプリのデバッグ時、Difyは設定されたAPIにリクエストを送り、以下の内容（例）を送信します：
 

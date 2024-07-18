@@ -2,21 +2,21 @@
 
 ## 始めに
 
-Fusionworks API Extension は、アクセス可能な公開アドレスを API エンドポイントとして使用する必要があるため、API 拡張を公開アドレスにデプロイする必要があります。ここでは、Cloudflare ワーカーを使用して API 拡張をデプロイします。
+FusionWorks API Extension は、アクセス可能な公開アドレスを API エンドポイントとして使用する必要があるため、API 拡張を公開アドレスにデプロイする必要があります。ここでは、Cloudflare ワーカーを使用して API 拡張をデプロイします。
 
-まず、[Example GitHub レポジトリ](https://github.com/crazywoola/fusionworks-extension-workers) をクローンします。このレポジトリには、簡単な API 拡張が含まれており、これを基にして修正を行うことができます。
+まず、[Example GitHub レポジトリ](https://github.com/crazywoola/FusionWorks-extension-workers) をクローンします。このレポジトリには、簡単な API 拡張が含まれており、これを基にして修正を行うことができます。
 
 ```bash
-git clone https://github.com/crazywoola/fusionworks-extension-workers.git
+git clone https://github.com/crazywoola/FusionWorks-extension-workers.git
 cp wrangler.toml.example wrangler.toml
 ```
 
 次に、`wrangler.toml` ファイルを開き、`名前` と `互換性の日付` をあなたのアプリケーション名と互換日付に変更します。
 
-ここで注意が必要な設定は、`vars` 内の `トークン` です。Fusionworks に API 拡張を追加する際に、このトークンを入力する必要があります。セキュリティ上の観点から、ランダムな文字列をトークンとして使用することをお勧めします。トークンをソースコードに直接書き込むのではなく、環境変数を使用してトークンを渡す方法を取るべきです。したがって、wrangler.toml をコードレポジトリにコミットしないでください。
+ここで注意が必要な設定は、`vars` 内の `トークン` です。FusionWorks に API 拡張を追加する際に、このトークンを入力する必要があります。セキュリティ上の観点から、ランダムな文字列をトークンとして使用することをお勧めします。トークンをソースコードに直接書き込むのではなく、環境変数を使用してトークンを渡す方法を取るべきです。したがって、wrangler.toml をコードレポジトリにコミットしないでください。
 
 ```toml
-name = "fusionworks-extension-example"
+name = "FusionWorks-extension-example"
 compatibility_date = "2023-01-01"
 
 [vars]
@@ -41,9 +41,9 @@ const result = await fetch(url).then(res => res.text())
 npm run deploy
 ```
 
-デプロイが成功すると、公開アドレスが得られます。このアドレスを Fusionworks に API エンドポイントとして追加できます。`endpoint` パスを忘れないようにしてください。
+デプロイが成功すると、公開アドレスが得られます。このアドレスを FusionWorks に API エンドポイントとして追加できます。`endpoint` パスを忘れないようにしてください。
 
-<figure><img src="../../../.gitbook/assets/api_extension_edit.png" alt=""><figcaption><p>Fusionworks に API エンドポイントを追加する</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/api_extension_edit.png" alt=""><figcaption><p>FusionWorks に API エンドポイントを追加する</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/app_tools_edit.png" alt=""><figcaption><p>アプリ編集ページに API ツールを追加する</p></figcaption></figure>
 
@@ -97,4 +97,4 @@ wrangler tail
 
 * [Cloudflare Workers](https://workers.cloudflare.com/)
 * [Cloudflare Workers CLI](https://developers.cloudflare.com/workers/cli-wrangler/install-update)
-* [Example GitHub レポジトリ](https://github.com/crazywoola/fusionworks-extension-workers)
+* [Example GitHub レポジトリ](https://github.com/crazywoola/FusionWorks-extension-workers)

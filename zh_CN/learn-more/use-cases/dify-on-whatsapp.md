@@ -1,4 +1,4 @@
-# 使用Fusionworks 和Twilio构建WhatsApp机器人
+# 使用FusionWorks 和Twilio构建WhatsApp机器人
 
 > 作者：Warren， [Microsoft 最有價值專家 (MVP)](https://mvp.microsoft.com/en-US/mvp/profile/476f41d3-6bd1-ea11-a812-000d3a8dfe0d)
 
@@ -6,9 +6,9 @@
 
 随着世界通过消息应用程序变得越来越紧密地连接在一起，聊天机器人已成为企业与客户进行更个人化交流的关键工具。
 
-随着人工智能的崛起，聊天机器人变得更聪明，更个性化，更直观。在本文中，我们将向您展示如何使用使用Fusionworks和Twilio将其与WhatsApp集成。
+随着人工智能的崛起，聊天机器人变得更聪明，更个性化，更直观。在本文中，我们将向您展示如何使用使用FusionWorks和Twilio将其与WhatsApp集成。
 
-您将首先使用FastAPI 接入Fusionworks设置后端，然后，您将集成Twilio的WhatsApp消息API，允许客户与您的WhatsApp聊天机器人开始对话。
+您将首先使用FastAPI 接入FusionWorks设置后端，然后，您将集成Twilio的WhatsApp消息API，允许客户与您的WhatsApp聊天机器人开始对话。
 
 使用Localtunnel，将FastAPI本地主机放在互联网上，使其可以供Twilio API通信。
 
@@ -19,14 +19,14 @@
 - 一部安装了WhatsApp的智能手机，用于测试您的AI聊天机器人
 - 对FastAPI的基本理解，这是一个使用Python 3.6+构建API的框架
 
-## 3. 创建Fusionworks基础编排聊天助手应用 （節錄自[手摸手教你把 Fusionworks 接入微信生态](./fusionworks-on-wechat.md))
+## 3. 创建FusionWorks基础编排聊天助手应用 （節錄自[手摸手教你把 FusionWorks 接入微信生态](./FusionWorks-on-wechat.md))
 
 
-首先，登录[Fusionworks官方应用平台](https://fusionworks.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考Fusionworks官方教程[Docker Compose 部署 | 中文 | Fusionworks](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，Fusionworks是开源项目，支持私有部署。
+首先，登录[FusionWorks官方应用平台](https://FusionWorks.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考FusionWorks官方教程[Docker Compose 部署 | 中文 | FusionWorks](https://docs.FusionWorks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，FusionWorks是开源项目，支持私有部署。
 
-<figure><img src="../../.gitbook/assets/fusionworks-on-wechat/create-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FusionWorks-on-wechat/create-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
 
-登录成功后，进入Fusionworks页面，我们按照下方步骤创建一个基础编排聊天助手应用
+登录成功后，进入FusionWorks页面，我们按照下方步骤创建一个基础编排聊天助手应用
 
 1. 点击页面上方的工作室
 2. 创建空白应用
@@ -35,13 +35,13 @@
 5. 选择应用图标并为应用填写一个名称，比如基础编排聊天助手
 6. 点击创建
 
-<figure><img src="../../.gitbook/assets/fusionworks-on-wechat/config-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FusionWorks-on-wechat/config-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
 创建成功后我们会跳转到上图所示页面，我们继续配置应用
 
 1. 选择模型，如gpt-3.5-turbo-0125
 2. 设置模型参数
 3. 填写应用提示词
-<figure><img src="../../.gitbook/assets/fusionworks-on-wechat/publish-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FusionWorks-on-wechat/publish-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
 
 在配置完成后，我们可以在右侧对话框进行测试，在测试完成后，进行如下操作
 
@@ -50,7 +50,7 @@
 3. 访问API
 
 ##### （4）生成基础编排聊天助手API密钥
-<figure><img src="../../.gitbook/assets/fusionworks-on-wechat/create-basic-chatbot-apikey.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FusionWorks-on-wechat/create-basic-chatbot-apikey.jpg" alt=""><figcaption></figcaption></figure>
 
 在点击"访问API"后，我们会跳转到上图的API管理页面，在这个页面我们按照如下步骤获取API密钥：
 
@@ -58,7 +58,7 @@
 2. 点击创建密钥
 3. 复制保存密钥
 
-在保存密钥后，还需要查看右上角的API服务器，如果是Fusionworks官网的应用，API服务器地址为 "https://api.fusionworks.ai/v1", 如果是私有部署的，请确认你自己的API服务器地址。
+在保存密钥后，还需要查看右上角的API服务器，如果是FusionWorks官网的应用，API服务器地址为 "https://api.FusionWorks.ai/v1", 如果是私有部署的，请确认你自己的API服务器地址。
 
 至此，创建聊天助手的准备工作结束，在此小节中我们只需要保存好两个东西：**API密钥**与**API服务器地址**
 
@@ -67,7 +67,7 @@
 
 转到[Twilio控制台] 畫面應該會直接獲取到Account SID 和Auth Token，保存好這两个东西。
 
-<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/twilio1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FusionWorks-on-whatsapp/twilio1.png" alt=""><figcaption></figcaption></figure>
 
 ## 5. 创建您的聊天机器人
 
@@ -76,7 +76,7 @@
 #### 5.1 下載代碼
 
 ```
-git clone https://github.com/somethingwentwell/fusionworks-twilio-whatsapp
+git clone https://github.com/somethingwentwell/FusionWorks-twilio-whatsapp
 ```
 
 #### 5.2 配置.env
@@ -87,8 +87,8 @@ git clone https://github.com/somethingwentwell/fusionworks-twilio-whatsapp
 TWILIO_NUMBER=+14155238886
 TWILIO_ACCOUNT_SID=<在(4)獲取的Twilio Account SID>
 TWILIO_AUTH_TOKEN=<在(4)獲取的Twilio Auth Token>
-FUSIONWORKS_URL=<在(3)獲取的Fusionworks API服务器地址>
-FUSIONWORKS_API_KEY=<在(3)獲取的Fusionworks API密钥>
+FusionWorks_URL=<在(3)獲取的FusionWorks API服务器地址>
+FusionWorks_API_KEY=<在(3)獲取的FusionWorks API密钥>
 ```
 
 #### 5.3 運行代码
@@ -100,9 +100,9 @@ docker compose up
 
 如果运行成功，你应该会看到
 ```
-fusionworks-whatsapp-1  | INFO:     Started server process [68]
-fusionworks-whatsapp-1  | INFO:     Waiting for application startup.
-fusionworks-whatsapp-1  | INFO:     Application startup complete.
+FusionWorks-whatsapp-1  | INFO:     Started server process [68]
+FusionWorks-whatsapp-1  | INFO:     Waiting for application startup.
+FusionWorks-whatsapp-1  | INFO:     Application startup complete.
 ```
 
 在浏览器中打开 http://localhost:9000。你应该看到的结果是一个JSON响应，内容为 {"msg": "working"}。
@@ -119,7 +119,7 @@ npx localtunnel --port 9000
 
 上述命令在您的本地服务器（运行在9000端口）和localtunnel创建的公共域之间建立了一个连接。一旦您有了localtunnel转发URL，任何来自客户端对该URL的请求都会自动被定向到您的FastAPI后端。
 
-<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/lt1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FusionWorks-on-whatsapp/lt1.png" alt=""><figcaption></figcaption></figure>
 
 #### 5.5 代码解释
 
@@ -142,7 +142,7 @@ enrolled_numbers = ['+14155238886']
         return ""
 ```
 
-##### 5.5.2 将WhatsApp号码作为Fusionworks会话ID，确保用户持续保持该会话
+##### 5.5.2 将WhatsApp号码作为FusionWorks会话ID，确保用户持续保持该会话
 
 ```python
 conversation_ids = {}
@@ -151,10 +151,10 @@ conversation_ids = {}
 对应
 
 ```python
-    url = fusionworks_url
+    url = FusionWorks_url
     headers = {  
         'Content-Type': 'application/json',  
-        'Authorization': f"Bearer {fusionworks_api_key}",  
+        'Authorization': f"Bearer {FusionWorks_api_key}",  
     }  
     data = {  
         'inputs': {},  
@@ -194,7 +194,7 @@ conversation_ids = {}
 
 在“试试看”下，点击“发送WhatsApp消息”。您将默认进入沙盒选项卡，您会看到一个电话号码“+14155238886”，旁边有一个加入的代码，右边有一个二维码。
 
-<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/twilio2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FusionWorks-on-whatsapp/twilio2.png" alt=""><figcaption></figcaption></figure>
 
 要启用Twilio测试环境，将此代码的文本作为WhatsApp消息发送到显示的电话号码。如果您正在使用网络版本，可以点击超链接将您引导到WhatsApp聊天。
 
@@ -212,13 +212,13 @@ Twilio沙盒webhook
 
 完成后，按“保存”按钮。
 
-<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/twilio3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FusionWorks-on-whatsapp/twilio3.png" alt=""><figcaption></figcaption></figure>
 
 ## 7. WhatsApp測試
 
-掃6.1 頁面的二維碼進入WhatsApp 沙盒環境，然後发送WhatsApp消息，并等待您的AI聊天机器人的回复。尝试向AI聊天机器人提问您可以向Fusionworks 聊天助手提问的任何问题。
+掃6.1 頁面的二維碼進入WhatsApp 沙盒環境，然後发送WhatsApp消息，并等待您的AI聊天机器人的回复。尝试向AI聊天机器人提问您可以向FusionWorks 聊天助手提问的任何问题。
 
-<figure><img src="../../.gitbook/assets/fusionworks-on-whatsapp/whatsapp1.jpg" style="width:300px;" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FusionWorks-on-whatsapp/whatsapp1.jpg" style="width:300px;" alt=""><figcaption></figcaption></figure>
 
 ## 8. 后记
 

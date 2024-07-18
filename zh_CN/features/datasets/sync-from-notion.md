@@ -1,6 +1,6 @@
 # 概念同步
 
-Fusionworks的概念支持从概念导入并设置 **同步** 以便在概念更新后自动同步数据以进行更新.
+FusionWorks的概念支持从概念导入并设置 **同步** 以便在概念更新后自动同步数据以进行更新.
 
 ### 鉴权
 
@@ -15,19 +15,19 @@ Fusionworks的概念支持从概念导入并设置 **同步** 以便在概念更
 
 ### 分段清洗
 
-接下来, 选择你的 **分段设置** 和 **索引方法**, **保存并处理**. 等待fusionworks数据处理, 通常此步骤需要在LLM提供程序中使用令牌. 不仅支持导入普通页面类型，还可以汇总保存数据库类型下的页面属性.
+接下来, 选择你的 **分段设置** 和 **索引方法**, **保存并处理**. 等待FusionWorks数据处理, 通常此步骤需要在LLM提供程序中使用令牌. 不仅支持导入普通页面类型，还可以汇总保存数据库类型下的页面属性.
 
 _**便笺:当前不支持导入图像和文件。表数据将转换为文本.**_
 
 ### 同步概念数据
 
-如果您的概念内容已被修改，您可以直接在fusionworks知识文档列表页面上单击[同步]按钮，一键同步数据(请注意，每次单击都会同步当前内容)。此步骤需要使用令牌.
+如果您的概念内容已被修改，您可以直接在FusionWorks知识文档列表页面上单击[同步]按钮，一键同步数据(请注意，每次单击都会同步当前内容)。此步骤需要使用令牌.
 
 <figure><img src="../../.gitbook/assets/sync-notion-data.png" alt=""><figcaption><p>同步概念数据</p></figcaption></figure>
 
 ### (社区版) 概念集成配置指南
 
-集成分为两种方式: **内部集成** 和 **公共集成** . 它可以按需在fusionworks中配置.
+集成分为两种方式: **内部集成** 和 **公共集成** . 它可以按需在FusionWorks中配置.
 
 有关这两种集成方法的具体区别，请参阅 [概念正式说明](https://developers.notion.com/docs/authorization).
 
@@ -45,7 +45,7 @@ _**便笺:当前不支持导入图像和文件。表数据将转换为文本.**_
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-将其复制并返回到fusionworks源代码 , 在 **.env** 文件与配置相关的环境变量中，环境变量如下:
+将其复制并返回到FusionWorks源代码 , 在 **.env** 文件与配置相关的环境变量中，环境变量如下:
 
 **NOTION\_INTEGRATION\_TYPE** = 内部 或 **NOTION\_INTEGRATION\_TYPE** = 公用
 
@@ -63,7 +63,7 @@ _**便笺:当前不支持导入图像和文件。表数据将转换为文本.**_
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-返回到fusionworks源代码,在 **.env** 与文件配置相关的环境变量中, 环境变量如下:
+返回到FusionWorks源代码,在 **.env** 与文件配置相关的环境变量中, 环境变量如下:
 
 **NOTION\_INTEGRATION\_TYPE**=公共
 

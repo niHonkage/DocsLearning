@@ -2,30 +2,30 @@
 
 ### Tool Definition
 
-Tools can extend the capabilities of LLMs (Language Learning Models), such as performing web searches, scientific calculations, or generating images, thereby enhancing the LLM's ability to connect with the external world. Fusionworks provides two types of tools: **First-party Tools** and **Custom Tools**.
+Tools can extend the capabilities of LLMs (Language Learning Models), such as performing web searches, scientific calculations, or generating images, thereby enhancing the LLM's ability to connect with the external world. FusionWorks provides two types of tools: **First-party Tools** and **Custom Tools**.
 
-You can directly use the first-party built-in tools provided by the Fusionworks ecosystem, or easily import custom API tools (currently supporting OpenAPI / Swagger and OpenAI Plugin specifications).
+You can directly use the first-party built-in tools provided by the FusionWorks ecosystem, or easily import custom API tools (currently supporting OpenAPI / Swagger and OpenAI Plugin specifications).
 
 #### Functions of Tools:
 
-1. Tools allow users to create more powerful AI applications on Fusionworks. For example, you can arrange suitable tools for an intelligent assistant application (Agent) that can complete complex tasks through task reasoning, step-by-step breakdown, and tool invocation.
+1. Tools allow users to create more powerful AI applications on FusionWorks. For example, you can arrange suitable tools for an intelligent assistant application (Agent) that can complete complex tasks through task reasoning, step-by-step breakdown, and tool invocation.
 2. They facilitate connecting your application with other systems or services and interacting with the external environment, such as code execution or access to proprietary information sources.
 
 ### How to Configure First-party Tools
 
 <figure><img src="/en/.gitbook/assets/guides/tools/image (131).png" alt=""><figcaption><p>First-party Tools List</p></figcaption></figure>
 
-Fusionworks currently supports:
+FusionWorks currently supports:
 
 <table><thead><tr><th width="154">Tool</th><th>Description</th></tr></thead><tbody><tr><td>Google Search</td><td>Tool for performing Google SERP searches and extracting snippets and web pages. The input should be a search query.</td></tr><tr><td>Wikipedia</td><td>Tool for performing Wikipedia searches and extracting snippets and web pages.</td></tr><tr><td>DALL-E Drawing</td><td>Tool for generating high-quality images through natural language input.</td></tr><tr><td>Web Scraping</td><td>Tool for scraping web data.</td></tr><tr><td>WolframAlpha</td><td>A powerful computational knowledge engine that provides standardized answers based on questions and has strong mathematical computation capabilities.</td></tr><tr><td>Chart Generation</td><td>Tool for generating visual charts, allowing you to create bar charts, line charts, pie charts, and other types of charts.</td></tr><tr><td>Current Time</td><td>Tool for querying the current time.</td></tr><tr><td>Yahoo Finance</td><td>Tool for obtaining and organizing the latest financial information, such as news and stock quotes.</td></tr><tr><td>Stable Diffusion</td><td>A tool for generating images that can be deployed locally using stable-diffusion-webui.</td></tr><tr><td>Vectorizer</td><td>Tool for quickly and easily converting PNG and JPG images to SVG vector graphics.</td></tr><tr><td>YouTube</td><td>Tool for retrieving statistics of YouTube channel videos.</td></tr></tbody></table>
 
 {% hint style="info" %}
-We welcome you to contribute your developed tools to Fusionworks. For detailed methods on how to contribute, please refer to the [Fusionworks Development Contribution Documentation](https://github.com/langgenius/fusionworks/blob/main/CONTRIBUTING.md). Your support is invaluable to us.
+We welcome you to contribute your developed tools to FusionWorks. For detailed methods on how to contribute, please refer to the [FusionWorks Development Contribution Documentation](https://github.com/langgenius/fusionworks/blob/main/CONTRIBUTING.md). Your support is invaluable to us.
 {% endhint %}
 
 #### First-party Tool Authorization
 
-If you need to use the first-party built-in tools provided by the Fusionworks ecosystem, you need to configure the corresponding credentials before using them.
+If you need to use the first-party built-in tools provided by the FusionWorks ecosystem, you need to configure the corresponding credentials before using them.
 
 <figure><img src="/en/.gitbook/assets/guides/tools/image (134).png" alt=""><figcaption><p>Configure First-party Tool Credentials</p></figcaption></figure>
 
@@ -51,9 +51,9 @@ Once the custom tool is created, all members in the workspace can use this tool 
 
 #### Cloudflare Workers
 
-You can also use [fusionworks-tools-worker](https://github.com/crazywoola/fusionworks-tools-worker) to quickly deploy custom tools. This tool provides:
+You can also use [FusionWorks-tools-worker](https://github.com/crazywoola/FusionWorks-tools-worker) to quickly deploy custom tools. This tool provides:
 
-* Routes that can be imported into Fusionworks `https://difytoolsworker.yourname.workers.dev/doc`, offering an OpenAPI-compatible interface documentation.
+* Routes that can be imported into FusionWorks `https://difytoolsworker.yourname.workers.dev/doc`, offering an OpenAPI-compatible interface documentation.
 * API implementation code that can be directly deployed to Cloudflare Workers.
 
 ### How to Use Tools in Applications

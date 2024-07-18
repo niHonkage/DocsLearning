@@ -1,6 +1,6 @@
 # Inviting and Managing Members
 
-Members of a workspace can be invited and managed by the owner and administrators. After logging in, navigate to "Console - Enterprise" in Fusionworks, and open the member management interface from the Members tab on the left side of this page.
+Members of a workspace can be invited and managed by the owner and administrators. After logging in, navigate to "Console - Enterprise" in FusionWorks, and open the member management interface from the Members tab on the left side of this page.
 
 <figure><img src="../../.gitbook/assets/enterprise.png" alt=""><figcaption><p>member management interface</p></figcaption></figure>
 
@@ -8,7 +8,7 @@ Members of a workspace can be invited and managed by the owner and administrator
 
 Provide the email of the invitee. The system will immediately grant the invitee access to the workspace, and the invitee will also receive an email notification.
 
-The system will automatically create a Fusionworks account for the new member.
+The system will automatically create a FusionWorks account for the new member.
 
 ### Removing Members
 

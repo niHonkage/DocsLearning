@@ -4,7 +4,7 @@
 
 Utilize LLM to infer and extract structured parameters from natural language for subsequent tool invocation or HTTP requests.
 
-Fusionworks workflows provide a rich selection of [tools](../../gong-ju.md), most of which require structured parameters as input. The parameter extractor can convert user natural language into parameters recognizable by these tools, facilitating tool invocation.
+FusionWorks workflows provide a rich selection of [tools](../../gong-ju.md), most of which require structured parameters as input. The parameter extractor can convert user natural language into parameters recognizable by these tools, facilitating tool invocation.
 
 Some nodes within the agent require specific data formats as inputs, such as the [iteration](iteration.md#ding-yi) node, which requires an array format. The parameter extractor can conveniently achieve [structured parameter conversion](iteration.md#shi-li-1-chang-wen-zhang-die-dai-sheng-cheng-qi).
 

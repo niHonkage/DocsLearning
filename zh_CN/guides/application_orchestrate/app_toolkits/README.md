@@ -2,7 +2,7 @@
 
 在 **工作室 -- 应用编排** 内点击 **添加功能**，打开应用工具箱
 
-应用工具箱为 Fusionworks 的[应用](../#application\_type)提供了不同的附加功能：
+应用工具箱为 FusionWorks 的[应用](../#application\_type)提供了不同的附加功能：
 
 <figure><img src="../../../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
 

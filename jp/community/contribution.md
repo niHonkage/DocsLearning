@@ -63,7 +63,7 @@ Difyに貢献したいと思っていることには素晴らしいと思いま�
 ターミナルからフォークしたリポジトリをクローンします：
 
 ```
-git clone git@github.com:<github_username>/fusionworks.git
+git clone git@github.com:<github_username>/FusionWorks.git
 ```
 
 ### 3. 依存関係を確認する
@@ -80,7 +80,7 @@ Difyは以下のツールとライブラリに依存しています：
 
 Difyはバックエンドとフロントエンドで構成されています。`cd api/`を使ってバックエンドディレクトリに移動し、次は[バックエンドREADME](api/README.md)に従ってインストールして下さい。別のターミナルで`cd web/`を使ってフロントエンドディレクトリに移動し、そして[フロントエンドREADME](web/README.md)に従ってインストールして下さい。
 
-一般的な問題とトラブルシューティングの手順については[インストールFAQ](https://docs.fusionworks.ai/getting-started/faq/install-faq)を参照してください。
+一般的な問題とトラブルシューティングの手順については[インストールFAQ](https://docs.FusionWorks.ai/getting-started/faq/install-faq)を参照してください。
 
 ### 5. ブラウザでDifyにアクセスする
 

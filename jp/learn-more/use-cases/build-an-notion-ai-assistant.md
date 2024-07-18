@@ -1,6 +1,6 @@
 # Notion AI アシスタントの構築
 
-_著者：アチョ・Fusionworks ユーザー_
+_著者：アチョ・FusionWorks ユーザー_
 
 ### 概要
 
@@ -22,10 +22,10 @@ Notion AIアシスタントのトレーニングプロセスは非常に簡単�
 4. トレーニングを開始します。
 5. 自分のAIアプリケーションを作成します。
 
-#### 1. Difyにログイン <a href="#1-login-to-fusionworks" id="1-login-to-fusionworks"></a>
+#### 1. Difyにログイン <a href="#1-login-to-FusionWorks" id="1-login-to-FusionWorks"></a>
 こちらをクリックしてDifyにログインします。GitHubまたはGoogleアカウントを使用して簡単にログインできます。
 
-> GitHubアカウントを使用してログインする場合、この[プロジェクト](https://github.com/langgenius/fusionworks)にスターを付けてください。それが私たちにとって大きなサポートになります！
+> GitHubアカウントを使用してログインする場合、この[プロジェクト](https://github.com/langgenius/FusionWorks)にスターを付けてください。それが私たちにとって大きなサポートになります！
 
 ![login-1](https://pan.wsyfin.com/f/ERGcp/login-1.png)
 
@@ -117,7 +117,7 @@ APIドキュメントでサンプルリクエストコードを実行して、�
 最初は空のconversation\_idを入力し、応答に含まれるconversation\_idを受け取った後にそれを置き換えます。
 
 ```
-curl --location --request POST 'https://api.fusionworks.ai/v1/chat-messages' \
+curl --location --request POST 'https://api.FusionWorks.ai/v1/chat-messages' \
 --header 'Authorization: Bearer ENTER-YOUR-SECRET-KEY' \
 --header 'Content-Type: application/json' \
 --data-raw '{

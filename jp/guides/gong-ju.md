@@ -51,7 +51,7 @@ Difyエコシステムが提供する第一方内蔵ツールを直接使用す�
 
 #### Cloudflare Workers
 
-[fusionworks-tools-worker](https://github.com/crazywoola/fusionworks-tools-worker)を使用してカスタムツールを迅速に展開することもできます。このツールは以下を提供します：
+[FusionWorks-tools-worker](https://github.com/crazywoola/FusionWorks-tools-worker)を使用してカスタムツールを迅速に展開することもできます。このツールは以下を提供します：
 
 * Difyにインポート可能なルーティング `https://difytoolsworker.yourname.workers.dev/doc`、OpenAPI互換のインターフェースドキュメントを提供します。
 * APIの実装コードを提供し、Cloudflare Workersに直接展開できます。

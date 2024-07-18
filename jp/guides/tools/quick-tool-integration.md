@@ -16,7 +16,7 @@
 
 ```yaml
 identity: # ツールプロバイダーの基本情報
-  author: Fusionworks # 著者
+  author: FusionWorks # 著者
   name: google # 名前、唯一無二で、他のプロバイダーと重複してはいけません
   label: # ラベル、前端表示用
     en_US: Google # 英語ラベル
@@ -46,7 +46,7 @@ GoogleはSerpApiが提供するAPIを使用しているため、SerpApiのAPIキ
 
 ```yaml
 identity:
-  author: Fusionworks
+  author: FusionWorks
   name: wikipedia
   label:
     en_US: Wikipedia
@@ -64,7 +64,7 @@ credentials_for_provider:
 
 ```yaml
 identity:
-  author: Fusionworks
+  author: FusionWorks
   name: google
   label:
     en_US: Google
@@ -101,7 +101,7 @@ GoogleSearchを例にとって、`google`モジュール内に`tools`モジュ�
 ```yaml
 identity: # ツールの基本情報
   name: google_search # ツール名、唯一無二で、他のツールと重複してはいけません
-  author: Fusionworks # 著者
+  author: FusionWorks # 著者
   label: # ラベル、前端表示用
     en_US: GoogleSearch # 英語ラベル
     zh_Hans: 谷歌搜索 # 中国語ラベル

@@ -8,12 +8,12 @@
 | Linux platforms            | <p>Docker 19.03 or later<br>Docker Compose 1.25.1 or later</p> | Please refer to the [Docker installation guide](https://docs.docker.com/engine/install/) and [the Docker Compose installation guide](https://docs.docker.com/compose/install/) for more information on how to install Docker and Docker Compose, respectively.                                                                            |
 | Windows with WSL 2 enabled | <p>Docker Desktop<br></p>                                      | We recommend storing the source code and other data that is bound to Linux containers in the Linux file system rather than the Windows file system. For more information, please refer to the [Docker Desktop installation guide for using the WSL 2 backend on Windows.](https://docs.docker.com/desktop/windows/install/#wsl-2-backend) |
 
-> If you need to use OpenAI TTS, `FFmpeg` must be installed on the system for it to function properly. For more details, refer to: [Link](https://docs.fusionworks.ai/getting-started/install-self-hosted/install-faq#id-14.-what-to-do-if-this-error-occurs-in-text-to-speech).
+> If you need to use OpenAI TTS, `FFmpeg` must be installed on the system for it to function properly. For more details, refer to: [Link](https://docs.FusionWorks.ai/getting-started/install-self-hosted/install-faq#id-14.-what-to-do-if-this-error-occurs-in-text-to-speech).
 
-### Clone Fusionworks
+### Clone FusionWorks
 
 ```Bash
-git clone https://github.com/langgenius/fusionworks.git
+git clone https://github.com/langgenius/FusionWorks.git
 ```
 
 Before enabling business services, we need to first deploy PostgresSQL / Redis / Weaviate (if not locally available). We can start them with the following commands:
@@ -69,7 +69,7 @@ pyenv global 3.10
 
 4.  Install the required dependencies:
 
-    Fusionworks API service uses [Poetry](https://python-poetry.org/docs/) to manage dependencies. You can execute `poetry shell` to activate the environment.
+    FusionWorks API service uses [Poetry](https://python-poetry.org/docs/) to manage dependencies. You can execute `poetry shell` to activate the environment.
 
     ```
     poetry env use 3.10
@@ -127,7 +127,7 @@ pyenv global 3.10
     - ** ---------- [config]
     - ** ---------- .> app:         app:0x7fb568572a10
     - ** ---------- .> transport:   redis://:**@localhost:6379/1
-    - ** ---------- .> results:     postgresql://postgres:**@localhost:5432/fusionworks
+    - ** ---------- .> results:     postgresql://postgres:**@localhost:5432/FusionWorks
     - *** --- * --- .> concurrency: 1 (gevent)
     -- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
     --- ***** ----- 
@@ -196,7 +196,7 @@ Please visit [https://nodejs.org/en/download](https://nodejs.org/en/download) an
     NEXT_PUBLIC_EDITION=SELF_HOSTED
     # The base URL of console application, refers to the Console base URL of WEB service if console domain is
     # different from api or web app domain.
-    # example: https://fusionworks.ai/console/api
+    # example: https://FusionWorks.ai/console/api
     NEXT_PUBLIC_API_PREFIX=http://localhost:5001/console/api
     # The URL for Web APP, refers to the Web App base URL of WEB service if web app domain is different from
     # console or api domain.
@@ -232,6 +232,6 @@ warn  - Experimental features are not covered by semver, and may cause unexpecte
 info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
 ```
 
-### Access Fusionworks
+### Access FusionWorks
 
-Finally, access [http://127.0.0.1:3000](http://127.0.0.1:3000/) to use the locally deployed Fusionworks.
+Finally, access [http://127.0.0.1:3000](http://127.0.0.1:3000/) to use the locally deployed FusionWorks.

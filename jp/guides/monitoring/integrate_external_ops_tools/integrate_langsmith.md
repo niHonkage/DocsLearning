@@ -39,7 +39,7 @@ LangSmithの公式サイト：[https://www.langchain.com/langsmith](https://www.
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>新たなAPI keyをコピーします</p></figcaption></figure>
 
-4. Fusionworks アプリの中に LangSmith を設定します
+4. FusionWorks アプリの中に LangSmith を設定します
 監視用のアプリのサイトメニューの**監視**ボタンをクリックし，**設定**をクリックします。
 
 <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>LangSmithを設定します</p></figcaption></figure>

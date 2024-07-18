@@ -4,23 +4,23 @@
 
 #### CONSOLE\_API\_URL
 
-コンソールAPIのバックエンドのURLです。認証コールバックを組み合わせるために使用され、空の場合は同じドメインになります。例：`https://api.console.fusionworks.ai`。
+コンソールAPIのバックエンドのURLです。認証コールバックを組み合わせるために使用され、空の場合は同じドメインになります。例：`https://api.console.FusionWorks.ai`。
 
 #### CONSOLE\_WEB\_URL
 
-コンソールウェブの**フロントエンド**のURLです。フロントエンドアドレスの一部を組み合わせたり、CORS設定に使用されます。空の場合は同じドメインになります。例：`https://console.fusionworks.ai`
+コンソールウェブの**フロントエンド**のURLです。フロントエンドアドレスの一部を組み合わせたり、CORS設定に使用されます。空の場合は同じドメインになります。例：`https://console.FusionWorks.ai`
 
 #### SERVICE\_API\_URL
 
-サービスAPIのURLです。**フロントエンド**にサービスAPIのベースURLを表示するために使用されます。空の場合は同じドメインになります。例：`https://api.fusionworks.ai`
+サービスAPIのURLです。**フロントエンド**にサービスAPIのベースURLを表示するために使用されます。空の場合は同じドメインになります。例：`https://api.FusionWorks.ai`
 
 #### APP\_API\_URL
 
-WebアプリAPIのバックエンドURLです。**フロントエンド**APIのバックエンドアドレスを宣言するために使用されます。空の場合は同じドメインになります。例：`https://app.fusionworks.ai`
+WebアプリAPIのバックエンドURLです。**フロントエンド**APIのバックエンドアドレスを宣言するために使用されます。空の場合は同じドメインになります。例：`https://app.FusionWorks.ai`
 
 #### APP\_WEB\_URL
 
-WebアプリのURLです。**フロントエンド**にWebアプリAPIのベースURLを表示するために使用されます。空の場合は同じドメインになります。例：`https://api.app.fusionworks.ai`
+WebアプリのURLです。**フロントエンド**にWebアプリAPIのベースURLを表示するために使用されます。空の場合は同じドメインになります。例：`https://api.app.FusionWorks.ai`
 
 #### FILES\_URL
 
@@ -74,7 +74,7 @@ trueに設定した場合、コンテナ起動時に自動的にデータベー�
 
 #### CHECK\_UPDATE\_URL
 
-バージョンチェックポリシーを有効にするかどうか。falseに設定した場合、`https://updates.fusionworks.ai`を呼び出してバージョンチェックを行いません。現在、国内から直接CloudFlare Workerのバージョンインターフェースにアクセスできないため、この変数を空に設定すると、このインターフェースの呼び出しをブロックできます。
+バージョンチェックポリシーを有効にするかどうか。falseに設定した場合、`https://updates.FusionWorks.ai`を呼び出してバージョンチェックを行いません。現在、国内から直接CloudFlare Workerのバージョンインターフェースにアクセスできないため、この変数を空に設定すると、このインターフェースの呼び出しをブロックできます。
 
 #### コンテナ起動関連設定
 
@@ -256,7 +256,7 @@ dockerイメージまたはdocker-composeによる起動時にのみ有効です
   TiDB Vectorパスワード設定
 * TIDB\_VECTOR\_DATABASE
 
-  TiDB Vectorデータベース設定（例：`fusionworks`）
+  TiDB Vectorデータベース設定（例：`FusionWorks`）
 
 #### ナレッジベース設定
 
@@ -270,7 +270,7 @@ dockerイメージまたはdocker-composeによる起動時にのみ有効です
 
     **使用可能な列挙型は以下を含みます：**
 
-    *   fusionworks
+    *   FusionWorks
 
         Dify独自のファイル抽出ソリューション
     *   Unstructured
@@ -317,7 +317,7 @@ Notion統合設定。変数はNotion integrationを申請することで取得�
 * MAIL\_TYPE
   * resend
     * MAIL\_DEFAULT\_SEND\_FROM\\
-      送信者のメール名（例：no-reply [no-reply@fusionworks.ai](mailto:no-reply@fusionworks.ai)）、必須ではありません。
+      送信者のメール名（例：no-reply [no-reply@FusionWorks.ai](mailto:no-reply@FusionWorks.ai)）、必須ではありません。
     * RESEND\_API\_KEY\\
       ResendメールプロバイダーのAPIキー。APIキーから取得できます。
   * smtp

@@ -1,16 +1,16 @@
 # 嵌入网站
 
-Fusionworks 应用可以使用 iframe 嵌入到网站中。这允许你将 Fusionworks 应用集成到你的网站、博客或任何其他网页中。
+FusionWorks 应用可以使用 iframe 嵌入到网站中。这允许你将 FusionWorks 应用集成到你的网站、博客或任何其他网页中。
 
-当你在网站中使用 Fusionworks 聊天机器人气泡按钮时，你可以自定义按钮的样式、位置和其他设置。
+当你在网站中使用 FusionWorks 聊天机器人气泡按钮时，你可以自定义按钮的样式、位置和其他设置。
 
-## 自定义 Fusionworks 聊天机器人气泡按钮
+## 自定义 FusionWorks 聊天机器人气泡按钮
 
-Fusionworks 聊天机器人气泡按钮可以通过以下配置选项进行自定义：
+FusionWorks 聊天机器人气泡按钮可以通过以下配置选项进行自定义：
 
 ```javascript
 window.difyChatbotConfig = {
-    // 必填项，由 Fusionworks 自动生成
+    // 必填项，由 FusionWorks 自动生成
     token: 'YOUR_TOKEN',
     // 可选项，默认为 false
     isDev: false,
@@ -35,41 +35,41 @@ window.difyChatbotConfig = {
 
 ```css
 /* 按钮距离底部的距离，默认为 `1rem` */
---fusionworks-chatbot-bubble-button-bottom
+--FusionWorks-chatbot-bubble-button-bottom
 
 /* 按钮距离右侧的距离，默认为 `1rem` */
---fusionworks-chatbot-bubble-button-right
+--FusionWorks-chatbot-bubble-button-right
 
 /* 按钮距离左侧的距离，默认为 `unset` */
---fusionworks-chatbot-bubble-button-left
+--FusionWorks-chatbot-bubble-button-left
 
 /* 按钮距离顶部的距离，默认为 `unset` */
---fusionworks-chatbot-bubble-button-top
+--FusionWorks-chatbot-bubble-button-top
 
 /* 按钮背景颜色，默认为 `#155EEF` */
---fusionworks-chatbot-bubble-button-bg-color
+--FusionWorks-chatbot-bubble-button-bg-color
 
 /* 按钮宽度，默认为 `50px` */
---fusionworks-chatbot-bubble-button-width
+--FusionWorks-chatbot-bubble-button-width
 
 /* 按钮高度，默认为 `50px` */
---fusionworks-chatbot-bubble-button-height
+--FusionWorks-chatbot-bubble-button-height
 
 /* 按钮边框半径，默认为 `25px` */
---fusionworks-chatbot-bubble-button-border-radius
+--FusionWorks-chatbot-bubble-button-border-radius
 
 /* 按钮盒阴影，默认为 `rgba(0, 0, 0, 0.2) 0px 4px 8px 0px)` */
---fusionworks-chatbot-bubble-button-box-shadow
+--FusionWorks-chatbot-bubble-button-box-shadow
 
 /* 按钮悬停变换，默认为 `scale(1.1)` */
---fusionworks-chatbot-bubble-button-hover-transform
+--FusionWorks-chatbot-bubble-button-hover-transform
 ```
 
 例如，要将按钮背景颜色更改为 #ABCDEF，请添加以下 CSS：
 
 ```css
-#fusionworks-chatbot-bubble-button {
-    --fusionworks-chatbot-bubble-button-bg-color: #ABCDEF;
+#FusionWorks-chatbot-bubble-button {
+    --FusionWorks-chatbot-bubble-button-bg-color: #ABCDEF;
 }
 ```
 
@@ -99,7 +99,7 @@ window.difyChatbotConfig = {
 window.difyChatbotConfig = {
     // ... 其他配置
     containerProps: {
-        className: 'fusionworks-chatbot-bubble-button-custom my-custom-class',
+        className: 'FusionWorks-chatbot-bubble-button-custom my-custom-class',
     },
 };
 ```

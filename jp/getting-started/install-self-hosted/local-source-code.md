@@ -8,12 +8,12 @@
 | Linux プラットフォーム      | <p>Docker 19.03またはそれ以降<br>Docker Compose 1.25.1またはそれ以降</p>| 詳細は[Dockerをインストールする](https://docs.docker.com/engine/install/)および[Docker Composeをインストールする](https://docs.docker.com/compose/install/)を参照してください。                                                      |
 | WSL 2が有効なWindows       | Docker Desktop                                                 | ソースコードや他のデータをLinuxコンテナにバインドする際、WindowsファイルシステムではなくLinuxファイルシステムに保存することをお勧めします。詳細は[WSL 2バックエンドを使用してWindowsにDocker Desktopをインストールする](https://docs.docker.com/desktop/windows/install/#wsl-2-backend)を参照してください。 |
 
-> OpenAI TTSを使用する場合、システムにFFmpegをインストールする必要があります。詳細は[リンク](https://docs.fusionworks.ai/v/zh-hans/learn-more/faq/install-faq#id-15.-wen-ben-zhuan-yu-yin-yu-dao-zhe-ge-cuo-wu-zen-me-ban)を参照してください。
+> OpenAI TTSを使用する場合、システムにFFmpegをインストールする必要があります。詳細は[リンク](https://docs.FusionWorks.ai/v/zh-hans/learn-more/faq/install-faq#id-15.-wen-ben-zhuan-yu-yin-yu-dao-zhe-ge-cuo-wu-zen-me-ban)を参照してください。
 
-Fusionworks コードをクローン：
+FusionWorks コードをクローン：
 
 ```Bash
-git clone https://github.com/langgenius/fusionworks.git
+git clone https://github.com/langgenius/FusionWorks.git
 ```
 
 ビジネスサービスを有効にする前に、PostgresSQL / Redis / Weaviate（ローカルにない場合）をデプロイする必要があります。以下のコマンドで起動できます：
@@ -67,7 +67,7 @@ pyenv global 3.10
     ```
 4.  依存関係をインストール
 
-    Fusionworks APIサービスは依存関係を管理するために[Poetry](https://python-poetry.org/docs/)を使用します。環境を有効にするには、`poetry shell`を実行できます。
+    FusionWorks APIサービスは依存関係を管理するために[Poetry](https://python-poetry.org/docs/)を使用します。環境を有効にするには、`poetry shell`を実行できます。
 
     ```
     poetry env use 3.10
@@ -123,7 +123,7 @@ pyenv global 3.10
     - ** ---------- [config]
     - ** ---------- .> app:         app:0x7fb568572a10
     - ** ---------- .> transport:   redis://:**@localhost:6379/1
-    - ** ---------- .> results:     postgresql://postgres:**@localhost:5432/fusionworks
+    - ** ---------- .> results:     postgresql://postgres:**@localhost:5432/FusionWorks
     - *** --- * --- .> concurrency: 1 (gevent)
     -- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
     --- ***** ----- 
@@ -192,7 +192,7 @@ https://nodejs.org/en/download から対応するOSのv18.x以上のインスト
     NEXT_PUBLIC_EDITION=SELF_HOSTED
     # The base URL of console application, refers to the Console base URL of WEB service if console domain is
     # different from api or web app domain.
-    # example: https://fusionworks.ai/console/api
+    # example: https://FusionWorks.ai/console/api
     NEXT_PUBLIC_API_PREFIX=http://localhost:5001/console/api
     # The URL for Web APP, refers to the Web App base URL of WEB service if web app domain is different from
     # console or api domain.

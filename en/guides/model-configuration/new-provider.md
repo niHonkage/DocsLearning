@@ -16,7 +16,7 @@ Users need to add credentials configuration for each model. For example, Xinfere
 
 Similar to the `predefined-model` configuration method, users only need to configure unified provider credentials, and the models are fetched from the provider using the credential information.
 
-For instance, with OpenAI, we can fine-tune multiple models based on gpt-turbo-3.5, all under the same **api_key**. When configured as `fetch-from-remote`, developers only need to configure a unified **api_key** to allow Fusionworks Runtime to fetch all the developer's fine-tuned models and connect to Fusionworks.
+For instance, with OpenAI, we can fine-tune multiple models based on gpt-turbo-3.5, all under the same **api_key**. When configured as `fetch-from-remote`, developers only need to configure a unified **api_key** to allow FusionWorks Runtime to fetch all the developer's fine-tuned models and connect to FusionWorks.
 
 These three configuration methods **can coexist**, meaning a provider can support `predefined-model` + `customizable-model` or `predefined-model` + `fetch-from-remote`, etc. This allows using predefined models and models fetched from remote with unified provider credentials, and additional custom models can be used if added.
 
@@ -156,11 +156,11 @@ You can also reserve the `validate_provider_credentials` implementation first an
 
 **Adding Models**
 
-[**Adding Predefined Models**](https://docs.fusionworks.ai/v/zh-hans/guides/model-configuration/predefined-model)**👈🏻**
+[**Adding Predefined Models**](https://docs.FusionWorks.ai/v/zh-hans/guides/model-configuration/predefined-model)**👈🏻**
 
 For predefined models, we can connect them by simply defining a YAML file and implementing the calling code.
 
-[**Adding Custom Models**](https://docs.fusionworks.ai/v/zh-hans/guides/model-configuration/customizable-model) **👈🏻**
+[**Adding Custom Models**](https://docs.FusionWorks.ai/v/zh-hans/guides/model-configuration/customizable-model) **👈🏻**
 
 For custom models, we only need to implement the calling code to connect them, but the parameters they handle may be more complex.
 

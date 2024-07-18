@@ -91,7 +91,7 @@
 **知识库描述**，用于描述知识库内文档代表的信息
 
 {% hint style="info" %}
-在知识库召回模式为 N 选 1 时，知识库作为工具提供给 LLM 进行推理调用，推理依据是知识库的描述，如果描述为空则会使用 Fusionworks 的自动索引策略
+在知识库召回模式为 N 选 1 时，知识库作为工具提供给 LLM 进行推理调用，推理依据是知识库的描述，如果描述为空则会使用 FusionWorks 的自动索引策略
 {% endhint %}
 
 **可见权限**，可选择 「 只有我 」 或 「 所有团队成员 」，不具有权限的人将无法查阅和编辑数据集。
@@ -106,6 +106,6 @@
 
 <!-- ### 9 知识库 API 管理
 
-Fusionworks 知识库提供整套标准 API ，开发者通过 API 调用对知识库内的文档、分段进行增删改查等日常管理维护操作，请参考[知识库 API 文档](broken-reference)。
+FusionWorks 知识库提供整套标准 API ，开发者通过 API 调用对知识库内的文档、分段进行增删改查等日常管理维护操作，请参考[知识库 API 文档](broken-reference)。
 
 <figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption><p>知识库 API 管理</p></figcaption></figure> -->

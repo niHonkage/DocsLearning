@@ -1,5 +1,5 @@
 ---
-description: Fusionworks 支持各种工具来增强应用的功能。
+description: FusionWorks 支持各种工具来增强应用的功能。
 ---
 
 # 工具
@@ -17,4 +17,4 @@ description: Fusionworks 支持各种工具来增强应用的功能。
 1. 对工具授权
 2. 配置工具输入和参数
 
-<!-- 如何配置工具请参考[工具配置说明](https://docs.fusionworks.ai/v/zh-hans/guides/tools)。 -->
+<!-- 如何配置工具请参考[工具配置说明](https://docs.FusionWorks.ai/v/zh-hans/guides/tools)。 -->

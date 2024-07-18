@@ -1,6 +1,6 @@
 # Hugging Face
 
-Fusionworks supports Text-Generation and Embeddings. Below are the corresponding Hugging Face model types:
+FusionWorks supports Text-Generation and Embeddings. Below are the corresponding Hugging Face model types:
 
 * Text-Generation：[text-generation](https://huggingface.co/models?pipeline\_tag=text-generation\&sort=trending)，[text2text-generation](https://huggingface.co/models?pipeline\_tag=text2text-generation\&sort=trending)&#x20;
 * Embeddings：[feature-extraction](https://huggingface.co/models?pipeline\_tag=feature-extraction\&sort=trending)
@@ -13,7 +13,7 @@ The specific steps are as follows:
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/huggingface/image (14) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Fusionworks supports accessing models on Hugging Face in two ways:
+FusionWorks supports accessing models on Hugging Face in two ways:
 
 1. Hosted Inference API. This method uses the model officially deployed by Hugging Face. No fee is required. But the downside is that only a small number of models support this approach.
 2. Inference Endpoint. This method uses resources such as AWS accessed by the Hugging Face to deploy the model and requires payment.
@@ -30,7 +30,7 @@ On the model details page, you can get the name of the model.
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/huggingface/get-model-name.png" alt=""><figcaption></figcaption></figure>
 
-#### 2 Using access models in Fusionworks
+#### 2 Using access models in FusionWorks
 
 Select Hosted Inference API for Endpoint Type in `Settings > Model > Hugging Face > Model Type`. As shown below:
 
@@ -60,11 +60,11 @@ After the model is deployed, you can see the Endpoint URL.
 
 <figure><img src="/en/.gitbook/assets/guides/model-configuration/huggingface/endpoint-url.png" alt=""><figcaption></figcaption></figure>
 
-#### 3 Using access models in Fusionworks
+#### 3 Using access models in FusionWorks
 
 Select Inference Endpoints for Endpoint Type in `Settings > Model > Hugging face > Model Type`. As shown below:
 
-<figure><img src="/en/.gitbook/assets/guides/model-configuration/huggingface/use-model-in-fusionworks.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/model-configuration/huggingface/use-model-in-FusionWorks.png" alt=""><figcaption></figcaption></figure>
 
 The API Token is the API Key set at the beginning of the article. ```The name of the Text-Generation model can be arbitrary, but the name of the Embeddings model needs to be consistent with Hugging Face.``` The Endpoint URL is the Endpoint URL obtained after the successful deployment of the model in the previous step.
 

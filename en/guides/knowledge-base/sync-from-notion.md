@@ -1,6 +1,6 @@
 # Importing Data from Notion
 
-Fusionworks datasets support importing from Notion and setting up **synchronization** so that data updates in Notion are automatically synced to Fusionworks.
+FusionWorks datasets support importing from Notion and setting up **synchronization** so that data updates in Notion are automatically synced to FusionWorks.
 
 ### Authorization Verification
 
@@ -17,19 +17,19 @@ After completing the authorization verification, go to the create dataset page, 
 
 ### Segmentation and Cleaning
 
-Next, choose your **segmentation settings** and **indexing method**, then **Save and Process**. Wait for Fusionworks to process this data for you, which typically requires token consumption in the LLM provider. Fusionworks supports importing not only standard page types but also aggregates and saves page properties under the database type.
+Next, choose your **segmentation settings** and **indexing method**, then **Save and Process**. Wait for FusionWorks to process this data for you, which typically requires token consumption in the LLM provider. FusionWorks supports importing not only standard page types but also aggregates and saves page properties under the database type.
 
 _**Please note: Images and files are not currently supported for import, and tabular data will be converted to text display.**_
 
 ### Synchronizing Notion Data
 
-If your Notion content is modified, you can directly click **Sync** in the Fusionworks dataset **Document List Page** to perform a one-click data synchronization. This step requires token consumption.
+If your Notion content is modified, you can directly click **Sync** in the FusionWorks dataset **Document List Page** to perform a one-click data synchronization. This step requires token consumption.
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/sync-notion.png" alt=""><figcaption><p>Sync Notion Content</p></figcaption></figure>
 
 ### Integration Configuration Method for Community Edition Notion
 
-Notion integration can be done in two ways: **internal integration** and **public integration**. You can configure them as needed in Fusionworks. For specific differences between the two integration methods, please refer to [Notion Official Documentation](https://developers.notion.com/docs/authorization).
+Notion integration can be done in two ways: **internal integration** and **public integration**. You can configure them as needed in FusionWorks. For specific differences between the two integration methods, please refer to [Notion Official Documentation](https://developers.notion.com/docs/authorization).
 
 ### 1. **Using Internal Integration**
 
@@ -45,7 +45,7 @@ After creating the integration, you can update its settings as needed under the 
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/notion-secret.png" alt=""><figcaption></figcaption></figure>
 
-After copying, go back to the Fusionworks source code, and configure the relevant environment variables in the **.env** file. The environment variables are as follows:
+After copying, go back to the FusionWorks source code, and configure the relevant environment variables in the **.env** file. The environment variables are as follows:
 
 **NOTION\_INTEGRATION\_TYPE**=internal or **NOTION\_INTEGRATION\_TYPE**=public
 
@@ -63,7 +63,7 @@ After successfully making the integration public on the integration settings pag
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/notion-public-secret.png" alt=""><figcaption></figcaption></figure>
 
-Go back to the Fusionworks source code, and configure the relevant environment variables in the **.env** file. The environment variables are as follows:
+Go back to the FusionWorks source code, and configure the relevant environment variables in the **.env** file. The environment variables are as follows:
 
 **NOTION\_INTEGRATION\_TYPE**=public
 

@@ -15,9 +15,9 @@ Enter the account email and the new password twice.
 ```
 ERROR:root:Unknown Error in completion
 Traceback (most recent call last):
-  File "/www/wwwroot/fusionworks/fusionworks/api/libs/rsa.py", line 45, in decrypt
+  File "/www/wwwroot/fusionworks/FusionWorks/api/libs/rsa.py", line 45, in decrypt
     private_key = storage.load(filepath)
-  File "/www/wwwroot/fusionworks/fusionworks/api/extensions/ext_storage.py", line 65, in load
+  File "/www/wwwroot/fusionworks/FusionWorks/api/extensions/ext_storage.py", line 65, in load
     raise FileNotFoundError("File not found")
 FileNotFoundError: File not found
 ```
@@ -86,15 +86,15 @@ Find the `APP_WEB_URL` configuration domain in `docker_compose.yaml`.
 
 ### 9. What to back up if a database migration occurs?
 
-Back up the database, configured storage, and vector database data. If deployed using Docker Compose, directly back up all data in the `fusionworks/docker/volumes` directory.
+Back up the database, configured storage, and vector database data. If deployed using Docker Compose, directly back up all data in the `FusionWorks/docker/volumes` directory.
 
-### 10. Why can't Docker deployment Fusionworks access the local port using 127.0.0.1 when starting OpenLLM locally?
+### 10. Why can't Docker deployment FusionWorks access the local port using 127.0.0.1 when starting OpenLLM locally?
 
-127.0.0.1 is the internal address of the container. Fusionworks's configured server address needs to be the host's local network IP address.
+127.0.0.1 is the internal address of the container. FusionWorks's configured server address needs to be the host's local network IP address.
 
 ### 11. How to resolve the size and quantity limit of document uploads in the dataset for the local deployment version?
 
-Refer to the official website [Environment Variables Documentation](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/environments) for configuration.
+Refer to the official website [Environment Variables Documentation](https://docs.FusionWorks.ai/v/zh-hans/getting-started/install-self-hosted/environments) for configuration.
 
 ### 12. How to invite members via email in the local deployment version?
 
@@ -106,7 +106,7 @@ In the local deployment version, invite members via email. After entering the em
 Can't load tokenizer for 'gpt2'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'gpt2' is the correct path to a directory containing all relevant files for a GPT2TokenizerFast tokenizer.
 ```
 
-Refer to the official website [Environment Variables Documentation](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/environments) for configuration, and the related [Issue](https://github.com/langgenius/fusionworks/issues/1261).
+Refer to the official website [Environment Variables Documentation](https://docs.FusionWorks.ai/v/zh-hans/getting-started/install-self-hosted/environments) for configuration, and the related [Issue](https://github.com/langgenius/fusionworks/issues/1261).
 
 ### 14. How to resolve a port 80 conflict in the local deployment version?
 
@@ -158,8 +158,8 @@ Error response from daemon: failed to create task for container: failed to creat
 Download the complete project, navigate to the docker directory, and execute `docker-compose up -d`.
 
 ```
-git clone https://github.com/langgenius/fusionworks.git
-cd fusionworks/docker
+git clone https://github.com/langgenius/FusionWorks.git
+cd FusionWorks/docker
 docker compose up -d
 ```
 
@@ -189,7 +189,7 @@ To avoid unnecessary risks, we configure a proxy for all services that might cau
 
 #### How to customize the proxy behavior?
 
-In `docker/volumes/ssrf_proxy/squid.conf`, you can find the `squid` configuration file. You can customize the proxy behavior here, such as adding ACL rules to restrict proxy access or adding `http_access` rules to restrict proxy access. For example, your local network can access the `192.168.101.0/24` segment, but `192.168.101.19` has sensitive data that you don't want local deployment Fusionworks users to access, but other IPs can. You can add the following rules in `squid.conf`:
+In `docker/volumes/ssrf_proxy/squid.conf`, you can find the `squid` configuration file. You can customize the proxy behavior here, such as adding ACL rules to restrict proxy access or adding `http_access` rules to restrict proxy access. For example, your local network can access the `192.168.101.0/24` segment, but `192.168.101.19` has sensitive data that you don't want local deployment FusionWorks users to access, but other IPs can. You can add the following rules in `squid.conf`:
 
 ```
 acl restricted_ip dst 192.168.101.19
@@ -204,7 +204,7 @@ This is just a simple example. You can customize the proxy behavior according to
 
 ### 19. How to set your created application as a template?
 
-Currently, it is not supported to set your created application as a template. The existing templates are provided by Fusionworks official for cloud version users to refer to. If you are using the cloud version, you can add applications to your workspace or customize them after modification to create your own applications. If you are using the community version and need to create more application templates for your team, you can contact our business team for paid technical support: [business@fusionworks.ai](mailto:business@fusionworks.ai)
+Currently, it is not supported to set your created application as a template. The existing templates are provided by FusionWorks official for cloud version users to refer to. If you are using the cloud version, you can add applications to your workspace or customize them after modification to create your own applications. If you are using the community version and need to create more application templates for your team, you can contact our business team for paid technical support: [business@FusionWorks.ai](mailto:business@FusionWorks.ai)
 
 ### 20. 502 Bad Gateway
 
@@ -221,6 +221,6 @@ Find these two lines in the output:
 /docker-api-1: 172.19.0.7
 ```
 
-Remember the IP addresses. Then open the directory where you store the Fusionworks source code, open `fusionworks/docker/nginx/conf.d`, replace `http://api:5001` with `http://172.19.0.7:5001`, and replace `http://web:3000` with `http://172.19.0.5:3000`, then restart the Nginx container or reload the configuration.
+Remember the IP addresses. Then open the directory where you store the FusionWorks source code, open `FusionWorks/docker/nginx/conf.d`, replace `http://api:5001` with `http://172.19.0.7:5001`, and replace `http://web:3000` with `http://172.19.0.5:3000`, then restart the Nginx container or reload the configuration.
 
 These IP addresses are _**examples**_, you must execute the command to get your own IP addresses, do not fill them in directly. You might need to reconfigure the IP addresses when restarting the relevant containers.

@@ -1,5 +1,5 @@
 # Stable Diffusion
-Stable Diffusion is a tool for generating images based on text prompts, Fusionworks has implemented the interface to access the Stable Diffusion WebUI API, so you can use it directly in Fusionworks. followings are steps to integrate Stable Diffusion in Fusionworks.
+Stable Diffusion is a tool for generating images based on text prompts, FusionWorks has implemented the interface to access the Stable Diffusion WebUI API, so you can use it directly in FusionWorks. followings are steps to integrate Stable Diffusion in FusionWorks.
 
 ## 1. Make sure you have a machine with a GPU
 Stable Diffusion requires a machine with a GPU to generate images. but it's not necessary, you can just use CPU to generate images, but it will be slow.
@@ -56,9 +56,9 @@ Now you can see `pastel-mix` in the model list, but we still need to get the mod
 
 The `model_name` is what we need, in this case, it's `pastel-mix_pastelmix-better-vae-fp32`.
 
-## 3. Integrate Stable Diffusion in Fusionworks
+## 3. Integrate Stable Diffusion in FusionWorks
 Fill in the Authentication and Model Configuration in `Tools > StableDiffusion > To Authorize` with the information you get from the previous steps.
 
 ## 4. Finish
-Just try use it in Fusionworks!
+Just try use it in FusionWorks!
 

@@ -16,7 +16,7 @@ For more details, please refer to [LangSmith](https://www.langchain.com/langsmit
 
 #### 2. Create a Project
 
-Create a project in LangSmith. After logging in, click **New Project** on the homepage to create your own project. The **project** will be used to associate with **applications** in Fusionworks for data monitoring.
+Create a project in LangSmith. After logging in, click **New Project** on the homepage to create your own project. The **project** will be used to associate with **applications** in FusionWorks for data monitoring.
 
 <figure><img src="/en/.gitbook/assets/guides/monitoring/integrate_external_ops_tools/integrate-langsmith/image (3) (1).png" alt=""><figcaption><p>Create a project in LangSmith</p></figcaption></figure>
 
@@ -42,9 +42,9 @@ Copy and save the created API key.
 
 <figure><img src="/en/.gitbook/assets/guides/monitoring/integrate_external_ops_tools/integrate-langsmith/image (9).png" alt=""><figcaption><p>Copy API Key</p></figcaption></figure>
 
-#### 4. Integrating LangSmith with Fusionworks
+#### 4. Integrating LangSmith with FusionWorks
 
-Configure LangSmith in the Fusionworks application. Open the application you need to monitor, open **Monitoring** in the side menu, and select **Configure** on the page.
+Configure LangSmith in the FusionWorks application. Open the application you need to monitor, open **Monitoring** in the side menu, and select **Configure** on the page.
 
 <figure><img src="/en/.gitbook/assets/guides/monitoring/integrate_external_ops_tools/integrate-langsmith/image (11).png" alt=""><figcaption><p>Configure LangSmith</p></figcaption></figure>
 
@@ -62,15 +62,15 @@ Once successfully saved, you can view the monitoring status on the current page.
 
 ### Viewing Monitoring Data in LangSmith
 
-Once configured, the debug or production data from applications within Fusionworks can be monitored in LangSmith.
+Once configured, the debug or production data from applications within FusionWorks can be monitored in LangSmith.
 
-<figure><img src="/en/.gitbook/assets/guides/monitoring/integrate_external_ops_tools/integrate-langsmith/image (17).png" alt=""><figcaption><p>Debugging Applications in Fusionworks</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/monitoring/integrate_external_ops_tools/integrate-langsmith/image (17).png" alt=""><figcaption><p>Debugging Applications in FusionWorks</p></figcaption></figure>
 
-When you switch to LangSmith, you can view detailed operation logs of Fusionworks applications in the dashboard.
+When you switch to LangSmith, you can view detailed operation logs of FusionWorks applications in the dashboard.
 
 <figure><img src="/en/.gitbook/assets/guides/monitoring/integrate_external_ops_tools/integrate-langsmith/image (2) (1).png" alt=""><figcaption><p>Viewing application data in LangSmith</p></figcaption></figure>
 
-Detailed LLM operation logs through LangSmith will help you optimize the performance of your Fusionworks application.
+Detailed LLM operation logs through LangSmith will help you optimize the performance of your FusionWorks application.
 
 <figure><img src="/en/.gitbook/assets/guides/monitoring/integrate_external_ops_tools/integrate-langsmith/image (18).png" alt=""><figcaption><p>Viewing application data in LangSmith</p></figcaption></figure>
 

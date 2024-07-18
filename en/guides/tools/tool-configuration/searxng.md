@@ -1,5 +1,5 @@
 # SearXNG
-SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled. Fusionworks has implemented the interface to access the SearXNG, so you can use it directly in Fusionworks. followings are steps to integrate SearXNG in Fusionworks.
+SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled. FusionWorks has implemented the interface to access the SearXNG, so you can use it directly in FusionWorks. followings are steps to integrate SearXNG in FusionWorks.
 
 ## 1. Install SearXNG using Docker
 ```
@@ -22,7 +22,7 @@ When you install SearxNG, the default output format is the HTML format. You need
     - json    # <-- add this line 
 ```
 
-## 3. Integrate SearXNG in Fusionworks
+## 3. Integrate SearXNG in FusionWorks
 Fill in the base url http://x.x.x.x:8080 in `Tools > SearXNG > To Authorize` page to active it.
 
 ## 4. Finish

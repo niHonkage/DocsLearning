@@ -91,7 +91,7 @@ Click **Settings** in the left navigation of the knowledge base to change the fo
 **Knowledge Base Description**: Used to describe the information represented by the documents in the knowledge base.
 
 {% hint style="info" %}
-When the recall mode of the knowledge base is N-Choose-1, the knowledge base is provided as a tool for LLM reasoning calls. The reasoning is based on the description of the knowledge base. If the description is empty, Fusionworks's automatic indexing strategy will be used.
+When the recall mode of the knowledge base is N-Choose-1, the knowledge base is provided as a tool for LLM reasoning calls. The reasoning is based on the description of the knowledge base. If the description is empty, FusionWorks's automatic indexing strategy will be used.
 {% endhint %}
 
 **Visibility Permissions**: You can choose "Only Me" or "All Team Members." People without permissions will not be able to view and edit the dataset.
@@ -106,6 +106,6 @@ When the recall mode of the knowledge base is N-Choose-1, the knowledge base is 
 
 <!-- ### 9. Knowledge Base API Management
 
-Fusionworks Knowledge Base provides a complete set of standard APIs. Developers can use API calls to perform daily management and maintenance operations such as adding, deleting, modifying, and querying documents and segments in the knowledge base. Please refer to the [Knowledge Base API Documentation](maintain-dataset-via-api.md).
+FusionWorks Knowledge Base provides a complete set of standard APIs. Developers can use API calls to perform daily management and maintenance operations such as adding, deleting, modifying, and querying documents and segments in the knowledge base. Please refer to the [Knowledge Base API Documentation](maintain-dataset-via-api.md).
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/image (180).png" alt=""><figcaption><p>Knowledge base API management</p></figcaption></figure> -->

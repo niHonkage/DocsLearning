@@ -1,16 +1,16 @@
 # ウェブサイトへの埋め込み
 
-Fusionworks Apps は iframe を使用してウェブサイトに埋め込むことができます。これにより、Fusionworks App をウェブサイト、ブログ、またはその他のウェブページに統合できます。
+FusionWorks Apps は iframe を使用してウェブサイトに埋め込むことができます。これにより、FusionWorks App をウェブサイト、ブログ、またはその他のウェブページに統合できます。
 
-Fusionworks Chatbot Bubble Button をウェブサイトに埋め込む際に、ボタンのスタイル、位置、その他の設定をカスタマイズできます。
+FusionWorks Chatbot Bubble Button をウェブサイトに埋め込む際に、ボタンのスタイル、位置、その他の設定をカスタマイズできます。
 
-## Fusionworks Chatbot Bubble Button のカスタマイズ
+## FusionWorks Chatbot Bubble Button のカスタマイズ
 
-Fusionworks Chatbot Bubble Button は、以下の設定オプションでカスタマイズできます。
+FusionWorks Chatbot Bubble Button は、以下の設定オプションでカスタマイズできます。
 
 ```javascript
 window.difyChatbotConfig = {
-    // 必須：Fusionworks によって自動的に生成されます
+    // 必須：FusionWorks によって自動的に生成されます
     token: 'YOUR_TOKEN',
     // オプション：デフォルトは false です
     isDev: false,
@@ -35,41 +35,41 @@ CSS 変数または `containerProps` オプションを使用して、デフォ�
 
 ```css
 /* ボタンの下端からの距離、デフォルトは `1rem` */
---fusionworks-chatbot-bubble-button-bottom
+--FusionWorks-chatbot-bubble-button-bottom
 
 /* ボタンの右端からの距離、デフォルトは `1rem` */
---fusionworks-chatbot-bubble-button-right
+--FusionWorks-chatbot-bubble-button-right
 
 /* ボタンの左端からの距離、デフォルトは `unset` */
---fusionworks-chatbot-bubble-button-left
+--FusionWorks-chatbot-bubble-button-left
 
 /* ボタンの上端からの距離、デフォルトは `unset` */
---fusionworks-chatbot-bubble-button-top
+--FusionWorks-chatbot-bubble-button-top
 
 /* ボタンの背景色、デフォルトは `#155EEF` */
---fusionworks-chatbot-bubble-button-bg-color
+--FusionWorks-chatbot-bubble-button-bg-color
 
 /* ボタンの幅、デフォルトは `50px` */
---fusionworks-chatbot-bubble-button-width
+--FusionWorks-chatbot-bubble-button-width
 
 /* ボタンの高さ、デフォルトは `50px` */
---fusionworks-chatbot-bubble-button-height
+--FusionWorks-chatbot-bubble-button-height
 
 /* ボタンの角丸、デフォルトは `25px` */
---fusionworks-chatbot-bubble-button-border-radius
+--FusionWorks-chatbot-bubble-button-border-radius
 
 /* ボタンのボックスシャドウ、デフォルトは `rgba(0, 0, 0, 0.2) 0px 4px 8px 0px)` */
---fusionworks-chatbot-bubble-button-box-shadow
+--FusionWorks-chatbot-bubble-button-box-shadow
 
 /* ボタンホバー時の変形、デフォルトは `scale(1.1)` */
---fusionworks-chatbot-bubble-button-hover-transform
+--FusionWorks-chatbot-bubble-button-hover-transform
 ```
 
 例えば、ボタンの背景色を #ABCDEF に変更するには、次の CSS を追加します。
 
 ```css
-#fusionworks-chatbot-bubble-button {
-    --fusionworks-chatbot-bubble-button-bg-color: #ABCDEF;
+#FusionWorks-chatbot-bubble-button {
+    --FusionWorks-chatbot-bubble-button-bg-color: #ABCDEF;
 }
 ```
 

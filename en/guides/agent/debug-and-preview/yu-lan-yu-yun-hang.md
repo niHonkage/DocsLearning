@@ -1,6 +1,6 @@
 # Preview and Run
 
-<!-- Fusionworks Agent offers a comprehensive set of execution and debugging features. In conversational applications, clicking "Preview" enters debugging mode. -->
+<!-- FusionWorks Agent offers a comprehensive set of execution and debugging features. In conversational applications, clicking "Preview" enters debugging mode. -->
 
 <!-- <figure><img src="/en/.gitbook/assets/guides/workflow/debug_and_preview/preview-and-run/output (7).png" alt=""><figcaption></figcaption></figure> -->
 

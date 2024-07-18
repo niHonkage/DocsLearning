@@ -1,11 +1,11 @@
 # コミュニティ版のデプロイ
 
-Fusionworks コミュニティ版はオープンソース版で、以下の2つの方法のいずれかでデプロイできます：
+FusionWorks コミュニティ版はオープンソース版で、以下の2つの方法のいずれかでデプロイできます：
 
-* [Docker Compose デプロイ](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose)
-* [ローカルソースコードで起動](https://docs.fusionworks.ai/v/zh-hans/getting-started/install-self-hosted/local-source-code)
+* [Docker Compose デプロイ](https://docs.FusionWorks.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose)
+* [ローカルソースコードで起動](https://docs.FusionWorks.ai/v/zh-hans/getting-started/install-self-hosted/local-source-code)
 
-GitHub で [Fusionworks コミュニティ版](https://github.com/langgenius/fusionworks) をご覧ください。
+GitHub で [FusionWorks コミュニティ版](https://github.com/langgenius/FusionWorks) をご覧ください。
 
 ### コードの寄稿
 

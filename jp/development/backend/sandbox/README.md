@@ -1,4 +1,4 @@
-`DifySandbox（ディファイサンドボックス）`は、PythonやNode.jsなど複数のプログラミング言語に対応した、軽量・高速・安全なコード実行環境です。Fusionworks Workflowの様々な要素（コードノード、テンプレート変換ノード、LLMノード、ツールノードのコードインタプリターなど）の基盤となる実行環境として機能します。DifySandboxは、ユーザーが提供したコードを実行しつつ、システムのセキュリティを確保します。
+`DifySandbox（ディファイサンドボックス）`は、PythonやNode.jsなど複数のプログラミング言語に対応した、軽量・高速・安全なコード実行環境です。FusionWorks Workflowの様々な要素（コードノード、テンプレート変換ノード、LLMノード、ツールノードのコードインタプリターなど）の基盤となる実行環境として機能します。DifySandboxは、ユーザーが提供したコードを実行しつつ、システムのセキュリティを確保します。
 
 ### 特徴
 - **複数言語対応**：DifySandboxはSeccompをベースに構築され、複数のプログラミング言語をサポートする低レベルのセキュリティ機構を実現しています。現在はPythonとNode.jsに対応しています。
@@ -9,7 +9,7 @@
     - **Kubernetes環境**：Egressポリシーを用いて直接ネットワーク隔離戦略を設定できます。
 
 ### プロジェクトリポジトリ
-プロジェクトのソースコードの入手や、導入・使用方法に関する詳細な情報については、[DifySandbox](https://github.com/langgenius/fusionworks-sandbox)リポジトリをご覧ください。
+プロジェクトのソースコードの入手や、導入・使用方法に関する詳細な情報については、[DifySandbox](https://github.com/langgenius/FusionWorks-sandbox)リポジトリをご覧ください。
 
 ### 貢献
 `DifySandbox`の開発に参加する方法については、[貢献ガイド](contribution.md)をご参照ください。

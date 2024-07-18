@@ -1,6 +1,6 @@
 # Integrate Local Models Deployed by Xinference
 
-[Xorbits inference](https://github.com/xorbitsai/inference) is a powerful and versatile library designed to serve language, speech recognition, and multimodal models, and can even be used on laptops. It supports various models compatible with GGML, such as chatglm, baichuan, whisper, vicuna, orca, etc. And Fusionworks supports connecting to Xinference deployed large language model inference and embedding capabilities locally.
+[Xorbits inference](https://github.com/xorbitsai/inference) is a powerful and versatile library designed to serve language, speech recognition, and multimodal models, and can even be used on laptops. It supports various models compatible with GGML, such as chatglm, baichuan, whisper, vicuna, orca, etc. And FusionWorks supports connecting to Xinference deployed large language model inference and embedding capabilities locally.
 
 ## Deploy Xinference
 
@@ -28,7 +28,7 @@ There are two ways to deploy Xinference, namely [local deployment](https://githu
 
     Xinference will start a worker locally by default, with the endpoint: `http://127.0.0.1:9997`, and the default port is `9997`. By default, access is limited to the local machine only, but it can be configured with `-H 0.0.0.0` to allow access from any non-local client. To modify the host or port, you can refer to xinference's help information: `xinference-local --help`.
 
-    > If you use the Fusionworks Docker deployment method, you need to pay attention to the network configuration to ensure that the Fusionworks container can access the endpoint of Xinference. The Fusionworks container cannot access localhost inside, and you need to use the host IP address.
+    > If you use the FusionWorks Docker deployment method, you need to pay attention to the network configuration to ensure that the FusionWorks container can access the endpoint of Xinference. The FusionWorks container cannot access localhost inside, and you need to use the host IP address.
 3.  Create and deploy the model
 
     Visit `http://127.0.0.1:9997`, select the model and specification you need to deploy, as shown below:
@@ -39,7 +39,7 @@ There are two ways to deploy Xinference, namely [local deployment](https://githu
 4.  Obtain the model UID
 
     Copy model ID from `Running Models` page, such as: `2c886330-8849-11ee-9518-43b0b8f40bea`
-5.  After the model is deployed, connect the deployed model in Fusionworks.
+5.  After the model is deployed, connect the deployed model in FusionWorks.
 
     In `Settings > Model Providers > Xinference`, enter:
 
@@ -47,8 +47,8 @@ There are two ways to deploy Xinference, namely [local deployment](https://githu
     * Server URL: `http://<Machine_IP>:9997` **Replace with your machine IP address**
     * Model UID: `2c886330-8849-11ee-9518-43b0b8f40bea`
 
-    Click "Save" to use the model in the fusionworks application.
+    Click "Save" to use the model in the FusionWorks application.
 
-Fusionworks also supports using [Xinference builtin models](https://github.com/xorbitsai/inference/blob/main/README.md#builtin-models) as Embedding models, just select the Embeddings type in the configuration box.
+FusionWorks also supports using [Xinference builtin models](https://github.com/xorbitsai/inference/blob/main/README.md#builtin-models) as Embedding models, just select the Embeddings type in the configuration box.
 
 For more information about Xinference, please refer to: [Xorbits Inference](https://github.com/xorbitsai/inference)

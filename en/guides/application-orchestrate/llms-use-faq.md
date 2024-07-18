@@ -72,7 +72,7 @@ Query or prefix prompt is too long, you can reduce the preix prompt, or shrink t
 
 You can lower the value of "Max token" in the parameter settings of the Prompt Eng.
 
-### 10. What are the default models in Fusionworks, and can open-source LLMs be used?
+### 10. What are the default models in FusionWorks, and can open-source LLMs be used?
 
 A: The default models can be configured under **Settings - Model Provider.** Currently supported text generation LLMs include OpenAI, Azure OpenAl, Anthropic, etc. At the same time, open-source LLMs hosted on Hugging Face, Replicate, xinference, etc. can also be integrated.
 
@@ -97,19 +97,19 @@ The Claude model does not have its own embedding model. Therefore, the embedding
 
 ### 15. Is there any way to control the greater use of knowledge data rather than the model's own generation capabilities?
 
-Whether to use a knowledge base is related to the description of the knowledge. Please write the knowledge description clearly as much as possible. Please refer to the [documentation](https://docs.fusionworks.ai/advanced/datasets) for details.
+Whether to use a knowledge base is related to the description of the knowledge. Please write the knowledge description clearly as much as possible. Please refer to the [documentation](https://docs.FusionWorks.ai/advanced/datasets) for details.
 
 ### 16. How to better segment the uploaded knowledge document in Excel?
 
 Set the header in the first row, and display the content in each subsequent row. Do not have any additional header settings or complex formatted table content.
 
-### 17. I have already purchased ChatGPT plus, why can't I still use GPT4 in Fusionworks?
+### 17. I have already purchased ChatGPT plus, why can't I still use GPT4 in FusionWorks?
 
 ChatGPT Plus and OpenAI's GPT-4 model API are two separate products with separate pricing. The model APIs have their own pricing structure, see [OpenAI's pricing documentation](https://openai.com/pricing) for details. To get access to the GPT-4 model API, you need to pay for a billing cycle - simply having a payment method on file and access to GPT-3.5 via ChatGPT Plus is not sufficient. Please refer to [OpenAI's official documentation](https://platform.openai.com/account/billing/overview) for complete details on gaining access to GPT-4.
 
 ### 18. How to add other embedding models?
 
-Fusionworks supports using the listed providers as an Embedding model provider, simply select the `Embedding` type in the configuration box.
+FusionWorks supports using the listed providers as an Embedding model provider, simply select the `Embedding` type in the configuration box.
 
 * Azure
 * LocalAI
@@ -120,7 +120,7 @@ Fusionworks supports using the listed providers as an Embedding model provider, 
 
 ### 19. How can I set my own created app as an app template?
 
-The ability to set your own created app as a template is currently not supported. The existing templates are provided by Fusionworks officially for cloud version users' reference. If you are using the cloud version, you can add apps to your workspace or customize them to make your own after modifications. If you are using the community version and need to create more app templates for your team, you may consult our business team to obtain paid technical support: [business@fusionworks.ai](mailto:business@fusionworks.ai)
+The ability to set your own created app as a template is currently not supported. The existing templates are provided by FusionWorks officially for cloud version users' reference. If you are using the cloud version, you can add apps to your workspace or customize them to make your own after modifications. If you are using the community version and need to create more app templates for your team, you may consult our business team to obtain paid technical support: [business@FusionWorks.ai](mailto:business@FusionWorks.ai)
 
 
 ### 20.502 Bad Gateway
@@ -134,7 +134,7 @@ Find these two lines in the output:
 /docker-web-1: 172.19.0.5
 /docker-api-1: 172.19.0.7
 ```
-Remember the IP addresses at the end. Then, open the location where you stored the fusionworks source code, open fusionworks/docker/nginx/conf.d, replace http://api:5001 with http://172.19.0.7:5001, and replace http://web:3000 with http://172.19.0.5:3000. Afterward, restart the Nginx container or reload the configuration.  
+Remember the IP addresses at the end. Then, open the location where you stored the FusionWorks source code, open FusionWorks/docker/nginx/conf.d, replace http://api:5001 with http://172.19.0.7:5001, and replace http://web:3000 with http://172.19.0.5:3000. Afterward, restart the Nginx container or reload the configuration.  
 These IP addresses are ***exemplary***, you must execute the command to obtain your own IP address, do not fill it in directly.  
 You may need to reconfigure based on the IP when restarting related containers.
 

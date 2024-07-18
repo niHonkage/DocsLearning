@@ -1,12 +1,12 @@
 ---
 description: >-
   This document primarily introduces how to scrape data from a web page, parse
-  it into Markdown, and import it into the Fusionworks knowledge base.
+  it into Markdown, and import it into the FusionWorks knowledge base.
 ---
 
 # Sync Data from Website
 
-Fusionworks's knowledge base supports web scraping and parsing into Markdown for import through integration with Firecrawl.
+FusionWorks's knowledge base supports web scraping and parsing into Markdown for import through integration with Firecrawl.
 
 {% hint style="info" %}
 [Firecrawl](https://www.firecrawl.dev/) is an open-source web parsing tool that converts web pages into clean Markdown format text that LLMs easily recognize. It also provides an easy-to-use API service.&#x20;
@@ -20,9 +20,9 @@ First, you need to configure Firecrawl credentials in the **Data Source** sectio
 
 <figure><img src="/en/.gitbook/assets/guides/knowledge-base/sync-from-website/image (6).png" alt=""><figcaption><p>Configuring Firecrawl Credentials</p></figcaption></figure>
 
-Log in to the [Firecrawl website](https://www.firecrawl.dev/) to complete registration, get your API Key, and then enter and save it in Fusionworks.
+Log in to the [Firecrawl website](https://www.firecrawl.dev/) to complete registration, get your API Key, and then enter and save it in FusionWorks.
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/sync-from-website/image (7).png" alt=""><figcaption><p>Get the API Key and save it in Fusionworks</p></figcaption></figure>
+<figure><img src="/en/.gitbook/assets/guides/knowledge-base/sync-from-website/image (7).png" alt=""><figcaption><p>Get the API Key and save it in FusionWorks</p></figcaption></figure>
 
 #### 2. Scrape target webpage
 
