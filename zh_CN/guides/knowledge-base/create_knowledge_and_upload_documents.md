@@ -75,8 +75,6 @@
 
 <figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption><p>Q&#x26;A 分段模式下被总结成多个 Q&#x26;A 对的文本</p></figcaption></figure>
 
-<!-- <figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption><p>Q to P 与 Q to Q 的索引模式区别</p></figcaption></figure> -->
-
 ***
 
 ### 5 检索设置
@@ -93,7 +91,7 @@
 
 定义：通过生成查询嵌入并查询与其向量表示最相似的文本分段。
 
-<figure><img src="../../.gitbook/assets/image (116).png" alt="" width="563"><figcaption><p>向量检索设置</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/xiangliang.png" alt=""><figcaption><p>向量检索设置</p></figcaption></figure>
 
 TopK：用于筛选与用户问题相似度最高的文本片段。系统同时会根据选用模型上下文窗口大小动态调整片段数量。系统默认值为 3 。
 
@@ -105,7 +103,7 @@ Rerank 模型：你可以在“模型供应商”页面配置 Rerank 模型的 A
 
 定义：索引文档中的所有词汇，从而允许用户查询任意词汇，并返回包含这些词汇的文本片段。
 
-<figure><img src="../../.gitbook/assets/image (122).png" alt="" width="563"><figcaption><p>全文检索设置</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/quanwen.png" alt=""><figcaption><p>全文检索设置</p></figcaption></figure>
 
 TopK：用于筛选与用户问题相似度最高的文本片段。系统同时会根据选用模型上下文窗口大小动态调整片段数量。系统默认值为 3 。
 
@@ -115,7 +113,7 @@ Rerank 模型：你可以在“模型供应商”页面配置 Rerank 模型的 A
 
 同时执行全文检索和向量检索，并应用重排序步骤，从两类查询结果中选择匹配用户问题的最佳结果，需配置 Rerank 模型 API。
 
-<figure><img src="../../.gitbook/assets/image (118).png" alt="" width="563"><figcaption><p>混合检索设置</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/hunhe.png" alt=""><figcaption><p>混合检索设置</p></figcaption></figure>
 
 TopK：用于筛选与用户问题相似度最高的文本片段。系统同时会根据选用模型上下文窗口大小动态调整片段数量。系统默认值为 3 。
 
