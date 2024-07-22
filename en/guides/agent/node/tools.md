@@ -4,13 +4,9 @@
 
 The agent workflow provides a rich selection of tools. Before using built-in tools, you may need to **authorize** the tools.
 
-<figure><img src="/en/.gitbook/assets/guides/workflow/node/tools/image (231).png" alt="" width="258"><figcaption><p>Tool Selection</p></figcaption></figure>
-
-<!-- <figure><img src="/en/.gitbook/assets/guides/workflow/node/tools/image (232).png" alt=""><figcaption><p>Configuring Google Search Tool to Retrieve External Knowledge</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/builtin.png" alt=""><figcaption><p>Tool Selection</p></figcaption></figure>
 
 Configuring a tool node generally involves two steps:
 
 1. Authorizing the tool/creating a custom tool/publishing a agent as a tool.
 2. Configuring the tool's input and parameters.
-
-<!-- For more information on how to create custom tools and configure them, please refer to the [Tool Configuration Guide](https://docs.FusionWorks.ai/v/zh-hans/guides/tools). -->
