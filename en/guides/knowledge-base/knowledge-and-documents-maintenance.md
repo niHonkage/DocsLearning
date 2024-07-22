@@ -96,6 +96,10 @@ When the recall mode of the knowledge base is N-Choose-1, the knowledge base is 
 
 **Visibility Permissions**: You can choose "Only Me" or "All Team Members." People without permissions will not be able to view and edit the dataset.
 
+**Index Mode**: [Reference Document](./)
+
 **Embedding Model**: Modify the embedding model of the knowledge base. Changing the embedding model will re-embed all documents in the knowledge base, and the original embeddings will be deleted.
+
+**Retrieval Settings**: [Reference Document](./)
 
 ***
